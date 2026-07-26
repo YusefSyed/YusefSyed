@@ -2,7 +2,7 @@
 
 Tiraz is a privacy-first mobile wardrobe coach. It combines context-aware outfit analysis, a digital closet, draggable look composition, saved outfits and opt-in community sharing.
 
-## What I built
+## System
 
 - An Expo/React Native TypeScript application and Supabase backend.
 - 19 Deno Edge Functions spanning analysis, image processing, account operations and product workflows.
@@ -21,12 +21,11 @@ flowchart TD
     Checks --> Functions
 ```
 
-## Verification
+## Verification snapshot
 
 - `npm run typecheck` passed on July 26, 2026.
-- The repository contains 110 top-level test files.
+- The repository contains 110 automated test files.
 - The backend contains 19 Deno Edge Functions.
-- A 32-second, 1080p60 concept visualization is available privately for interviews.
 
 ## Engineering judgment
 
@@ -34,4 +33,4 @@ Wardrobe imagery is sensitive user data. The product work therefore emphasizes s
 
 ## Status
 
-Private product and launch preparation. The visualization is a concept demonstration, not a live-recorded production session, and Tiraz is not presented as a public App Store release.
+Private product in beta and release preparation; not publicly released.
