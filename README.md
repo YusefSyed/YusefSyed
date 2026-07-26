@@ -4,7 +4,7 @@
 
 Incoming University of Toronto student, September 2026
 
-Toronto · Open to San Francisco and remote · US and Canadian citizen
+Toronto · Open to San Francisco and remote · Canadian–U.S. dual citizen
 
 I build TypeScript products across React and Next.js, React Native and Expo, Supabase and Postgres, OpenAI APIs and Twilio. I use coding agents as engineering tools while remaining responsible for architecture, security, testing and the final result.
 
