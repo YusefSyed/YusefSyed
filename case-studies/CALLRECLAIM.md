@@ -2,7 +2,7 @@
 
 CallReclaim is a missed-call recovery MVP for small businesses. It converts an unanswered phone call into a consent-aware SMS conversation and a structured lead that an owner can review and act on.
 
-## What I built
+## System
 
 - A Next.js owner dashboard and 25 route handlers for onboarding, telephony events, messaging, leads and operational checks.
 - A Supabase/Postgres data layer captured in 8 SQL migrations, including row-level security and messaging state.
@@ -21,18 +21,17 @@ flowchart LR
     DB --> Dashboard["Next.js owner dashboard"]
 ```
 
-## Verification
+## Verification snapshot
 
 - `npm run build` completed successfully on July 26, 2026.
-- The production compile generated 32 application pages.
 - The repository contains 25 route handlers and 8 SQL migrations.
 
 ## Engineering judgment
 
-The difficult part was not adding an LLM. It was making telephony, messaging consent, webhook authenticity, data access and probabilistic output behave like one coherent product.
+The central challenge was making telephony, messaging consent, webhook authenticity, data access and probabilistic output behave like one coherent product.
 
 The system is intentionally conservative: live SMS is not represented as ready until external carrier registration, provider configuration and the application gates all agree.
 
 ## Status
 
-Private MVP in demo/fail-closed mode. No customer, revenue or live-production claim is made here.
+Private MVP in demo/fail-closed mode while external production prerequisites remain incomplete.
