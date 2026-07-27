@@ -2,9 +2,13 @@
 
 CallReclaim is a missed-call recovery MVP for small businesses. It converts an unanswered phone call into a consent-aware SMS conversation and a structured lead that an owner can review and act on.
 
+[![CallReclaim product demo poster](../assets/callreclaim.png)](https://yusef-product-demos.yoosefseed.chatgpt.site)
+
+[Watch the demo](https://yusef-product-demos.yoosefseed.chatgpt.site)
+
 ## System
 
-- A Next.js owner dashboard and 25 route handlers for onboarding, telephony events, messaging, leads and operational checks.
+- A Next.js owner dashboard and 24 route handlers for onboarding, telephony events, messaging, leads and operational checks.
 - A Supabase/Postgres data layer captured in 8 SQL migrations, including row-level security and messaging state.
 - Twilio Voice/SMS webhook flows with signature verification, STOP handling and consent boundaries.
 - OpenAI structured-output processing for intent and lead details, with validation before persistence.
@@ -23,8 +27,9 @@ flowchart LR
 
 ## Verification snapshot
 
-- `npm run build` completed successfully on July 26, 2026.
-- The repository contains 25 route handlers and 8 SQL migrations.
+- `npm run build`, the packaged client-demo checks, the deployable-secret scan, consent-source tests, number-readiness tests and schema checks passed on July 27, 2026.
+- The repository contains 24 route handlers and 8 SQL migrations.
+- Live-carrier checks fail closed while the connected demo environment still lacks dedicated infrastructure, an owned sender, A2P approval and the consent-event schema.
 
 ## Engineering judgment
 
@@ -34,4 +39,4 @@ The system is intentionally conservative: live SMS is not represented as ready u
 
 ## Status
 
-Private MVP in demo/fail-closed mode while external production prerequisites remain incomplete.
+Private MVP with a source-backed, sample-data demo. Live carrier messaging remains intentionally gated pending dedicated infrastructure, an owned number and A2P approval.

@@ -2,6 +2,10 @@
 
 Tiraz is a privacy-first mobile wardrobe coach. It combines context-aware outfit analysis, a digital closet, draggable look composition, saved outfits and opt-in community sharing.
 
+[![Tiraz concept demo poster](../assets/tiraz.png)](https://yusef-product-demos.yoosefseed.chatgpt.site)
+
+[Watch the concept demo](https://yusef-product-demos.yoosefseed.chatgpt.site) — this is a concept visualization, not a live-product capture.
+
 ## System
 
 - An Expo/React Native TypeScript application and Supabase backend.
@@ -23,9 +27,9 @@ flowchart TD
 
 ## Verification snapshot
 
-- `npm run typecheck` passed on July 26, 2026.
+- `npm run typecheck` and the full `npm test` suite passed on July 27, 2026.
 - The repository contains 110 automated test files.
-- The backend contains 19 Deno Edge Functions.
+- The backend contains 19 deployable Deno Edge Functions.
 
 ## Engineering judgment
 
