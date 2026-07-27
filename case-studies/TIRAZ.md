@@ -2,9 +2,9 @@
 
 Tiraz is a privacy-first mobile wardrobe coach. It combines context-aware outfit analysis, a digital closet, draggable look composition, saved outfits and opt-in community sharing.
 
-[![Tiraz concept demo poster](../assets/tiraz.png)](https://yusef-product-demos.yoosefseed.chatgpt.site)
+[![Tiraz concept demo poster](../assets/tiraz.png)](https://yusef-product-demos.yoosefseed.chatgpt.site/#tiraz)
 
-[Watch the concept demo](https://yusef-product-demos.yoosefseed.chatgpt.site) — this is a concept visualization, not a live-product capture.
+[Watch the concept demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#tiraz) — this is a concept visualization, not a live-product capture.
 
 ## System
 
