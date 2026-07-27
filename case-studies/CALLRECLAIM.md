@@ -2,9 +2,9 @@
 
 CallReclaim is a missed-call recovery MVP for small businesses. It converts an unanswered phone call into a consent-aware SMS conversation and a structured lead that an owner can review and act on.
 
-[![CallReclaim product demo poster](../assets/callreclaim.png)](https://yusef-product-demos.yoosefseed.chatgpt.site)
+[![CallReclaim product demo poster](../assets/callreclaim.png)](https://yusef-product-demos.yoosefseed.chatgpt.site/#callreclaim)
 
-[Watch the demo](https://yusef-product-demos.yoosefseed.chatgpt.site)
+[Watch the demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#callreclaim)
 
 ## System
 
