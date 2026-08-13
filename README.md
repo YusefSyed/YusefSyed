@@ -20,15 +20,15 @@ A publicly released iOS product that turns physique and meal photos into structu
 
 [![CallReclaim product demo poster](assets/callreclaim.png)](https://yusef-product-demos.yoosefseed.chatgpt.site/#callreclaim)
 
-A private Next.js and Supabase MVP connecting Twilio Voice/SMS, consent-aware messaging and validated OpenAI structured outputs. The system includes 24 route handlers and 8 SQL migrations, with webhook verification, row-level security and fail-closed controls. [Demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#callreclaim)
+A private Next.js and Supabase missed-call recovery MVP connecting Twilio Voice/SMS, consent-aware messaging and validated OpenAI structured outputs. Evidence is limited to a private, sample-data demonstration; customer outcomes and watched live-carrier readiness are not established. [Demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#callreclaim)
 
 ### [Tiraz](case-studies/TIRAZ.md) · privacy-first wardrobe coach
 
 [![Tiraz concept demo poster](assets/tiraz.png)](https://yusef-product-demos.yoosefseed.chatgpt.site/#tiraz)
 
-An Expo/React Native application backed by Supabase and 19 Deno Edge Functions. The private repository includes 110 automated test files and type, privacy, security and release-readiness checks.
+A publicly released Expo/React Native wardrobe app backed by Supabase. Version 1.0.0 was released on the U.S. iOS App Store on July 31, 2026. The current proof branch adds privacy-gated share import, private cutouts, review-before-write AI tagging and owner-bound community controls with 91 source-level deterministic checks; those checks are not device, live-provider, deployed-backend or two-account proof. [App Store](https://apps.apple.com/us/app/tiraz/id6789730283)
 
-The linked [Demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#tiraz) is a concept visualization, not a live-product capture.
+The linked [Demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#tiraz) is a concept visualization, not a live-product capture. Apple's public record does not establish that Build 20 or the proof-layer branch is the distributed binary.
 
 ### [Agent Proof](https://github.com/YusefSyed/agent-proof) · open-source developer tool
 
