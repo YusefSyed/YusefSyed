@@ -28,7 +28,7 @@ flowchart TD
 ## Verification snapshot
 
 - `npm run typecheck` and the full `npm test` suite passed on July 27, 2026.
-- The repository contains 110 automated test files.
+- 91 deterministic checks passed for privacy-gated share import, private cutouts, review-before-write AI tagging and owner-bound community controls. These 91 checks are source/deterministic tests, not simulator, physical-device, live Supabase/provider, two-account, TestFlight, or App Store-binary proof.
 - The backend contains 19 deployable Deno Edge Functions.
 
 ## Engineering judgment
@@ -37,4 +37,4 @@ Wardrobe imagery is sensitive user data. The product work therefore emphasizes s
 
 ## Status
 
-Private product in beta and release preparation; not publicly released.
+Publicly available on the U.S. iOS App Store as version 1.0.0, released July 31, 2026. Apple's listing does not expose the build number or source commit, so this does not claim that Build 20 or the current proof branch is the distributed binary.

@@ -8,8 +8,8 @@ CallReclaim is a missed-call recovery MVP for small businesses. It converts an u
 
 ## System
 
-- A Next.js owner dashboard and 24 route handlers for onboarding, telephony events, messaging, leads and operational checks.
-- A Supabase/Postgres data layer captured in 8 SQL migrations, including row-level security and messaging state.
+- A Next.js owner dashboard for onboarding, telephony events, messaging, leads and operational checks.
+- A versioned Supabase/Postgres schema with row-level security and messaging state.
 - Twilio Voice/SMS webhook flows with signature verification, STOP handling and consent boundaries.
 - OpenAI structured-output processing for intent and lead details, with validation before persistence.
 - Demo mode and fail-closed controls so incomplete A2P or provider setup cannot silently act like production.
@@ -28,7 +28,6 @@ flowchart LR
 ## Verification snapshot
 
 - `npm run build`, the packaged client-demo checks, the deployable-secret scan, consent-source tests, number-readiness tests and schema checks passed on July 27, 2026.
-- The repository contains 24 route handlers and 8 SQL migrations.
 - Live-carrier checks fail closed while the connected demo environment still lacks dedicated infrastructure, an owned sender, A2P approval and the consent-event schema.
 
 ## Engineering judgment
