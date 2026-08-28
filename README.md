@@ -41,7 +41,7 @@ A TypeScript CLI that runs reviewer-approved checks and produces local JSON and 
 ## Engineering approach
 
 - Turn ambiguous product requirements into working systems.
-- Treat generated code as untrusted until it is understood and tested.
+- Treat dependencies, logs and external inputs as untrusted until they are understood and tested.
 - Design explicitly for privacy, consent and failure modes.
 - Distinguish verified results from work that still needs production evidence.
 
