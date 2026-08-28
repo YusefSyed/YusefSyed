@@ -11,7 +11,7 @@ Aesthetics AI is an iOS fitness product that turns physique and meal photos into
 - React Native and Expo iOS application.
 - Supabase and Postgres backend.
 - 8 deployable Supabase Edge Functions.
-- OpenAI API workflows for structured fitness reports.
+- Validated structured-output LLM workflows for fitness reports.
 - RevenueCat subscription tooling.
 
 ```mermaid
@@ -38,4 +38,4 @@ The linked demo is the approved 30-second V5.2 product film. It uses permission-
 
 ## Engineering judgment
 
-The product combines sensitive user photos with AI-assisted fitness guidance. The implementation therefore treats the mobile experience, backend data handling, report-generation workflows and subscription tooling as one product surface rather than presenting a model call as the whole system.
+The product combines sensitive user photos with model-generated fitness guidance. The implementation therefore treats the mobile experience, backend data handling, report-generation workflows and subscription tooling as one product surface rather than presenting a model call as the whole system.
