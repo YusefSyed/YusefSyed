@@ -6,21 +6,25 @@ Incoming University of Toronto student, September 2026
 
 Toronto / Pennsylvania · Open to relocation and remote · Canadian–U.S. dual citizen
 
-I build TypeScript products across React and Next.js, React Native and Expo, Supabase and Postgres, OpenAI APIs and Twilio. I take responsibility for architecture, security, testing and the final result.
+I build typed Python evaluation infrastructure and TypeScript products across React, Next.js, React Native, Expo, Supabase and Postgres. I take responsibility for architecture, security, testing and the final result.
 
 ## Featured work
+
+### [Agent Eval Mutation Lab](https://github.com/YusefSyed/agent-eval-mutation-lab) · Python evaluation reliability
+
+A Python 3.12+ evaluation system for distinguishing proposed, executed and harmful tool actions. The deterministic engine runs 104 scorer tasks through a transactional SQLite ledger and content-addressed evidence store. Its source-hash-guarded semantic mutation benchmark kills all 14 predeclared development mutants; public CI passes 81 tests at 81% package branch coverage and clean-room reproduction byte-compares 17 canonical artifacts. The mutation catalog is development evidence, not a held-out generalization claim.
 
 ### [Aesthetics AI](case-studies/AESTHETICS_AI.md) · iOS fitness product
 
 [![Aesthetics AI product demo poster](assets/aesthetics-ai-v5-atlas.jpg)](https://yusef-product-demos.yoosefseed.chatgpt.site/#aesthetics-ai)
 
-A publicly released iOS product that turns physique and meal photos into structured reports, training plans and progress tools. Built with React Native, Expo, Supabase, OpenAI API and RevenueCat. [App Store](https://apps.apple.com/us/app/aesthetics-ai-physique-coach/id6773502055) · [Demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#aesthetics-ai)
+A publicly released iOS product that turns physique and meal photos into structured reports, training plans and progress tools. Built with React Native, Expo, Supabase, validated structured-output LLM workflows and RevenueCat. [App Store](https://apps.apple.com/us/app/aesthetics-ai-physique-coach/id6773502055) · [Demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#aesthetics-ai)
 
 ### [CallReclaim](case-studies/CALLRECLAIM.md) · missed-call recovery
 
 [![CallReclaim product demo poster](assets/callreclaim.png)](https://yusef-product-demos.yoosefseed.chatgpt.site/#callreclaim)
 
-A private Next.js and Supabase missed-call recovery MVP connecting Twilio Voice/SMS, consent-aware messaging and validated OpenAI structured outputs. Evidence is limited to a private, sample-data demonstration; customer outcomes and watched live-carrier readiness are not established. [Demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#callreclaim)
+A private Next.js and Supabase missed-call recovery MVP connecting Twilio Voice/SMS, consent-aware messaging and validated structured LLM outputs. Evidence is limited to a private, sample-data demonstration; customer outcomes and watched live-carrier readiness are not established. [Demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#callreclaim)
 
 ### [Tiraz](case-studies/TIRAZ.md) · privacy-first wardrobe coach
 
@@ -47,6 +51,6 @@ Available immediately for AI product engineering, full-stack software engineerin
 
 ## Technologies
 
-`TypeScript` `JavaScript` `SQL` `React` `Next.js` `React Native` `Expo` `Supabase` `PostgreSQL` `Deno` `OpenAI API` `Twilio` `RevenueCat` `GitHub Actions`
+`Python` `pytest` `mypy` `uv` `SQLite` `TypeScript` `JavaScript` `SQL` `React` `Next.js` `React Native` `Expo` `Supabase` `PostgreSQL` `Deno` `Structured LLM APIs` `Twilio` `RevenueCat` `GitHub Actions`
 
 [Email](mailto:yusefmsyed@gmail.com)

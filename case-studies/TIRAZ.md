@@ -10,7 +10,7 @@ Tiraz is a privacy-first mobile wardrobe coach. It combines context-aware outfit
 
 - An Expo/React Native TypeScript application and Supabase backend.
 - 19 Deno Edge Functions spanning analysis, image processing, account operations and product workflows.
-- OpenAI-assisted outfit reasoning, image cutout processing and RevenueCat subscription flows.
+- Structured outfit-reasoning workflows, image cutout processing and RevenueCat subscription flows.
 - Automated type, privacy, security and release-readiness checks.
 - Negative-path coverage for usage limits and saved-state behavior.
 
