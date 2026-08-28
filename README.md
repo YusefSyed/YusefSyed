@@ -12,7 +12,7 @@ I build typed Python evaluation infrastructure and TypeScript products across Re
 
 ### [Agent Eval Mutation Lab](https://github.com/YusefSyed/agent-eval-mutation-lab) · Python evaluation reliability
 
-A Python 3.12+ evaluation system for distinguishing proposed, executed and harmful tool actions. The deterministic engine runs 104 scorer tasks through a transactional SQLite ledger and content-addressed evidence store. Its source-hash-guarded semantic mutation benchmark kills all 14 predeclared development mutants; public CI passes 112 tests at 81% package branch coverage and clean-room reproduction byte-compares 17 canonical artifacts. The mutation catalog is development evidence, not a held-out generalization claim.
+A Python 3.12+ evaluation system for distinguishing proposed, executed and harmful tool actions. The deterministic engine runs 104 scorer tasks through a transactional SQLite ledger and content-addressed evidence store. Its source-hash-guarded semantic mutation benchmark kills all 14 predeclared development mutants; public CI covers Python 3.12–3.14 at 81% package branch coverage and clean-room reproduction byte-compares 17 canonical artifacts. The mutation catalog is development evidence, not a held-out generalization claim.
 
 ### [Aesthetics AI](case-studies/AESTHETICS_AI.md) · iOS fitness product
 
