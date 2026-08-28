@@ -11,7 +11,7 @@ CallReclaim is a missed-call recovery MVP for small businesses. It converts an u
 - A Next.js owner dashboard for onboarding, telephony events, messaging, leads and operational checks.
 - A versioned Supabase/Postgres schema with row-level security and messaging state.
 - Twilio Voice/SMS webhook flows with signature verification, STOP handling and consent boundaries.
-- OpenAI structured-output processing for intent and lead details, with validation before persistence.
+- Structured-output LLM processing for intent and lead details, with validation before persistence.
 - Demo mode and fail-closed controls so incomplete A2P or provider setup cannot silently act like production.
 
 ```mermaid
