@@ -6,7 +6,7 @@ Incoming University of Toronto student, September 2026
 
 Toronto / Pennsylvania · Open to relocation and remote · Canadian–U.S. dual citizen
 
-I build typed Python evaluation infrastructure and TypeScript products across React, Next.js, React Native, Expo, Supabase and Postgres. I take responsibility for architecture, security, testing and the final result.
+My work focuses on typed evaluation infrastructure, product reliability, security boundaries, and reproducible evidence across Python and TypeScript systems.
 
 ## Featured work
 
@@ -49,7 +49,7 @@ A TypeScript CLI that runs reviewer-approved checks and produces local JSON and 
 
 ## Current focus
 
-Available immediately for AI product engineering, full-stack software engineering, forward-deployed engineering and reliability roles. Open to remote, Toronto, San Francisco and relocation opportunities.
+Seeking Summer 2027 software engineering and AI product internships, especially backend, platform, evaluation, reliability and developer-tooling work. Available in the U.S. or Canada and open to relocation.
 
 ## Technologies
 
