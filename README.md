@@ -40,6 +40,10 @@ The linked [Demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#tiraz) is
 
 A TypeScript CLI that runs reviewer-approved checks and produces local JSON and Markdown reports. It uses `execFile` with `shell: false`, exact command allowlists, timeouts, output redaction and truncation. [CI is passing](https://github.com/YusefSyed/agent-proof/actions/workflows/ci.yml).
 
+### [Inspect Scout PR #586](https://github.com/meridianlabs-ai/inspect_scout/pull/586) · open upstream bug fix
+
+Opened a focused upstream PR correcting per-result model-usage accounting for custom loaders, with a targeted regression test. The PR remains open and has not received maintainer review or attached CI checks.
+
 ## Engineering approach
 
 - Turn ambiguous product requirements into working systems.
