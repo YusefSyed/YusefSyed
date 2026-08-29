@@ -14,7 +14,7 @@ I build typed Python evaluation infrastructure and TypeScript products across Re
 
 A Python 3.12+ evaluation system for distinguishing proposed, executed and harmful tool actions. The deterministic engine runs 104 scorer tasks through a transactional SQLite ledger and content-addressed evidence store. Its source-hash-guarded semantic mutation benchmark kills all 14 predeclared development mutants; public CI covers Python 3.12–3.14 at 81% package branch coverage and clean-room reproduction byte-compares 17 canonical artifacts.
 
-A preregistered 624-trial study across two pinned local models rejected its evidence-first prompting intervention after five of six promotion gates failed. Qwen evidence-first output was 77.6% valid with a 21.2% directional-overclaim rate, versus 98.7% valid and 5.1% for direct prompting. The frozen prompts were not retuned after observing the result. This is finite, model-specific negative evidence—not a general prompting or model-safety claim.
+A preregistered 624-trial study across two pinned local models classified its evidence-first intervention as invalid after five of six promotion gates failed. Qwen evidence-first output was 77.6% valid versus 98.7% direct, violating both frozen validity gates; differential invalidity makes arm-effect estimates potentially selection-biased. The prompts were not retuned after observing the result. This is finite, model-specific invalid-result evidence—not a general prompting or model-safety claim.
 
 ### [Aesthetics AI](case-studies/AESTHETICS_AI.md) · iOS fitness product
 
