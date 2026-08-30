@@ -30,7 +30,9 @@ Executable telemetry QA now reconciles actual app-module traces against controll
 
 [![CallReclaim product demo poster](assets/callreclaim.png)](https://yusef-product-demos.yoosefseed.chatgpt.site/#callreclaim)
 
-A private Next.js and Supabase missed-call recovery MVP connecting telephony, consent-aware messaging and validated structured LLM outputs. Its adversarial replay tool checks production JavaScript and PostgreSQL reconciliation functions and reduces ordering failures to small reproducible traces. A 256-schedule campaign covered 3,708 synthetic arrivals; the case study includes a two-event injected-failure reproduction. [Sample-data demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#callreclaim)
+A private Next.js and Supabase missed-call recovery MVP connecting telephony, consent-aware messaging and validated structured LLM outputs. A new feature branch adds authenticated SMS receipts and atomic PostgreSQL reconciliation for uncertain send outcomes. Local experiments cover concurrent callbacks, cross-business message-ID conflicts, and a worker killed after commit before acknowledgement, without repeat sends. The migration is not deployed. [Sample-data demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#callreclaim)
+
+Its earlier adversarial replay tool checks actual JavaScript/PostgreSQL reconciliation and reduces ordering failures to small reproducible traces: 256 schedules, 3,708 synthetic arrivals, and a two-event injected-failure reproduction.
 
 ### [Tiraz](case-studies/TIRAZ.md) · privacy-first wardrobe coach
 
