@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "project": "CallReclaim",
+  "verification_date": "2026-08-30",
+  "source_visibility": "private",
+  "evidence_scope": "synthetic_sequential_replay_of_production_functions",
+  "github_actions": {
+    "run_id": 33293604356,
+    "head_commit": "096a8903637f468fd4b69614578ab9fee5a6fb2a",
+    "conclusion": "success"
+  },
+  "production_campaign": {
+    "seed": 20260830,
+    "sequences_checked": 256,
+    "event_arrivals_checked": 3708,
+    "contract_violations": 0,
+    "repeated_reports_byte_identical": true,
+    "report_sha256": "439f66593478a309fed57c278139cd25e7d421814ab9a95648320c70f4acbc13"
+  },
+  "counterexample": {
+    "implementation": "test-mutant/drop-rank-guard",
+    "invariant": "telnyx.status_order_maximum",
+    "original_events": 7,
+    "minimized_events": 2,
+    "checks": 18,
+    "one_minimal": true,
+    "unchanged_production_replay": "passed",
+    "expected_status": "delivered",
+    "mutant_status": "sent",
+    "trace": {
+      "schemaVersion": 1,
+      "target": "telnyx",
+      "initial": "pending",
+      "events": [
+        { "kind": "status", "id": 0, "at": 1, "status": "delivered", "message": "primary", "material": "match" },
+        { "kind": "status", "id": 1, "at": 7, "status": "sent", "message": "primary", "material": "match" }
+      ]
+    }
+  },
+  "limits": [
+    "The demonstrated defect is intentionally injected in memory; no production defect was found.",
+    "1-minimal does not mean globally shortest.",
+    "No provider calls, distributed concurrency guarantees, exactly-once delivery or customer outcomes are established."
+  ]
+}
