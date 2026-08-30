@@ -12,9 +12,11 @@ My work focuses on typed evaluation infrastructure, product reliability, securit
 
 ### [Agent Eval Mutation Lab](https://github.com/YusefSyed/agent-eval-mutation-lab) · Python evaluation reliability
 
-A Python 3.12+ evaluation system for distinguishing proposed, executed and harmful tool actions. The deterministic engine runs 104 scorer tasks through a transactional SQLite ledger and content-addressed evidence store. Its source-hash-guarded semantic mutation benchmark kills all 14 predeclared development mutants; public CI covers Python 3.12–3.14 at 81% package branch coverage and clean-room reproduction byte-compares 17 canonical artifacts.
+A typed Python evaluation system for distinguishing proposed, executed and harmful tool actions. Its resumable engine runs 104 deterministic scorer tasks through transactional SQLite and a content-addressed evidence store. Tests detect all 14 predeclared development semantic mutants, and clean-checkout reproduction verifies 17 canonical artifacts byte-for-byte.
 
-A preregistered 624-trial study across two pinned local models rejected its evidence-first intervention after five of six frozen promotion gates failed. All outcomes were released; invalid responses were not retried, and the prompts were not retuned post hoc. The failed differential-validity gate prevents a clean arm-effect conclusion. This is finite, model-specific invalid-result evidence—not a general prompting or model-safety claim.
+The optional missing-output auditor adds exact-rational sensitivity bounds, explicit estimands and endpoint witnesses, checked against 8,192 exhaustive small-case oracle evaluations. It keeps valid semantic uncertainty separate from invalid responses and makes unsupported point estimates visible.
+
+A separate preregistered 624-trial study across two pinned local models failed five of six frozen promotion gates, including output validity. Promotion was withheld; all outcomes were released without invalid-response retries or post-hoc prompt tuning. The failed differential-validity gate prevents a clean arm-effect conclusion. The later diagnostic does not override that verdict.
 
 ### [Aesthetics AI](case-studies/AESTHETICS_AI.md) · iOS fitness product
 
@@ -22,11 +24,13 @@ A preregistered 624-trial study across two pinned local models rejected its evid
 
 A publicly released iOS product that turns physique and meal photos into structured reports, training plans and progress tools. Built with React Native, Expo, Supabase, validated structured-output LLM workflows and RevenueCat. [App Store](https://apps.apple.com/us/app/aesthetics-ai-physique-coach/id6773502055) · [Demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#aesthetics-ai)
 
+Executable telemetry QA now reconciles actual app-module traces against controlled test schedules and rejects incomplete, duplicated, late or mismatched evidence before computing a metric. The case study publishes a sanitized falsification summary; it does not claim real-user retention.
+
 ### [CallReclaim](case-studies/CALLRECLAIM.md) · missed-call recovery
 
 [![CallReclaim product demo poster](assets/callreclaim.png)](https://yusef-product-demos.yoosefseed.chatgpt.site/#callreclaim)
 
-A private Next.js and Supabase missed-call recovery MVP connecting Twilio Voice/SMS, consent-aware messaging and validated structured LLM outputs. Evidence is limited to a private, sample-data demonstration; customer outcomes and watched live-carrier readiness are not established. [Demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#callreclaim)
+A private Next.js and Supabase missed-call recovery MVP connecting telephony, consent-aware messaging and validated structured LLM outputs. Its adversarial replay tool checks production JavaScript and PostgreSQL reconciliation functions and reduces ordering failures to small reproducible traces. A 256-schedule campaign covered 3,708 synthetic arrivals; the case study includes a two-event injected-failure reproduction. [Sample-data demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#callreclaim)
 
 ### [Tiraz](case-studies/TIRAZ.md) · privacy-first wardrobe coach
 
@@ -35,6 +39,8 @@ A private Next.js and Supabase missed-call recovery MVP connecting Twilio Voice/
 A publicly released Expo/React Native wardrobe app backed by Supabase. Version 1.0.0 was released on the U.S. iOS App Store on July 31, 2026. The current proof branch adds privacy-gated share import, private cutouts, review-before-write AI tagging and owner-bound community controls with 91 source-level deterministic checks; those checks are not device, live-provider, deployed-backend or two-account proof. [App Store](https://apps.apple.com/us/app/tiraz/id6789730283)
 
 The linked [Demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#tiraz) is a concept visualization, not a live-product capture. Apple's public record does not establish that Build 20 or the proof-layer branch is the distributed binary.
+
+The new [public PyTorch research companion](https://github.com/YusefSyed/tiraz-garment-completion) trains garment-category completion models on 27,683 annotation-derived examples. Three seeds reach 58.5–59.0% held-out accuracy versus a 52.7% co-occurrence baseline, while the missing-context evaluation exposes a substantial prediction-set coverage drop. All 11 artifacts, including trained weights, reproduce byte-for-byte in the pinned CPU environment. This is category-set prediction, not fashion-taste or production image accuracy.
 
 ### [Agent Proof](https://github.com/YusefSyed/agent-proof) · open-source developer tool
 
@@ -57,6 +63,6 @@ Seeking Summer 2027 software engineering and AI product internships, especially 
 
 ## Technologies
 
-`Python` `pytest` `mypy` `uv` `SQLite` `TypeScript` `JavaScript` `SQL` `React` `Next.js` `React Native` `Expo` `Supabase` `PostgreSQL` `Deno` `Structured LLM APIs` `Twilio` `RevenueCat` `GitHub Actions`
+`Python` `PyTorch` `NumPy` `pytest` `mypy` `uv` `SQLite` `TypeScript` `JavaScript` `SQL` `React` `Next.js` `React Native` `Expo` `Supabase` `PostgreSQL` `Deno` `Structured LLM APIs` `Twilio` `RevenueCat` `GitHub Actions`
 
 [Email](mailto:yusefmsyed@gmail.com)

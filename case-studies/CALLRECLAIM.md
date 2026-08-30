@@ -10,7 +10,7 @@ CallReclaim is a missed-call recovery MVP connecting signed telephony webhooks, 
 
 Provider callbacks can arrive twice, out of order, or before the application has persisted the matching message. I built an offline replay tool that checks those sequences against the actual Twilio JavaScript correlation function and Telnyx PostgreSQL reconciliation functions, executing the committed SQL in PGlite.
 
-Seeded symbolic schedules exercise duplicates, late arrivals, conflicting identities and ambiguous outcomes. An independent finite reference contract checks every event prefix: finalized delivery evidence cannot regress to `sent`; conflicts and stale callbacks cannot change message or reservation rows; missing evidence remains unknown. The tool never issues or retries a provider send.
+Seeded symbolic schedules exercise duplicates, late arrivals, conflicting identities and ambiguous outcomes. A separate finite reference contract checks every event prefix: finalized delivery evidence cannot regress to `sent`; conflicts and stale callbacks cannot change message or reservation rows; missing evidence remains unknown. The tool never issues or retries a provider send.
 
 When a contract fails, deletion minimization removes irrelevant events while preserving the same invariant failure. A completed result is **1-minimal**: no single remaining event can be removed without losing that failure. Exhausting the check budget produces an explicit incomplete result.
 

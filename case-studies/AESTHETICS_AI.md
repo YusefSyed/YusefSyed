@@ -10,13 +10,13 @@ Aesthetics AI is an iOS fitness product with structured photo reports, training 
 
 The instrumentation's `d1_return` and `d7_return` events record crossed milestones: a first return on day 10 emits both markers with `day_offset: 10`. Counting those markers as exact-day returns would misstate the measurement.
 
-I built a behavioral harness that executes the actual TypeScript initialization module with controlled clocks, storage, app metadata and transport. A separate audit reconciles its traces against a predeclared test roster and independently authored app-open schedule. Units with no return remain in the denominator; incomplete observation or delivery evidence withholds the metric.
+I built a behavioral harness that executes the actual TypeScript initialization module with controlled clocks, storage, app metadata and transport. A separate audit reconciles its traces against a predeclared test roster and separately defined app-open schedule. Units with no return remain in the denominator; incomplete observation or delivery evidence withholds the metric.
 
 The validator checks identity, timing, source version and event consistency. Missing, duplicate, late and conflicting events, immature windows and app-version mismatches all prevent metric calculation. Diagnostic results remain stable when packet rows are reordered.
 
 ## Falsification and verification
 
-An independently specified four-unit fixture establishes the expected elapsed-day app-open rate:
+A predeclared four-unit fixture establishes the expected elapsed-day app-open rate:
 
 | Controlled case | Expected result | Observed result |
 | --- | --- | --- |
