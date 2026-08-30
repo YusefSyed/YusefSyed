@@ -1,0 +1,56 @@
+{
+  "project": "Aesthetics AI",
+  "verified_date": "2026-08-30",
+  "source_commit": "b0265f5390e54e3f1ab373881c2c2ec91e4bf19f",
+  "source_tree": "c9725ea36d5e4f7f7d191d2e3c46bf4fd36a4ce4",
+  "scope": "Synthetic actual-module tests and isolated PostgreSQL 17.11 transactions; no production or physical-device claims",
+  "behavioral_tests_passed": 47,
+  "baseline_reproduction": {
+    "baseline_commit": "77a27c26f6e62ee7708e0dfa38ccc921dc1d161d",
+    "source_sha256": {
+      "workout_storage": "ad59e8a6d9664722e8954108be69ad1c342a69c6d4c62f24ebf9aa526b43c61a",
+      "program_schedule": "af22ae4285a9525836302f86a998713adf136ea4b891ec0cff896a4bae672d75"
+    },
+    "method": "Actual baseline TypeScript modules, development fallback disabled, synthetic storage/transport boundaries; no live database or incident claim.",
+    "injected_failure": "set write fails after session header upsert succeeds",
+    "save_rejected": true,
+    "local_workout_writes": 0,
+    "cloud_headers": 1,
+    "recovered_exercises": 0,
+    "program_advances": 1
+  },
+  "database_assertions": {
+    "atomic_rollback": true,
+    "identical_retry_idempotent": true,
+    "forced_transaction_contention": true,
+    "set_collision_sqlstate": "23505",
+    "no_set_reparenting": true,
+    "authenticated_rls": true,
+    "owner_b_workout_survives_owner_a_deletion": true,
+    "deleted_owner_cannot_reinsert": true
+  },
+  "application_assertions": [
+    "Local completion acknowledged before cloud response",
+    "Restart before sync and after server commit converges",
+    "New save during active sync is drained",
+    "Generation invalidation survives interrupted physical purge",
+    "Stale editors and responses cannot transfer pending workouts",
+    "Delayed deletion response does not sign out a newer account",
+    "Invalid numeric values reject before completion entry or RPC",
+    "Stalled telemetry does not block completion navigation"
+  ],
+  "limitations": [
+    "Migration not applied to production; App Store binary unchanged",
+    "No fsync or device power-loss guarantee",
+    "No offline cold-start guarantee with unavailable cached owner",
+    "No atomic isolation claim for every legacy global cache",
+    "Node filesystem benchmark is not native-device latency",
+    "Signing out intentionally removes unsynced device-only work"
+  ],
+  "github_ci": {
+    "status": "success",
+    "recovery_run_url": "https://github.com/YusefSyed/AestheticsAI/actions/runs/33298034029",
+    "measurement_run_url": "https://github.com/YusefSyed/AestheticsAI/actions/runs/33298034025",
+    "head_sha": "b0265f5390e54e3f1ab373881c2c2ec91e4bf19f"
+  }
+}

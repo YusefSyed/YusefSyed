@@ -24,7 +24,9 @@ A separate preregistered 624-trial study across two pinned local models failed f
 
 A publicly released iOS product that turns physique and meal photos into structured reports, training plans and progress tools. Built with React Native, Expo, Supabase, validated structured-output LLM workflows and RevenueCat. [App Store](https://apps.apple.com/us/app/aesthetics-ai-physique-coach/id6773502055) · [Demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#aesthetics-ai)
 
-Executable telemetry QA now reconciles actual app-module traces against controlled test schedules and rejects incomplete, duplicated, late or mismatched evidence before computing a metric. The case study publishes a sanitized falsification summary; it does not claim real-user retention.
+A new feature branch adds device-persisted workout completion, atomic header/set writes, and account-scoped retry recovery. It closes a reproduced partial-save bug that could advance a plan without its exercise sets; 47 behavioral tests and isolated PostgreSQL fault/concurrency checks cover the recovery contract. The migration and client changes are not deployed.
+
+The earlier telemetry QA reconciles actual app-module traces against controlled test schedules and rejects incomplete, duplicated, late or mismatched evidence before computing a metric. The case study publishes sanitized failure/recovery summaries; it does not claim real-user retention.
 
 ### [CallReclaim](case-studies/CALLRECLAIM.md) · missed-call recovery
 
