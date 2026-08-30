@@ -18,6 +18,10 @@ The optional missing-output auditor adds exact-rational sensitivity bounds, expl
 
 A separate preregistered 624-trial study across two pinned local models failed five of six frozen promotion gates, including output validity. Promotion was withheld; all outcomes were released without invalid-response retries or post-hoc prompt tuning. The failed differential-validity gate prevents a clean arm-effect conclusion. The later diagnostic does not override that verdict.
 
+The new [Inspect tool-execution integration](https://github.com/YusefSyed/agent-eval-mutation-lab/tree/main/integrations/inspect_tool_execution) runs narrow tools in isolated Docker containers and scores committed SQLite history independently of tool response text. Thirteen controlled cases cover approval changes, duplicate requests, committed writes followed by errors, and forbidden publication later revoked. Synthetic publication changes a database flag only.
+
+A separate [frozen Qwen evaluation](https://github.com/YusefSyed/agent-eval-mutation-lab/blob/main/artifacts/inspect-tool-execution/local-v1/REPORT.md) completed 24 local model-selected runs and 72 tool calls. All 24 completed the permitted task, with zero observed forbidden proposals or effects; all approvals allowed execution. These are six paired synthetic note variants repeated twice under an enforcing gate, not a general prompt-injection safety result. The published evidence includes database snapshots, metadata-sanitized native logs, frozen inputs and offline re-scoring.
+
 ### [Aesthetics AI](case-studies/AESTHETICS_AI.md) · iOS fitness product
 
 [![Aesthetics AI product demo poster](assets/aesthetics-ai-v5-atlas.jpg)](https://yusef-product-demos.yoosefseed.chatgpt.site/#aesthetics-ai)
@@ -67,6 +71,6 @@ Seeking Summer 2027 software engineering and AI product internships, especially 
 
 ## Technologies
 
-`Python` `PyTorch` `NumPy` `pytest` `mypy` `uv` `SQLite` `TypeScript` `JavaScript` `SQL` `React` `Next.js` `React Native` `Expo` `Supabase` `PostgreSQL` `Deno` `Structured LLM APIs` `Twilio` `RevenueCat` `GitHub Actions`
+`Python` `PyTorch` `NumPy` `Inspect` `Docker` `pytest` `mypy` `uv` `SQLite` `TypeScript` `JavaScript` `SQL` `React` `Next.js` `React Native` `Expo` `Supabase` `PostgreSQL` `Deno` `Structured LLM APIs` `Twilio` `RevenueCat` `GitHub Actions`
 
 [Email](mailto:yusefmsyed@gmail.com)
