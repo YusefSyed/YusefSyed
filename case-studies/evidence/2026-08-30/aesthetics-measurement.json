@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "project": "Aesthetics AI",
+  "verification_date": "2026-08-30",
+  "source_visibility": "private",
+  "evidence_scope": "controlled_test_only",
+  "measurement_tests_passed": 37,
+  "typecheck": "passed",
+  "focused_lint": "passed",
+  "github_actions": {
+    "run_id": 33293482364,
+    "head_commit": "77a27c26f6e62ee7708e0dfa38ccc921dc1d161d",
+    "conclusion": "success"
+  },
+  "runtime_javascript_unchanged": true,
+  "controlled_fixture": {
+    "unit_count": 4,
+    "metric": "elapsed_day_app_open_rate",
+    "day_1": { "expected_numerator": 1, "observed_numerator": 1, "denominator": 4 },
+    "day_7": { "expected_numerator": 2, "observed_numerator": 2, "denominator": 4 }
+  },
+  "faults_with_metric_withheld": [
+    "lost_event",
+    "late_event",
+    "duplicate_event",
+    "conflicting_key",
+    "immature_window",
+    "app_version_mismatch"
+  ],
+  "limitations": [
+    "Roster and schedule completeness are explicit controlled-test assumptions.",
+    "No real-user identity, production data completeness, retention, conversion or revenue is established.",
+    "Concurrent initialization, storage failure and cross-device clocks are outside this sequential contract."
+  ]
+}

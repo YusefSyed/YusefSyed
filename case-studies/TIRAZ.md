@@ -1,40 +1,37 @@
 # Tiraz
 
-Tiraz is a privacy-first mobile wardrobe coach. It combines context-aware outfit analysis, a digital closet, draggable look composition, saved outfits and opt-in community sharing.
+Tiraz is a mobile wardrobe coach combining outfit analysis, a digital closet, look composition and opt-in sharing. The existing Expo/React Native product uses a Supabase backend, structured model outputs, image processing and subscription workflows.
 
 [![Tiraz concept demo poster](../assets/tiraz.png)](https://yusef-product-demos.yoosefseed.chatgpt.site/#tiraz)
 
-[Watch the concept demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#tiraz) — this is a concept visualization, not a live-product capture.
+[Concept demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#tiraz) · [Reproducible research companion](https://github.com/YusefSyed/tiraz-garment-completion)
 
-## System
+The demo is a concept visualization. The companion repository contains a new experiment for Tiraz; it is not a separate consumer app and contains no private application code or images.
 
-- An Expo/React Native TypeScript application and Supabase backend.
-- 19 Deno Edge Functions spanning analysis, image processing, account operations and product workflows.
-- Structured outfit-reasoning workflows, image cutout processing and RevenueCat subscription flows.
-- Automated type, privacy, security and release-readiness checks.
-- Negative-path coverage for usage limits and saved-state behavior.
+## Research upgrade: garment-category completion
 
-```mermaid
-flowchart TD
-    App["Expo / React Native app"] --> Auth["Supabase Auth"]
-    App --> Data["Postgres + Storage"]
-    App --> Functions["19 Edge Functions"]
-    Functions --> Models["AI and image services"]
-    Functions --> Billing["RevenueCat"]
-    Checks["Type, privacy, security and release checks"] --> App
-    Checks --> Functions
-```
+I built a PyTorch experiment that hides one apparel category from an annotated image's unordered category set and predicts it from the remaining categories. Three seeded Deep Sets-style encoders are compared with training-frequency and smoothed co-occurrence baselines on the same task.
 
-## Verification snapshot
+The pipeline streams Fashionpedia annotations without downloading images, groups normalized source URLs and removes overlap between the training source and final test. It creates one deterministic masked target per eligible group. Only category IDs enter the model; the target category, source identity, pixels and URLs are excluded from its inputs.
 
-- `npm run typecheck` and the full `npm test` suite passed on July 27, 2026.
-- 91 deterministic checks passed for privacy-gated share import, private cutouts, review-before-write AI tagging and owner-bound community controls. These 91 checks are source/deterministic tests, not simulator, physical-device, live Supabase/provider, two-account, TestFlight, or App Store-binary proof.
-- The backend contains 19 deployable Deno Edge Functions.
+Training uses **27,683 source-grouped examples**, with separate tuning, temperature-calibration and conformal-calibration partitions. Checkpoints are selected by tuning loss. Final evaluation uses **962 held-out official-validation groups**; all three seeds and both original and missing-context conditions are reported.
 
-## Engineering judgment
+## Measured results
 
-Wardrobe imagery is sensitive user data. The product work therefore emphasizes scoped access, deletion behavior, opt-in sharing and explicit release gates instead of treating privacy as a policy-page detail.
+| Model | Original top-1 accuracy | Macro F1, all 27 classes | Missing-context top-1 |
+| --- | ---: | ---: | ---: |
+| Frequency | 37.8% | 0.042 | 35.3% |
+| Co-occurrence | 52.7% | 0.125 | 37.9% |
+| Set encoder, three seeds | **58.5–59.0%** | **0.165–0.171** | 36.7–37.3% |
 
-## Status
+On the original condition, the neural models' nominal 90% conformal prediction sets achieved **91.1–91.2% measured coverage**, averaging about 4.7 candidate categories versus 8.3 for co-occurrence. With additional visible context removed, neural coverage fell to **55.6–57.9%**, and co-occurrence performed better on top-1 accuracy. This exposes a limitation under missing context despite the neural advantage on the original task.
 
-Publicly available on the U.S. iOS App Store as version 1.0.0, released July 31, 2026. Apple's listing does not expose the build number or source commit, so this does not claim that Build 20 or the current proof branch is the distributed binary.
+[Complete results](https://github.com/YusefSyed/tiraz-garment-completion/blob/main/artifacts/v1/report.md) · [Metrics and intervals](https://github.com/YusefSyed/tiraz-garment-completion/blob/main/artifacts/v1/metrics.json) · [Frozen protocol](https://github.com/YusefSyed/tiraz-garment-completion/blob/main/protocol.json)
+
+## Reproducibility and task boundaries
+
+Two complete CPU runs reproduced all **11 artifacts byte-for-byte**, including trained checkpoints. The package passes 24 Python tests, Ruff and strict mypy checks, with [GitHub Actions verification](https://github.com/YusefSyed/tiraz-garment-completion/actions/runs/33293667518). Input hashes, source, configuration, predictions and weights are recorded with the experiment; unsupported inputs and attempts to overwrite prior runs are rejected.
+
+These results measure **category-set completion**. Earlier extraction/classification F1 belongs to Tiraz's separate tagging task and is not a result from this experiment. The existing app ranker is unchanged. No image-recognition, human-taste or production recommendation accuracy is established.
+
+Nominal conformal coverage requires exchangeability; the reported stress result demonstrates why it cannot be assumed for changed inputs. Source-group bootstrap intervals are descriptive, and exact-URL grouping does not prove visual or semantic deduplication. Fashionpedia annotations and ontology are used under CC BY 4.0; attribution, method references and reproduction commands are in the public companion.

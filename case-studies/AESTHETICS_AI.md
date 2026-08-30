@@ -1,41 +1,29 @@
 # Aesthetics AI
 
-Aesthetics AI is an iOS fitness product that turns physique and meal photos into structured reports, training plans and progress tools.
+Aesthetics AI is an iOS fitness product with structured photo reports, training plans, meal tools and progress tracking. Its stack combines Expo/React Native, TypeScript, Supabase/Postgres, validated model outputs and RevenueCat subscriptions.
 
 [![Aesthetics AI product demo poster](../assets/aesthetics-ai-v5-atlas.jpg)](https://yusef-product-demos.yoosefseed.chatgpt.site/#aesthetics-ai)
 
-[View on the App Store](https://apps.apple.com/us/app/aesthetics-ai-physique-coach/id6773502055) · [Watch the demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#aesthetics-ai)
+[App Store](https://apps.apple.com/us/app/aesthetics-ai-physique-coach/id6773502055) · [Product demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#aesthetics-ai)
 
-## System
+## Engineering upgrade: trustworthy measurement
 
-- React Native and Expo iOS application.
-- Supabase and Postgres backend.
-- 8 deployable Supabase Edge Functions.
-- Validated structured-output LLM workflows for fitness reports.
-- RevenueCat subscription tooling.
+The instrumentation's `d1_return` and `d7_return` events record crossed milestones: a first return on day 10 emits both markers with `day_offset: 10`. Counting those markers as exact-day returns would misstate the measurement.
 
-```mermaid
-flowchart LR
-    App["React Native / Expo app"] --> Auth["Supabase Auth"]
-    App --> Data["Postgres + Storage"]
-    App --> Functions["8 Edge Functions"]
-    Functions --> Models["Structured AI workflows"]
-    App --> Billing["RevenueCat"]
-```
+I built a behavioral harness that executes the actual TypeScript initialization module with controlled clocks, storage, app metadata and transport. A separate audit reconciles its traces against a predeclared test roster and independently authored app-open schedule. Units with no return remain in the denominator; incomplete observation or delivery evidence withholds the metric.
 
-## Shipped-product status
+The validator checks identity, timing, source version and event consistency. Missing, duplicate, late and conflicting events, immature windows and app-version mismatches all prevent metric calculation. Diagnostic results remain stable when packet rows are reordered.
 
-Version 1.0 was released on the App Store on June 30, 2026. The App Store page is the public product record.
+## Falsification and verification
 
-The linked demo is the approved 30-second V5.2 product film. It uses permission-noted demo footage and visibly labeled illustrative report, plan, meal and progress examples. It does not claim medical advice, precise body-composition measurement or current operating metrics.
+An independently specified four-unit fixture establishes the expected elapsed-day app-open rate:
 
-## Verification snapshot
+| Controlled case | Expected result | Observed result |
+| --- | --- | --- |
+| Day 1 window | 1 of 4 units | 1 of 4 |
+| Day 7 window | 2 of 4 units | 2 of 4 |
+| Six injected evidence faults | Withhold the metric | Withheld in every case |
 
-- `npm run typecheck` and the full `npm test` suite passed on July 27, 2026.
-- The current backend source contains 8 deployable Supabase Edge Functions.
-- Apple's public catalog resolves track ID `6773502055` to Aesthetics AI version 1.0.0.
-- The V5.2 demo master decoded all 1,800 frames, passed all 10 measurable release gates and contains no unintended black segments.
+The measurement suite passes **37 tests**, TypeScript checking and focused lint. GitHub Actions passed on August 30, 2026. The [sanitized evidence summary](evidence/2026-08-30/aesthetics-measurement.json) records the controlled cases and scope; application source remains private.
 
-## Engineering judgment
-
-The product combines sensitive user photos with model-generated fitness guidance. The implementation therefore treats the mobile experience, backend data handling, report-generation workflows and subscription tooling as one product surface rather than presenting a model call as the whole system.
+The compiled instrumentation runtime is unchanged. This upgrade adds executable measurement contracts and failure diagnosis. Its results concern controlled tests only and establish no production retention, real-user cohort completeness or product impact. The linked product demo uses labeled illustrative examples.
