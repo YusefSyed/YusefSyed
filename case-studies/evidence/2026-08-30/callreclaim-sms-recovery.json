@@ -1,0 +1,69 @@
+{
+  "project": "CallReclaim",
+  "verified_date": "2026-08-30",
+  "scope": "Local PostgreSQL transaction and process-failure experiments with synthetic data and fake provider transport",
+  "database_version": "PostgreSQL 17.11",
+  "checks": [
+    {
+      "check": "main_reconciliation_rpc_denies_client_roles",
+      "passed": true,
+      "denied_roles": [
+        "anon",
+        "authenticated"
+      ]
+    },
+    {
+      "check": "callback_before_sdk_response",
+      "passed": true,
+      "fake_provider_posts": 1
+    },
+    {
+      "check": "concurrent_duplicate_transactions",
+      "passed": true,
+      "transactions": 8,
+      "applied": 1,
+      "stale": 7
+    },
+    {
+      "check": "concurrent_cross_business_sid_claim",
+      "passed": true,
+      "linked_messages": 1
+    },
+    {
+      "check": "concurrent_terminal_conflict",
+      "passed": true,
+      "outcome": "delivery_conflict"
+    },
+    {
+      "check": "concurrent_authenticated_ingress_and_workers",
+      "passed": true,
+      "requests": 8,
+      "worker_connections": 3,
+      "durable_events": 1,
+      "processed": 1
+    },
+    {
+      "check": "sigkill_after_sql_commit_before_ack",
+      "passed": true,
+      "claims": 2,
+      "stale_ack_rejected": true,
+      "reconciliation_rows_unchanged_after_replay": true
+    }
+  ],
+  "limitations": [
+    "No live provider requests or customer records",
+    "Migration not applied to production",
+    "No proof of exactly-once carrier delivery",
+    "Missing callbacks can leave an attempt unresolved",
+    "Legacy attempts are not backfilled"
+  ],
+  "source_commit": "507888f032c3062198e10424bec7f7676c25cca8",
+  "source_tree": "adf9aa5d657bf5702a18c0409162527ece702cc7",
+  "behavioral_tests_passed": 24,
+  "production_build": "passed_locally",
+  "github_ci": {
+    "status": "success",
+    "run_url": "https://github.com/YusefSyed/call-ai/actions/runs/33297137383",
+    "head_sha": "507888f032c3062198e10424bec7f7676c25cca8"
+  }
+}
