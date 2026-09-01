@@ -54,9 +54,9 @@ The new [public PyTorch research companion](https://github.com/YusefSyed/tiraz-g
 
 A TypeScript CLI that runs reviewer-approved checks and produces local JSON and Markdown reports. It uses `execFile` with `shell: false`, exact command allowlists, timeouts, output redaction and truncation. [CI is passing](https://github.com/YusefSyed/agent-proof/actions/workflows/ci.yml).
 
-### [Inspect Scout PR #586](https://github.com/meridianlabs-ai/inspect_scout/pull/586) · open upstream bug fix
+### [Inspect Scout PR #586](https://github.com/meridianlabs-ai/inspect_scout/pull/586) · merged upstream contribution
 
-Opened a focused upstream PR correcting per-result model-usage accounting for custom loaders, with a targeted regression test. The PR remains open and has not received maintainer review or attached CI checks.
+Merged a focused upstream fix correcting per-result model-usage accounting for loaders that yield multiple items, with a public-API regression covering per-result and scan-summary totals. A Meridian Labs maintainer approved the change; Python 3.10/3.14 tests, typing, lint, build, schema, distribution and suppression checks passed. [Merged commit](https://github.com/meridianlabs-ai/inspect_scout/commit/4f47afc19a5559146a1692ca5adaae2998e0549f)
 
 ## Engineering approach
 
