@@ -4,7 +4,7 @@
 
 I work across Python evaluation infrastructure, TypeScript/React Native products, and backend reliability. I care about reproducible evidence, failure modes, and honest limits—not just demo paths.
 
-[Product portfolio](https://yusef-product-demos.yoosefseed.chatgpt.site) · [Email](mailto:yusefmsyed@gmail.com)
+[Product portfolio](https://yusef-product-demos.yoosefseed.chatgpt.site) · [Résumé (PDF)](resume/Yusef_Syed_Resume.pdf) · [Email](mailto:yusefmsyed@gmail.com)
 
 ## Internship availability
 
