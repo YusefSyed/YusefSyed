@@ -1,6 +1,6 @@
 # Yusef Syed
 
-**University of Toronto student pursuing Mathematics & Statistics, building AI evaluation systems and reliable software products.**
+**University of Toronto student intending to pursue a double major in Mathematics and Computer Science, building AI evaluation systems and reliable software products.**
 
 I work across Python evaluation infrastructure, TypeScript/React Native products, and backend reliability. I care about reproducible evidence, failure modes, and honest limits—not just demo paths.
 
