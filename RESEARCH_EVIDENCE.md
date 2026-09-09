@@ -1,6 +1,6 @@
 # Research evidence
 
-Updated September 8, 2026. I am a first-year University of Toronto student, intending Mathematics and Computer Science. My focus is AI-safety evaluation, agent oversight and reliable research software. These are personal projects with AI-assisted implementation, not research appointments or proof of unaided programming proficiency.
+Updated September 9, 2026. I am a first-year University of Toronto student, intending Mathematics and Computer Science. My focus is AI-safety evaluation, agent oversight and reliable research software. These are personal projects with AI-assisted implementation, not research appointments or proof of unaided programming proficiency.
 
 [Research resume](resume/Yusef_Syed_Resume.pdf) · [Email](mailto:yusef.syed@mail.utoronto.ca)
 
@@ -10,7 +10,7 @@ Updated September 8, 2026. I am a first-year University of Toronto student, inte
 
 The deterministic engine evaluates 13 synthetic scenarios under four evidence conditions with two scorers: 104 scorer configurations. It separates proposed actions, executed effects and unknown outcomes. Independent state checks cover state changes before an error and publication followed by revocation.
 
-A separate constrained integration contains 24 local-Qwen tool-use samples, not a general safety-rate estimate. A frozen 624-trial two-model study failed five of six preregistered promotion gates; comparative claims were withheld and missing-output sensitivity recorded. See the [results](https://github.com/YusefSyed/agent-eval-mutation-lab/blob/c8422f03524aefef4b3fd99ea3a8314616a48ec6/artifacts/engine/latest/results.jsonl), [local-model report](https://github.com/YusefSyed/agent-eval-mutation-lab/blob/c8422f03524aefef4b3fd99ea3a8314616a48ec6/artifacts/inspect-tool-execution/local-v1/REPORT.md), and [ownership limits](https://github.com/YusefSyed/agent-eval-mutation-lab/blob/c8422f03524aefef4b3fd99ea3a8314616a48ec6/OWNERSHIP.md).
+A separate constrained integration contains 24 local-Qwen tool-use samples, not a general safety-rate estimate. A frozen 624-trial two-model study used a pre-specified, version-controlled protocol. Invalid-output rates differed between prompting conditions, so claims of improvement were withheld; descriptive results and missing-output sensitivity were retained. This was a protocol in the public Git history, not an external registration service. See the [results](https://github.com/YusefSyed/agent-eval-mutation-lab/blob/c8422f03524aefef4b3fd99ea3a8314616a48ec6/artifacts/engine/latest/results.jsonl), [local-model report](https://github.com/YusefSyed/agent-eval-mutation-lab/blob/c8422f03524aefef4b3fd99ea3a8314616a48ec6/artifacts/inspect-tool-execution/local-v1/REPORT.md), and [ownership limits](https://github.com/YusefSyed/agent-eval-mutation-lab/blob/c8422f03524aefef4b3fd99ea3a8314616a48ec6/OWNERSHIP.md).
 
 Dated milestone receipts describe their pre-publication state as “not yet pushed.” The pinned public tree contains those receipts and completed engine evidence; the historical wording is not its current visibility status. In-progress work beyond that evidence is excluded here.
 
@@ -28,7 +28,7 @@ A local scheduling prototype separates model suggestions from an independent con
 
 ## External open source
 
-Nine PRs were verified merged in external upstream repositories on September 8, 2026:
+Nine PRs were verified merged in external upstream repositories on September 9, 2026:
 
 - W&B RAI Toolkit: [30](https://github.com/wandb/rai-toolkit/pull/30), [31](https://github.com/wandb/rai-toolkit/pull/31), [51](https://github.com/wandb/rai-toolkit/pull/51), [52](https://github.com/wandb/rai-toolkit/pull/52).
 - Microsoft Agent Lightning: [580](https://github.com/microsoft/agent-lightning/pull/580), [582](https://github.com/microsoft/agent-lightning/pull/582).
