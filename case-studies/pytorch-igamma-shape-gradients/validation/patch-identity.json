@@ -1,0 +1,19 @@
+{
+  "public_pr": "https://github.com/pytorch/pytorch/pull/196390",
+  "pr_head": "4fa63375b8e42dda6fd323b1c152434a31c04ecf",
+  "tested_base_commit": "2e2b1371931ea2a080c423ee3bc15c4fc59787a6",
+  "files": {
+    "aten/src/ATen/functorch/BatchRulesBinaryOps.cpp": "89098d644324f9abaf23e44b0cee761b23347580ee296742832a384b3e4474c2",
+    "aten/src/ATen/native/BinaryOps.cpp": "d995f83696f12d3505f924e60caa3dc443999129b89e11adeead06b31f59fbb2",
+    "aten/src/ATen/native/BinaryOps.h": "992847bd67c64e15fb6a484d386b4470e08aafef4b4f4bac2915ae18a1f7277f",
+    "aten/src/ATen/native/IGammaShapeDerivative.h": "fde0aa4821745e7238c1151d79f97a0e71e1fd68e7867573621f210ffab9c4ce",
+    "aten/src/ATen/native/cpu/IGammaBackwardKernel.cpp": "a53de96fcc0ca04b22e4b2cbfc1a9c7c4408fce9c513b9554f65fafe188a7da7",
+    "aten/src/ATen/native/cuda/IGammaBackwardKernel.cu": "a8c7eef4f33a872ae997ddcfed00c85573e69b8d766e9663d45c07989687f578",
+    "aten/src/ATen/native/native_functions.yaml": "21dd9f252cdb7725a022eb17c18d33fa20b1386636c953a210ce71b5fce79127",
+    "test/test_igamma_autograd.py": "1ea9cf14eb794262fe3988d6dce731c8da5579de67ebdc6cdcf0ed33eca30d2e",
+    "tools/autograd/derivatives.yaml": "3bff2c6ad46302af3803000aaf0a19a5e035a7f9ee48686fff64e75a64fc559a",
+    "torch/special/__init__.py": "dd9cd0e0825e4e1e0ceb6edf17979f551d48d13ae42124825afc4bc3c55dc591",
+    "torch/testing/_internal/common_methods_invocations.py": "6d60a42a43c1214ce3cd349e8008acecc11f56031db47de63cd0e04182e01654"
+  },
+  "all_match": true
+}

@@ -1,17 +1,17 @@
 # Yusef Syed
 
-**University of Toronto student intending to pursue a double major in Mathematics and Computer Science, building AI evaluation systems and reliable software products.**
+**First-year University of Toronto student, intending Mathematics and Computer Science, focused on AI-safety evaluation and reliable research software.**
 
-I work across Python evaluation infrastructure, TypeScript/React Native products, and backend reliability. I care about reproducible evidence, failure modes, and honest limits—not just demo paths.
+I build Python evaluation tools and software products with AI-assisted implementation. My interests are evaluation validity, oversight of tool-using agents, and reproducible experiments with explicit limits.
 
-[Product portfolio](https://yusef-product-demos.yoosefseed.chatgpt.site) · [Résumé (PDF)](resume/Yusef_Syed_Resume.pdf) · [Email](mailto:yusefmsyed@gmail.com)
+[Research evidence](RESEARCH_EVIDENCE.md) · [Product portfolio](https://yusef-product-demos.yoosefseed.chatgpt.site) · [Résumé (PDF)](resume/Yusef_Syed_Resume.pdf) · [Email](mailto:yusefmsyed@gmail.com)
 
-## Internship availability
+## Research and internship availability
 
 | Term | Availability |
 | --- | --- |
 | **Summer 2027** | Available full-time from May through August for software engineering, AI product, evaluation/reliability, backend/platform, or mobile roles |
-| **Fall / Winter** | Open to selective AI/software internships that are compatible with University of Toronto coursework |
+| **Fall / Winter** | Seeking supervised research or selective AI/software work compatible with University of Toronto coursework |
 | **Location** | Canada or the United States; open to relocation and remote work |
 | **Work authorization** | U.S.–Canadian dual citizen; no sponsorship required in either country |
 
@@ -23,7 +23,15 @@ Expected graduation: **May 2030**.
 
 A typed, deterministic engine for testing execution-semantic robustness in tool-agent scorers. It runs 104 canonical tasks with resumable SQLite state, content-addressed evidence, explicit unknown/abstain handling, and clean-checkout artifact reproduction. Its public reports retain failed model-study gates and unfavorable outcomes instead of promoting unsupported conclusions.
 
-### Shipped products
+### [Tiraz garment-completion experiment](https://github.com/YusefSyed/tiraz-garment-completion)
+
+Three seeded annotation-only models achieved 58.5-59.0% top-1 against a 52.7% baseline on 962 held-out groups; a context-removal audit exposed coverage degradation. [Methods and limits](RESEARCH_EVIDENCE.md).
+
+### [ShiftProof](https://github.com/YusefSyed/shiftproof)
+
+Local scheduling prototype with independent constraint checks and coordinator-only apply, approve and export actions. Validation uses synthetic data.
+
+### Product engineering
 
 | Project | What I built | Evidence |
 | --- | --- | --- |
@@ -32,6 +40,8 @@ A typed, deterministic engine for testing execution-semantic robustness in tool-
 | **CallReclaim** | Private missed-call recovery MVP with consent-aware SMS, validated AI lead extraction, signed provider webhooks, owner-scoped data, and PostgreSQL reconciliation for uncertain send outcomes. No production traffic or revenue is claimed. | [Sample-data demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#callreclaim) · [Case study](case-studies/CALLRECLAIM.md) |
 
 ### Developer tools and open source
+
+**9 external upstream PRs verified merged on September 8, 2026.** [Evidence](RESEARCH_EVIDENCE.md#external-open-source). The [open PyTorch CPU/CUDA contribution](https://github.com/pytorch/pytorch/pull/196390) is separate; its [3,486-output local validation supplement](case-studies/pytorch-igamma-shape-gradients/README.md) is publicly inspectable.
 
 - **[Agent Proof](https://github.com/YusefSyed/agent-proof):** TypeScript CLI that runs reviewer-selected checks without shell interpolation and writes redacted JSON/Markdown verification reports.
 - **Microsoft Agent Lightning:** merged fixes for [shutdown rollout races](https://github.com/microsoft/agent-lightning/pull/580) and [local-worker agent URL handling](https://github.com/microsoft/agent-lightning/pull/582).
@@ -51,4 +61,4 @@ A typed, deterministic engine for testing execution-semantic robustness in tool-
 - Treat dependencies, logs, provider callbacks, and external inputs as untrusted evidence.
 - Separate local or synthetic verification from production, user, revenue, and impact claims.
 
-If you are hiring for a Summer 2027 or selective Fall/Winter AI/software internship, [email me](mailto:yusefmsyed@gmail.com).
+If you are considering supervised Fall/Winter research or a Summer 2027 research/AI/software role, [email me](mailto:yusefmsyed@gmail.com).
