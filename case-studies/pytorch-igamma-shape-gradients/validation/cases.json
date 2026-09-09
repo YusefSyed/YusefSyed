@@ -1,0 +1,6218 @@
+{
+  "policy": "Intersection of historical 5e-12 relative plus one subnormal unit, 5e-13 relative for all normal results, and 4 true-reference ULPs below exp(-700), with exact zero/sign/nonfinite classification. Exact-rational rounding and explicit domain contracts.",
+  "oracle_failures": [],
+  "rows": [
+    {
+      "kind": 0,
+      "a_bits": 4427486594234968593,
+      "x_bits": 118622047889322841,
+      "exponent": 0,
+      "reference": "690.1983117569401072084804723787743416577",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4427486594234968593,
+      "x_bits": 4424369487451597723,
+      "exponent": 0,
+      "reference": "27.50009255290146470394019224150791030343",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4427486594234968593,
+      "x_bits": 4424567557857883384,
+      "exponent": 0,
+      "reference": "27.46932089423642249169200555813529784319",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4427486594234968593,
+      "x_bits": 4427486594234968593,
+      "exponent": 0,
+      "reference": "27.05380545029775191241734306890257044712",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4427486594234968593,
+      "x_bits": 4429170192688396711,
+      "exponent": 0,
+      "reference": "26.7611358363510217798492344051503444732",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4427486594234968593,
+      "x_bits": 4429269227891539541,
+      "exponent": 0,
+      "reference": "26.74632075056669392226721651602556768994",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4427486594234968593,
+      "x_bits": 4576918229304087675,
+      "exponent": 0,
+      "reference": "4.037929576523433994443664724261139050571",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4427486594234968593,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "reference": "0.5597735947767475713305637109364022780757",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4427486594234968593,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "reference": "0.2193839343959692237587186093814470508018",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4427486594234968593,
+      "x_bits": 4607182418800021912,
+      "exponent": 0,
+      "reference": "0.2193839343956013116128505588482511782922",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4427486594234968593,
+      "x_bits": 4629137466983448576,
+      "exponent": 0,
+      "reference": "3.021552010713043875821149355372818532269e-15",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4517329193108106637,
+      "x_bits": 118622047889322841,
+      "exponent": 0,
+      "reference": "689.7221045246830423646913553170427237772",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4517329193108106637,
+      "x_bits": 4427486594234968593,
+      "exponent": 0,
+      "reference": "27.05307519740511104771553280200543916083",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4517329193108106637,
+      "x_bits": 4514147856095939642,
+      "exponent": 0,
+      "reference": "13.68439701406830008267242427694471368522",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4517329193108106637,
+      "x_bits": 4514336750755254428,
+      "exponent": 0,
+      "reference": "13.65362621664012205408627070226907490684",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4517329193108106637,
+      "x_bits": 4517329193108106637,
+      "exponent": 0,
+      "reference": "13.23812228664255693425026972457103567635",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4517329193108106637,
+      "x_bits": 4518934797712282317,
+      "exponent": 0,
+      "reference": "12.94546067583392347041777889409211289153",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4517329193108106637,
+      "x_bits": 4519029245041939710,
+      "exponent": 0,
+      "reference": "12.93064599340617969498062784834335508768",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4517329193108106637,
+      "x_bits": 4576918229304087675,
+      "exponent": 0,
+      "reference": "4.037914896743284100251636017004396583046",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4517329193108106637,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "reference": "0.5597741815347901690421466627248802596514",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4517329193108106637,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "reference": "0.2193843833454464015181927822816364048662",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4517329193108106637,
+      "x_bits": 4607182423303617035,
+      "exponent": 0,
+      "reference": "0.2193840154659484487028406860634657343288",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4517329193108106637,
+      "x_bits": 4629137466983448576,
+      "exponent": 0,
+      "reference": "3.021576242085237887940486127210715373311e-15",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4576918229304087675,
+      "x_bits": 118622047889322841,
+      "exponent": 0,
+      "reference": "0.6941533719688138433568601481420569245921",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4576918229304087675,
+      "x_bits": 4427486594234968593,
+      "exponent": 0,
+      "reference": "20.65198027245864906506904878306403125822",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4576918229304087675,
+      "x_bits": 4574028719783166765,
+      "exponent": 0,
+      "reference": "4.299447415232621059858581237368800346052",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4576918229304087675,
+      "x_bits": 4574259304084088135,
+      "exponent": 0,
+      "reference": "4.271519127763337583702629379033630359898",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4576918229304087675,
+      "x_bits": 4576918229304087675,
+      "exponent": 0,
+      "reference": "3.893309876518442118137751488973820587599",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4576918229304087675,
+      "x_bits": 4578878195861919315,
+      "exponent": 0,
+      "reference": "3.62590350609672514698571668859736248482",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4576918229304087675,
+      "x_bits": 4578993488012380000,
+      "exponent": 0,
+      "reference": "3.612350280615415331290308466371710581029",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4576918229304087675,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "reference": "0.5655459117152577676789925192403849076281",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4576918229304087675,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "reference": "0.2238577263735336688235974560022136612492",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4576918229304087675,
+      "x_bits": 4607227454796291113,
+      "exponent": 0,
+      "reference": "0.2201737201317492610616133019378317824685",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4576918229304087675,
+      "x_bits": 4629137466983448576,
+      "exponent": 0,
+      "reference": "3.270503078166221161721366980456007204501e-15",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4591870180066957722,
+      "x_bits": 118622047889322841,
+      "exponent": 0,
+      "reference": "7.256542957908196476533142574147227797008e-28",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4591870180066957722,
+      "x_bits": 4427486594234968593,
+      "exponent": 0,
+      "reference": "1.804447419438305472189773170603993921344",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4591870180066957722,
+      "x_bits": 4576918229304087675,
+      "exponent": 0,
+      "reference": "2.776160812425422252176139577720541115463",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4591870180066957722,
+      "x_bits": 4589276106681592316,
+      "exponent": 0,
+      "reference": "1.887496802554480544904003069863537380276",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4591870180066957722,
+      "x_bits": 4589420221869668172,
+      "exponent": 0,
+      "reference": "1.869762619042610873659714131094430730245",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4591870180066957722,
+      "x_bits": 4591870180066957722,
+      "exponent": 0,
+      "reference": "1.62198247065494848425880236713628047901",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4591870180066957722,
+      "x_bits": 4593995879091076596,
+      "exponent": 0,
+      "reference": "1.439463404316576377966350517502691167413",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4591870180066957722,
+      "x_bits": 4594067936685114524,
+      "exponent": 0,
+      "reference": "1.430084688491482646855125299463637487035",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4591870180066957722,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "reference": "0.6090919772111218123301635029282112718173",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4591870180066957722,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "reference": "0.2625668860237575760104507760647574124731",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4591870180066957722,
+      "x_bits": 4607632778762754458,
+      "exponent": 0,
+      "reference": "0.2256413049408995630195730350710500057128",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4591870180066957722,
+      "x_bits": 4629137466983448576,
+      "exponent": 0,
+      "reference": "6.203178496305631536293591576085396497734e-15",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4602678819172646912,
+      "x_bits": 118622047889322841,
+      "exponent": 0,
+      "reference": "7.79497889346194682961614922938235764592e-148",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4602678819172646912,
+      "x_bits": 4427486594234968593,
+      "exponent": 0,
+      "reference": "0.00003121944311922535343586165459511049759791",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4602678819172646912,
+      "x_bits": 4576918229304087675,
+      "exponent": 0,
+      "reference": "0.522514337797482991810104023344891654045",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4602678819172646912,
+      "x_bits": 4599436227440940155,
+      "exponent": 0,
+      "reference": "0.7587974020426455417122520943151593651033",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4602678819172646912,
+      "x_bits": 4599616371426034975,
+      "exponent": 0,
+      "reference": "0.7527944362321899327171456097899742293627",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4602678819172646912,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "reference": "0.6472003523777538766499593504617064551648",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4602678819172646912,
+      "x_bits": 4604210043045952881,
+      "exponent": 0,
+      "reference": "0.5476798230666997215813021670172871239843",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4602678819172646912,
+      "x_bits": 4604300115038500291,
+      "exponent": 0,
+      "reference": "0.5421888117958428081545937818170841273818",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4602678819172646912,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "reference": "0.3898372643285105775071365007503048985858",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4602678819172646912,
+      "x_bits": 4609434218613702656,
+      "exponent": 0,
+      "reference": "0.2301943420173607717098389327792956963375",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4602678819172646912,
+      "x_bits": 4629137466983448576,
+      "exponent": 0,
+      "reference": "5.118991143389856984573815890749652902666e-14",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 118622047889322841,
+      "exponent": 0,
+      "reference": "6.911983122333121896405338150758861152766e-298",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 4427486594234968593,
+      "exponent": 0,
+      "reference": "0.00000000002805380545101323790074115441745186150187",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 4576918229304087675,
+      "exponent": 0,
+      "reference": "0.0500538725871567553449167829496618621883",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "reference": "0.4894575761023784173685941950330683841726",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 4603939827068310651,
+      "exponent": 0,
+      "reference": "0.4886892198407944397170763736310062809719",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 4604119971053405471,
+      "exponent": 0,
+      "reference": "0.4871612497715386777389565971579837806238",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "reference": "0.4317297106348986961322410431579426696238",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 4608713642673323377,
+      "exponent": 0,
+      "reference": "0.3551296640174639827876493306605528875017",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 4608803714665870787,
+      "exponent": 0,
+      "reference": "0.3505810290006654248123505684928237738028",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 4611686018427387904,
+      "exponent": 0,
+      "reference": "0.2208254262118595058524866037379490333053",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 4629137466983448576,
+      "exponent": 0,
+      "reference": "3.753064450512666537624002779607173759543e-13",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387904,
+      "x_bits": 118622047889322841,
+      "exponent": 0,
+      "reference": "3.458491561166561034931974447534816620594e-598",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387904,
+      "x_bits": 4427486594234968593,
+      "exponent": 0,
+      "reference": "1.427690272550404472995383506189531963758e-23",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387904,
+      "x_bits": 4576918229304087675,
+      "exponent": 0,
+      "reference": "0.0002746172101555032166776349690531552353571",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387904,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "reference": "0.1510342369091705083775935553964697319246",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387904,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "reference": "0.2761960457028347969917945406943028227706",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387904,
+      "x_bits": 4608443426695681147,
+      "exponent": 0,
+      "reference": "0.3062334966397903502910694492664649177197",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387904,
+      "x_bits": 4608623570680775967,
+      "exponent": 0,
+      "reference": "0.3085077270437271515066893752185840317257",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387904,
+      "x_bits": 4611686018427387904,
+      "exponent": 0,
+      "reference": "0.2940046907462308946349811508127792484717",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387904,
+      "x_bits": 4613217242300693873,
+      "exponent": 0,
+      "reference": "0.2303098091889474384995091938034356579588",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387904,
+      "x_bits": 4613307314293241283,
+      "exponent": 0,
+      "reference": "0.2261694655639780579199212284037376626886",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387904,
+      "x_bits": 4613937818241073152,
+      "exponent": 0,
+      "reference": "0.1974254195792024693838179194072290492807",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387904,
+      "x_bits": 4629137466983448576,
+      "exponent": 0,
+      "reference": "0.000000000008736566345616549508815184198414015693462",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620580627691444634,
+      "x_bits": 118622047889322841,
+      "exponent": 0,
+      "reference": "2.127470091153033886642965004815431308298e-2372",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620580627691444634,
+      "x_bits": 4427486594234968593,
+      "exponent": 0,
+      "reference": "1.448174165748219368197393908671233277314e-98",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620580627691444634,
+      "x_bits": 4576918229304087675,
+      "exponent": 0,
+      "reference": "3.248000583892261847740398147726015776943e-20",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620580627691444634,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "reference": "0.0000002335752507983506431193894311514834425344",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620580627691444634,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "reference": "0.00002722148603453171386393541580581438015953",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620580627691444634,
+      "x_bits": 4617378568356384211,
+      "exponent": 0,
+      "reference": "0.08992263870595590074663846566907285512614",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620580627691444634,
+      "x_bits": 4617556460541665346,
+      "exponent": 0,
+      "reference": "0.09652329859943946287115043800766385355528",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620580627691444634,
+      "x_bits": 4620580627691444634,
+      "exponent": 0,
+      "reference": "0.1434464575861927387013325479071141065577",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620580627691444634,
+      "x_bits": 4621199872640208077,
+      "exponent": 0,
+      "reference": "0.1274050260061353868120411815178638993819",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620580627691444634,
+      "x_bits": 4622149006261676409,
+      "exponent": 0,
+      "reference": "0.08495563994367461965504002750193749007195",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620580627691444634,
+      "x_bits": 4622237952354316977,
+      "exponent": 0,
+      "reference": "0.08091397996720313092976070401348673191058",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620580627691444634,
+      "x_bits": 4629137466983448576,
+      "exponent": 0,
+      "reference": "0.0000006528837446201980112657204387058024881129",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128896,
+      "x_bits": 118622047889322841,
+      "exponent": 0,
+      "reference": "1.718542086746452019066651958360226579445e-2402",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128896,
+      "x_bits": 4427486594234968593,
+      "exponent": 0,
+      "reference": "7.383844889349628492062907548154897435405e-100",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128896,
+      "x_bits": 4576918229304087675,
+      "exponent": 0,
+      "reference": "1.658293742849985321246797311782341064852e-20",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128896,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "reference": "0.0000001766524436126255769099721164269917598808",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128896,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "reference": "0.00002207700854660253534569501926896447662698",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128896,
+      "x_bits": 4617450625950422139,
+      "exponent": 0,
+      "reference": "0.08857969063065657198352511753080187219909",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128896,
+      "x_bits": 4617630769935516959,
+      "exponent": 0,
+      "reference": "0.09518421465674464086773616993072396982951",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128896,
+      "x_bits": 4620693217682128896,
+      "exponent": 0,
+      "reference": "0.1425282335431947688014547387860458988466",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128896,
+      "x_bits": 4621256167635550208,
+      "exponent": 0,
+      "reference": "0.1267657425356527865395865708477485208424",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128896,
+      "x_bits": 4622224441555434865,
+      "exponent": 0,
+      "reference": "0.08401322575256747605515311440049616049139",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128896,
+      "x_bits": 4622314513547982275,
+      "exponent": 0,
+      "reference": "0.07997492533318201438505562213119453329429",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128896,
+      "x_bits": 4629137466983448576,
+      "exponent": 0,
+      "reference": "0.0000007465432288270175633143656865485475056736",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626041242239631360,
+      "x_bits": 118622047889322841,
+      "exponent": 0,
+      "reference": "5.703033246377155317860110326925440629859e-5715",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626041242239631360,
+      "x_bits": 4427486594234968593,
+      "exponent": 0,
+      "reference": "2.515641403171533091157621612089289453255e-244",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626041242239631360,
+      "x_bits": 4576918229304087675,
+      "exponent": 0,
+      "reference": "6.168839891393813840194314860986123956026e-55",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626041242239631360,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "reference": "3.574686456429842548393895903689585881063e-23",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626041242239631360,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "reference": "9.463358597147821864168710717941543707267e-18",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626041242239631360,
+      "x_bits": 4623035089488361554,
+      "exponent": 0,
+      "reference": "0.02211651362581677173291344789018269567447",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626041242239631360,
+      "x_bits": 4623249010470661653,
+      "exponent": 0,
+      "reference": "0.02675470136741942599221280163790850766763",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626041242239631360,
+      "x_bits": 4626041242239631360,
+      "exponent": 0,
+      "reference": "0.09192653628337275825726405626538618705824",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626041242239631360,
+      "x_bits": 4626322717216342016,
+      "exponent": 0,
+      "reference": "0.08733981986787608696812193703133601214734",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626041242239631360,
+      "x_bits": 4627859570589182198,
+      "exponent": 0,
+      "reference": "0.03219440778402706106891261222489207238824",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626041242239631360,
+      "x_bits": 4627966531080332248,
+      "exponent": 0,
+      "reference": "0.02894795809216151703684670357805593581219",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626041242239631360,
+      "x_bits": 4630544841867001856,
+      "exponent": 0,
+      "reference": "0.0001871489615771032675465528896663673865236",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342016,
+      "x_bits": 118622047889322841,
+      "exponent": 0,
+      "reference": "2.851722139069743338732396819895038483317e-6016",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342016,
+      "x_bits": 4427486594234968593,
+      "exponent": 0,
+      "reference": "1.259875860397417640223576225318711269002e-257",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342016,
+      "x_bits": 4576918229304087675,
+      "exponent": 0,
+      "reference": "3.104702320111504129982294509413545331232e-58",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342016,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "reference": "9.047337054822475734207393207568861702324e-25",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342016,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "reference": "4.798919176048315626301882410746755056191e-19",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342016,
+      "x_bits": 4623395377458551194,
+      "exponent": 0,
+      "reference": "0.01977018264730885432686671268519311720404",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342016,
+      "x_bits": 4623620557439919719,
+      "exponent": 0,
+      "reference": "0.02417530685884389572808504042826526375752",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342016,
+      "x_bits": 4626322717216342016,
+      "exponent": 0,
+      "reference": "0.0895792055391225362695341217943484387286",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342016,
+      "x_bits": 4626604192193052672,
+      "exponent": 0,
+      "reference": "0.0853220218308148531662982263865299380816",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342016,
+      "x_bits": 4628236747057974477,
+      "exponent": 0,
+      "reference": "0.02992207361522057126148940336962784076337",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342016,
+      "x_bits": 4628349337048658740,
+      "exponent": 0,
+      "reference": "0.0267656284271033755065603407874994010169",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342016,
+      "x_bits": 4630826316843712512,
+      "exponent": 0,
+      "reference": "0.0001341811861573318088991482032680571983929",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626604192193052672,
+      "x_bits": 118622047889322841,
+      "exponent": 0,
+      "reference": "1.358056127847798725194891949466616438442e-6317",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626604192193052672,
+      "x_bits": 4427486594234968593,
+      "exponent": 0,
+      "reference": "6.00872930716072445985156441321662158034e-271",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626604192193052672,
+      "x_bits": 4576918229304087675,
+      "exponent": 0,
+      "reference": "1.487629176570467415950246801618349588467e-61",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626604192193052672,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "reference": "2.179272315590139690217012938493980279688e-26",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626604192193052672,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "reference": "2.315807687617599669090031524142414250381e-20",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626604192193052672,
+      "x_bits": 4623755665428740833,
+      "exponent": 0,
+      "reference": "0.01769526871868287819229081747050802228642",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626604192193052672,
+      "x_bits": 4623992104409177785,
+      "exponent": 0,
+      "reference": "0.02187239646951638266134299237816546526629",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626604192193052672,
+      "x_bits": 4626604192193052672,
+      "exponent": 0,
+      "reference": "0.08740296523450276064734117498147575988092",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626604192193052672,
+      "x_bits": 4626885667169763328,
+      "exponent": 0,
+      "reference": "0.08343765214102700799657358431841148174544",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626604192193052672,
+      "x_bits": 4628613923526766756,
+      "exponent": 0,
+      "reference": "0.02784553532790147222170811185264180324607",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626604192193052672,
+      "x_bits": 4628732143016985232,
+      "exponent": 0,
+      "reference": "0.02477933166311115528837297855514412277029",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626604192193052672,
+      "x_bits": 4631107791820423168,
+      "exponent": 0,
+      "reference": "0.00009632705509992673262740667963211333089921",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636288,
+      "x_bits": 118622047889322841,
+      "exponent": 0,
+      "reference": "7.45112920783370773646318709471596476187e-30156",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636288,
+      "x_bits": 4427486594234968593,
+      "exponent": 0,
+      "reference": "3.454675925222760965298590028825636343688e-1357",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636288,
+      "x_bits": 4576918229304087675,
+      "exponent": 0,
+      "reference": "9.777040994614199724818348890599862456631e-358",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636288,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "reference": "2.732471952407711083461099409338691035858e-188",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636288,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "reference": "1.835474302655682789043411596066152251223e-158",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636288,
+      "x_bits": 4634204016564240384,
+      "exponent": 0,
+      "reference": "0.000008854779214156016942671348199842730521235",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636288,
+      "x_bits": 4634344754052595712,
+      "exponent": 0,
+      "reference": "0.00002563197023990649555845378811198360978292",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636288,
+      "x_bits": 4636737291354636288,
+      "exponent": 0,
+      "reference": "0.03992749785778605222080883538240410915569",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636288,
+      "x_bits": 4636807660098813952,
+      "exponent": 0,
+      "reference": "0.03953233929273041976946036827278904656058",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636288,
+      "x_bits": 4638918722424143872,
+      "exponent": 0,
+      "reference": "0.000302437964134936990458584236463005685138",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636288,
+      "x_bits": 4638989091168321536,
+      "exponent": 0,
+      "reference": "0.0001786818442624531632195238548004400707565",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636288,
+      "x_bits": 4641240890982006784,
+      "exponent": 0,
+      "reference": "1.305081878198382071642779374968652105996e-15",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 118622047889322841,
+      "exponent": 0,
+      "reference": "1.733861511818764027981610304207000084449e-302565",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4427486594234968593,
+      "exponent": 0,
+      "reference": "8.583590918093367733583176739488941114005e-14567",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4576918229304087675,
+      "exponent": 0,
+      "reference": "2.832837890687903370227954151891691916297e-4567",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "reference": "1.069851766601697755858210874932228168648e-2868",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "reference": "6.322135623175361062086608980402943213912e-2568",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4648840715353194496,
+      "exponent": 0,
+      "reference": "5.251037066152072446742367923470820330665e-40",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4649016637213638656,
+      "exponent": 0,
+      "reference": "2.466683819080948266319242486862554916663e-35",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4652007308841189376,
+      "exponent": 0,
+      "reference": "0.01261671399406962495099932287338056184443",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4652016104934211584,
+      "exponent": 0,
+      "reference": "0.01260411040886703527262166328819027846983",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4653608197771231232,
+      "exponent": 0,
+      "reference": "3.023564855007433032436952208544514188655e-23",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4653696158701453312,
+      "exponent": 0,
+      "reference": "1.680203660940055440274888594009006882195e-25",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4656510908468559872,
+      "exponent": 0,
+      "reference": "4.756465407623238799571156602629145391147e-136",
+      "category": "numerical",
+      "source": "shape-dispatcher-probe.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4649782053764318070,
+      "exponent": 0,
+      "reference": "0.000000000000000000230390320862529929952856348673154997315190178530188204196181",
+      "category": "numerical",
+      "source": "uniform-tail-quadrature.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4653225489495891525,
+      "exponent": 0,
+      "reference": "0.0000000000000134023356981561777138559485459051107040858257173948347078965",
+      "category": "numerical",
+      "source": "uniform-tail-quadrature.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4666723172467343360,
+      "x_bits": 4664198693769969664,
+      "exponent": 0,
+      "reference": "3.26167146561411632707087708609676791759226888813757812159211e-288",
+      "category": "numerical",
+      "source": "uniform-tail-quadrature.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4666723172467343360,
+      "x_bits": 4665843563165122560,
+      "exponent": 0,
+      "reference": "2.00565277049212979596804265884666951959439489299338202827584e-65",
+      "category": "numerical",
+      "source": "uniform-tail-quadrature.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4666723172467343360,
+      "x_bits": 4666283367816232960,
+      "exponent": 0,
+      "reference": "0.00000000000000000856550445876219266429306967567692235118906693194673164207806",
+      "category": "numerical",
+      "source": "uniform-tail-quadrature.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4666723172467343360,
+      "x_bits": 4667162977118453760,
+      "exponent": 0,
+      "reference": "0.000000000000000243256233327774775231045014557192151306102958794617025475221",
+      "category": "numerical",
+      "source": "uniform-tail-quadrature.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4666723172467343360,
+      "x_bits": 4667602781769564160,
+      "exponent": 0,
+      "reference": "1.89237570247347063433246246079829198629272766602047615680069e-53",
+      "category": "numerical",
+      "source": "uniform-tail-quadrature.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4666723172467343360,
+      "x_bits": 4668482391071784960,
+      "exponent": 0,
+      "reference": "3.43718387591529442602296715251133459307395399910745650237571e-187",
+      "category": "numerical",
+      "source": "uniform-tail-quadrature.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4696510729170190336,
+      "exponent": 0,
+      "reference": "7.44124397704695431360050699410002783731366614004060526510821e-326",
+      "category": "numerical",
+      "source": "uniform-tail-quadrature.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4696519319104782336,
+      "exponent": 0,
+      "reference": "6.19478434175564314264269819019458087060929866000469582993194e-309",
+      "category": "numerical",
+      "source": "uniform-tail-quadrature.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4696527909039374336,
+      "exponent": 0,
+      "reference": "1.75427877222117813955172716069039034722270907968667586416896e-292",
+      "category": "numerical",
+      "source": "uniform-tail-quadrature.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4696562268777742336,
+      "exponent": 0,
+      "reference": "2.44727391112329407551867322597329659504607187451409809480251e-231",
+      "category": "numerical",
+      "source": "uniform-tail-quadrature.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4696699707731214336,
+      "exponent": 0,
+      "reference": "2.59746460744143884106912258773136258350383954578739887272636e-60",
+      "category": "numerical",
+      "source": "uniform-tail-quadrature.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4696768427207950336,
+      "exponent": 0,
+      "reference": "0.00000000000000000427230749601789347740220701427849925878577076538507059855365",
+      "category": "numerical",
+      "source": "uniform-tail-quadrature.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4696905866161422336,
+      "exponent": 0,
+      "reference": "0.00000000000000000596256281757118135631526230050583086342076075886466060227847",
+      "category": "numerical",
+      "source": "uniform-tail-quadrature.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4696974585638158336,
+      "exponent": 0,
+      "reference": "3.923703094775099522953481178997036343809182939253947754391e-59",
+      "category": "numerical",
+      "source": "uniform-tail-quadrature.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4697112024591630336,
+      "exponent": 0,
+      "reference": "7.37772712378989621277979596476301817161510733794340385537727e-222",
+      "category": "numerical",
+      "source": "uniform-tail-quadrature.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4697146384329998336,
+      "exponent": 0,
+      "reference": "5.58815298424017078082727631094251914646540822935479399761496e-279",
+      "category": "numerical",
+      "source": "uniform-tail-quadrature.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4697154974264590336,
+      "exponent": 0,
+      "reference": "2.84155102104932660040415781798682740622467689488825960290732e-294",
+      "category": "numerical",
+      "source": "uniform-tail-quadrature.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4697163564199182336,
+      "exponent": 0,
+      "reference": "5.7014637902211018596536422537884954479662698696908823508747e-310",
+      "category": "numerical",
+      "source": "uniform-tail-quadrature.json"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4560610276995895295,
+      "x_bits": 4549440659239416587,
+      "exponent": 0,
+      "reference": "8.2154960569292174879833402126591238114818604913248",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4554485474036994799,
+      "x_bits": 4596135121819645218,
+      "exponent": 0,
+      "reference": "1.2502352263534362335725911035000726345784681559313",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4642064575487106207,
+      "x_bits": 4580290476808245009,
+      "exponent": 0,
+      "reference": "6.9922520210841376972726250618195286697213457794708e-830",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4625377415935099626,
+      "x_bits": 4580188309765356486,
+      "exponent": 0,
+      "reference": "5.2164905958426977692267123693870569164909957101926e-44",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4573622618445875530,
+      "x_bits": 4623183605457200993,
+      "exponent": 0,
+      "reference": "0.00000031274008728286632480788170066601617245805455991508",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4598304434250721739,
+      "x_bits": 4644232534282883206,
+      "exponent": 0,
+      "reference": "1.5818227168808532419012033690313540644649168197505e-138",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4606224533864327423,
+      "x_bits": 4495729805302625218,
+      "exponent": 0,
+      "reference": "0.0000041861642229272063773388405236175163161844892158148",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4496693229715234061,
+      "x_bits": 4518918763248558236,
+      "exponent": 0,
+      "reference": "12.948156478937054665665497293337782708078039568393",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4490574195907448216,
+      "x_bits": 4500089699140766509,
+      "exponent": 0,
+      "reference": "15.858937819184745484507349963498738114413436638452",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4629484995660526235,
+      "x_bits": 4623735809254340170,
+      "exponent": 0,
+      "reference": "0.00001967875175503411409335470918894208025936894820127",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4525231561460329621,
+      "x_bits": 4549622662394433465,
+      "exponent": 0,
+      "reference": "8.2354513414418298210084252038646451349383715439284",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4544803917683041748,
+      "x_bits": 4541355461107469706,
+      "exponent": 0,
+      "reference": "9.4892260025354694820626862796152427985731905856051",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4563883503119785228,
+      "x_bits": 4603005280515777455,
+      "exponent": 0,
+      "reference": "0.51888012808276424664085264175442209693750604952696",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4513951996347199719,
+      "x_bits": 4494388631919526821,
+      "exponent": 0,
+      "reference": "16.774176467245085908690279342699111251748862453408",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4535032759040838481,
+      "x_bits": 4522811540586446901,
+      "exponent": 0,
+      "reference": "12.35451751533725286095519824022392161026575054586",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4614288929179164902,
+      "x_bits": 4627002126474491875,
+      "exponent": 0,
+      "reference": "0.00000015522690247367472440359127016716953212300767419205",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4589223118269282875,
+      "x_bits": 4561866233451994574,
+      "exponent": 0,
+      "reference": "4.3164281850728802153583257110213274001863093492549",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4563290690943444183,
+      "x_bits": 4558346089204648631,
+      "exponent": 0,
+      "reference": "6.8467428245083428679438660966045725755110184792098",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4564724953324365579,
+      "x_bits": 4602738006963667133,
+      "exponent": 0,
+      "reference": "0.55278173077678040986559110005687359015234599649581",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4503932476017729141,
+      "x_bits": 4581100592449106003,
+      "exponent": 0,
+      "reference": "3.4109412780233148265628209650344203372218247341996",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4594411197329066890,
+      "x_bits": 4572692645416562422,
+      "exponent": 0,
+      "reference": "2.4376384790376160402259881156979567927936109144324",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636714184959558946,
+      "x_bits": 4592293019180217724,
+      "exponent": 0,
+      "reference": "1.8804153005458568351462788700147283595051927388633e-254",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4633454535897138073,
+      "x_bits": 4602884801656967205,
+      "exponent": 0,
+      "reference": "2.3083208666941832209326028552939829761175477480009e-96",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4651419454906016624,
+      "x_bits": 4522074854253731563,
+      "exponent": 0,
+      "reference": "2.3387253843180980378852545990489781905619730951212e-7665",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4630245658288625365,
+      "x_bits": 4584680441643587380,
+      "exponent": 0,
+      "reference": "3.3157383260675261345052595920628029883623367706958e-95",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4511180104981553841,
+      "x_bits": 4616309896398618765,
+      "exponent": 0,
+      "reference": "0.0033214011797487646106653083754543916304677538491519",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4621768603829540812,
+      "x_bits": 4566279740228954172,
+      "exponent": 0,
+      "reference": "2.7314381261171371908675950230459920719624351091548e-33",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4500484892745899501,
+      "x_bits": 4572014598929873988,
+      "exponent": 0,
+      "reference": "4.7976672409539784253028384933653062424539851072602",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4496809906522635632,
+      "x_bits": 4620887445175572514,
+      "exponent": 0,
+      "reference": "0.000025671944238104948709345095356251436979545857775649",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4532441814946288314,
+      "x_bits": 4501827963297834122,
+      "exponent": 0,
+      "reference": "15.581605287782408759325012631142143645956264436329",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4555499143154299489,
+      "x_bits": 4601027309902056141,
+      "exponent": 0,
+      "reference": "0.68883011352677608676654204014883321279783432463504",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4576480622937286130,
+      "x_bits": 4626180358287736698,
+      "exponent": 0,
+      "reference": "0.00000000017848543872431448146893268464203968342532122291726",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4613870134834790801,
+      "x_bits": 4586132967677787994,
+      "exponent": 0,
+      "reference": "0.000058253957636186881384514707310371913604015664054938",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4623803570027087446,
+      "x_bits": 4604777283875428289,
+      "exponent": 0,
+      "reference": "0.00000000000090734836193241434854091283882836936226354781279112",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4531457028215201619,
+      "x_bits": 4531496175674357584,
+      "exponent": 0,
+      "reference": "11.027668378898692607940020954088169504484855324482",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4554126852244467715,
+      "x_bits": 4588826440883824654,
+      "exponent": 0,
+      "reference": "2.2921612636030641603458403671957511565500847693769",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611605643688479045,
+      "x_bits": 4539218893847253758,
+      "exponent": 0,
+      "reference": "0.0000000059030016600929801852645926142208378784224656168029",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4505874853258539847,
+      "x_bits": 4634639264111119863,
+      "exponent": 0,
+      "reference": "4.6412177205837256157925537084661859728888407157414e-33",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4584615609309904615,
+      "x_bits": 4563229620601038064,
+      "exponent": 0,
+      "reference": "5.1105035307876398803786757515396091311651872254018",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4508212902977911640,
+      "x_bits": 4580060618834554312,
+      "exponent": 0,
+      "reference": "3.6082433506851210509947751959764392020261051403843",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4564655004394460590,
+      "x_bits": 4552509416420414590,
+      "exponent": 0,
+      "reference": "7.7234441466146391506052397389029723053011715113801",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4488065790979581376,
+      "x_bits": 4565846111245503235,
+      "exponent": 0,
+      "reference": "5.7563756931349848020502736504081736506803864838533",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611188638421785976,
+      "x_bits": 4512295471939905109,
+      "exponent": 0,
+      "reference": "0.00000000000907151583508853813935174715249545675877833327297",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4557855005456337174,
+      "x_bits": 4526183974607157287,
+      "exponent": 0,
+      "reference": "11.813645986489331619691242036156069912874547051966",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4628196708149763379,
+      "x_bits": 4625609372955800511,
+      "exponent": 0,
+      "reference": "0.011874604114261596550674721165977699196479695907265",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4635423829271550094,
+      "x_bits": 4647758175059150161,
+      "exponent": 0,
+      "reference": "2.149118142749024434982991808330902130694601280317e-126",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4575182901850919104,
+      "x_bits": 4582231401129744194,
+      "exponent": 0,
+      "reference": "3.1613226823827037709671605864741488705520167546722",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4562639602408363268,
+      "x_bits": 4490517564118168640,
+      "exponent": 0,
+      "reference": "17.032158025624909037572687754347476026816918918121",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4579293232219348299,
+      "x_bits": 4539515701972668777,
+      "exponent": 0,
+      "reference": "8.576631000631640025864296052478063279033353136812",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4508822096354257671,
+      "x_bits": 4598980936642748848,
+      "exponent": 0,
+      "reference": "0.91885025347090087963064686947312006664864638921303",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4495707048772881860,
+      "x_bits": 4508589962446001762,
+      "exponent": 0,
+      "reference": "14.569388678328668842588932225538871698196639956979",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4490652065578586274,
+      "x_bits": 4532585700246777759,
+      "exponent": 0,
+      "reference": "10.844293915291819231660193988501572304715714207046",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4496412066052805927,
+      "x_bits": 4487618521823236011,
+      "exponent": 0,
+      "reference": "17.76516016480204703489541071131554625866482517858",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4648161241283939495,
+      "x_bits": 4633841567164721231,
+      "exponent": 0,
+      "reference": "9.8025674962530382487894054508525858175897684643571e-326",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4587306890383637646,
+      "x_bits": 4508664345440273705,
+      "exponent": 0,
+      "reference": "7.0966690051327545660511632603290733602133170718242",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4554866071866396240,
+      "x_bits": 4612016556613913763,
+      "exponent": 0,
+      "reference": "0.040021605444046869691740553553026689221346180476802",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4505943460061602167,
+      "x_bits": 4511940267038249496,
+      "exponent": 0,
+      "reference": "14.055724320611750314592471604185471745429923280291",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4644552309086710385,
+      "x_bits": 4586793803733123328,
+      "exponent": 0,
+      "reference": "4.5300128088728877960539596640113736213295704654961e-1139",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4558536875135844818,
+      "x_bits": 4630182852515123167,
+      "exponent": 0,
+      "reference": "1.1346173372089271182572460895536799841584752962367e-17",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4646084846151653278,
+      "x_bits": 4635563190017005292,
+      "exponent": 0,
+      "reference": "1.6308162437429141904952826784512637020428482698501e-150",
+      "category": "numerical",
+      "source": "fresh-seeded-mpmath-holdout"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342016,
+      "x_bits": 4624931028395623852,
+      "exponent": 0,
+      "reference": "0.056215511143377657722812305346019801",
+      "category": "numerical",
+      "source": "previous-central-uniform"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342016,
+      "x_bits": 4627581511580122410,
+      "exponent": 0,
+      "reference": "0.052270918364799757127935319990636892",
+      "category": "numerical",
+      "source": "previous-central-uniform"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4632233691727265792,
+      "x_bits": 4631238527403433640,
+      "exponent": 0,
+      "reference": "0.035056386019170817117231363915997255",
+      "category": "numerical",
+      "source": "previous-central-uniform"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4632233691727265792,
+      "x_bits": 4632233691727265792,
+      "exponent": 0,
+      "reference": "0.056513127523360551415376387009066137",
+      "category": "numerical",
+      "source": "previous-central-uniform"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4632233691727265792,
+      "x_bits": 4633228856051097944,
+      "exponent": 0,
+      "reference": "0.033456699620023009605021752751528004",
+      "category": "numerical",
+      "source": "previous-central-uniform"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4641240890982006784,
+      "x_bits": 4639250562334342480,
+      "exponent": 0,
+      "reference": "0.0000016257668574266263448314627225763375",
+      "category": "numerical",
+      "source": "previous-central-uniform"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4641240890982006784,
+      "x_bits": 4640743308820090708,
+      "exponent": 0,
+      "reference": "0.017315858580284860496396303865854729",
+      "category": "numerical",
+      "source": "previous-central-uniform"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4641240890982006784,
+      "x_bits": 4641240890982006784,
+      "exponent": 0,
+      "reference": "0.028221237507747612394801734702323169",
+      "category": "numerical",
+      "source": "previous-central-uniform"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4641240890982006784,
+      "x_bits": 4641738473143922860,
+      "exponent": 0,
+      "reference": "0.016913394666659417348632449837048616",
+      "category": "numerical",
+      "source": "previous-central-uniform"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4641240890982006784,
+      "x_bits": 4643221217724326232,
+      "exponent": 0,
+      "reference": "0.00002901636307644306769201105656217958",
+      "category": "numerical",
+      "source": "previous-central-uniform"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4650894681302753723,
+      "exponent": 0,
+      "reference": "0.0000021463584953719862243600798081172247",
+      "category": "numerical",
+      "source": "previous-central-uniform"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4651729151956580463,
+      "exponent": 0,
+      "reference": "0.0076925226970816453725232432653095615",
+      "category": "numerical",
+      "source": "previous-central-uniform"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4652251940399760329,
+      "exponent": 0,
+      "reference": "0.0076118984029424356712181932720314028",
+      "category": "numerical",
+      "source": "previous-central-uniform"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4652669175726673698,
+      "exponent": 0,
+      "reference": "0.0000073825002903012526228212715814764402",
+      "category": "numerical",
+      "source": "previous-central-uniform"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4666723172467343360,
+      "x_bits": 4666503270141788160,
+      "exponent": 0,
+      "reference": "0.000001096152731170669918355186831974125",
+      "category": "numerical",
+      "source": "previous-central-uniform"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4666723172467343360,
+      "x_bits": 4666668196885954560,
+      "exponent": 0,
+      "reference": "0.002423753368326244497051267558064823",
+      "category": "numerical",
+      "source": "previous-central-uniform"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4666723172467343360,
+      "x_bits": 4666723172467343360,
+      "exponent": 0,
+      "reference": "0.0039894560494536686266488618921547501247144386552545449254134778984145630527029951",
+      "category": "numerical",
+      "source": "independent-diagonal-quadrature",
+      "sources": [
+        "independent-diagonal-quadrature",
+        "previous-central-uniform"
+      ]
+    },
+    {
+      "kind": 0,
+      "a_bits": 4666723172467343360,
+      "x_bits": 4666778148048732160,
+      "exponent": 0,
+      "reference": "0.0024156880031763666719982540299957716",
+      "category": "numerical",
+      "source": "previous-central-uniform"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4666723172467343360,
+      "x_bits": 4666943074792898560,
+      "exponent": 0,
+      "reference": "0.0000016142448367768301202397255589024767",
+      "category": "numerical",
+      "source": "previous-central-uniform"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4696802786946318336,
+      "exponent": 0,
+      "reference": "0.00000013125971406151062689363616205816264",
+      "category": "numerical",
+      "source": "previous-central-uniform"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4696828556750094336,
+      "exponent": 0,
+      "reference": "0.00024201106639974455102131240178500866",
+      "category": "numerical",
+      "source": "previous-central-uniform"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4696837146684686336,
+      "exponent": 0,
+      "reference": "0.00039894231364662520477886875690948918371510304880356096696482078632793517754890049",
+      "category": "numerical",
+      "source": "independent-diagonal-quadrature",
+      "sources": [
+        "independent-diagonal-quadrature",
+        "previous-central-uniform"
+      ]
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4696845736619278336,
+      "exponent": 0,
+      "reference": "0.00024193040952413304829377062430415993",
+      "category": "numerical",
+      "source": "previous-central-uniform"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4696871506423054336,
+      "exponent": 0,
+      "reference": "0.00000013643454433068542827962976979034694",
+      "category": "numerical",
+      "source": "previous-central-uniform"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4613937818241073152,
+      "x_bits": 4616189618054758400,
+      "exponent": 0,
+      "reference": "0.1782473578733288219736318575734276597720595378689958669711496131756123",
+      "category": "numerical",
+      "source": "previous-integer-fraction"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4617315517961601024,
+      "x_bits": 4618441417868443648,
+      "exponent": 0,
+      "reference": "0.1513957581593301980752834439814420924605506509747064681279790635378848",
+      "category": "numerical",
+      "source": "previous-integer-fraction"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4621819117588971520,
+      "x_bits": 4622382067542392832,
+      "exponent": 0,
+      "reference": "0.1156939573915305293114613540716266464538163444391645958788721537320846",
+      "category": "numerical",
+      "source": "previous-integer-fraction"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387904,
+      "x_bits": 4626322717216342016,
+      "exponent": 0,
+      "reference": "0.0000001135275691129069299223743595457029288994279701202426833048272797455823",
+      "category": "numerical",
+      "source": "previous-integer-fraction"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4614162998222441677,
+      "x_bits": 4616302208045442662,
+      "exponent": 0,
+      "reference": "0.1765819697822927610721885965022012819340924084629560711437994369501768",
+      "category": "numerical",
+      "source": "previous-integer-fraction"
+    },
+    {
+      "kind": 0,
+      "a_bits": 1,
+      "x_bits": 1,
+      "exponent": 0,
+      "reference": "743.8628562564797294535007863559992316820449849669742193268045629610199",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 1,
+      "x_bits": 118622047889322841,
+      "exponent": 0,
+      "reference": "690.1983122333121723197318324800181004775711822477014204637414345552023",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 1,
+      "x_bits": 4427486594234968593,
+      "exponent": 0,
+      "reference": "27.05380545102801536772273748685423954287650804393919437861294163080235",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 1,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "reference": "0.5597735947761608117467959393150852352268468903163535152482932191073399",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 1,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "reference": "0.2193839343955202736771637754601216490310472934069082075779786130735687",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 1,
+      "x_bits": 4621819117588971520,
+      "exponent": 0,
+      "reference": "0.000004156968929685324277402859810278180384346290082419533132627595697127862",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 1,
+      "x_bits": 4649368480934526976,
+      "exponent": 0,
+      "reference": "1.406518766234032922774410685110643005116518633449860428820901530581281e-307",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4503599627370496,
+      "x_bits": 1,
+      "exponent": 0,
+      "reference": "743.8628562564797294535007863559992316820449849669742193268045629610199",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4503599627370496,
+      "x_bits": 118622047889322841,
+      "exponent": 0,
+      "reference": "690.1983122333121723197318324800181004775711822477014204637414345552023",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4503599627370496,
+      "x_bits": 4427486594234968593,
+      "exponent": 0,
+      "reference": "27.05380545102801536772273748685423954287650804393919437861294163080235",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4503599627370496,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "reference": "0.5597735947761608117467959393150852352268468903163535152482932191073399",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4503599627370496,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "reference": "0.2193839343955202736771637754601216490310472934069082075779786130735687",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4503599627370496,
+      "x_bits": 4621819117588971520,
+      "exponent": 0,
+      "reference": "0.000004156968929685324277402859810278180384346290082419533132627595697127862",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4503599627370496,
+      "x_bits": 4649368480934526976,
+      "exponent": 0,
+      "reference": "1.406518766234032922774410685110643005116518633449860428820901530581281e-307",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 118622047889322841,
+      "x_bits": 1,
+      "exponent": 0,
+      "reference": "743.8628562564797294535007863559992316820449849669742193268045629610199",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 118622047889322841,
+      "x_bits": 118622047889322841,
+      "exponent": 0,
+      "reference": "690.1983122333121723197318324800181004775711822477014204637414345552023",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 118622047889322841,
+      "x_bits": 4427486594234968593,
+      "exponent": 0,
+      "reference": "27.05380545102801536772273748685423954287650804393919437861294163080235",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 118622047889322841,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "reference": "0.5597735947761608117467959393150852352268468903163535152482932191073399",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 118622047889322841,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "reference": "0.2193839343955202736771637754601216490310472934069082075779786130735687",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 118622047889322841,
+      "x_bits": 4621819117588971520,
+      "exponent": 0,
+      "reference": "0.000004156968929685324277402859810278180384346290082419533132627595697127862",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 118622047889322841,
+      "x_bits": 4649368480934526976,
+      "exponent": 0,
+      "reference": "1.406518766234032922774410685110643005116518633449860428820901530581281e-307",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 3110860544497550640,
+      "x_bits": 1,
+      "exponent": 0,
+      "reference": "743.8628562564797294535007863559992316820449849669742193268045629610199",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 3110860544497550640,
+      "x_bits": 118622047889322841,
+      "exponent": 0,
+      "reference": "690.1983122333121723197318324800181004775711822477014204637414345552023",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 3110860544497550640,
+      "x_bits": 4427486594234968593,
+      "exponent": 0,
+      "reference": "27.05380545102801536772273748685423954287650804393919437861294163080235",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 3110860544497550640,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "reference": "0.5597735947761608117467959393150852352268468903163535152482932191073399",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 3110860544497550640,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "reference": "0.2193839343955202736771637754601216490310472934069082075779786130735687",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 3110860544497550640,
+      "x_bits": 4621819117588971520,
+      "exponent": 0,
+      "reference": "0.000004156968929685324277402859810278180384346290082419533132627595697127862",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 3110860544497550640,
+      "x_bits": 4649368480934526976,
+      "exponent": 0,
+      "reference": "1.406518766234032922774410685110643005116518633449860428820901530581281e-307",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4427486594234968593,
+      "x_bits": 1,
+      "exponent": 0,
+      "reference": "743.862855703149425675319126860160997626346987876167101323629133075242",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4427486594234968593,
+      "x_bits": 4621819117588971520,
+      "exponent": 0,
+      "reference": "0.000004156968929709972308477733575414520311407703852315264714829710592243171",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4427486594234968593,
+      "x_bits": 4649368480934526976,
+      "exponent": 0,
+      "reference": "1.406518766254089094165187551512350267207422082290373426147777479355074e-307",
+      "category": "numerical",
+      "source": "fresh-small-shape"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017407,
+      "x_bits": 4611686018427387903,
+      "exponent": 0,
+      "reference": "0.2208254262118595275338065154505758813112204669398234766487014388018416",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017407,
+      "x_bits": 4611686018427387904,
+      "exponent": 0,
+      "reference": "0.22082542621185948935880657564027054799053895400125145458968308340396",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017407,
+      "x_bits": 4611686018427387905,
+      "exponent": 0,
+      "reference": "0.2208254262118594130088066960196753021905734001655271936040755163735869",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017407,
+      "x_bits": 4604029899060858059,
+      "exponent": 0,
+      "reference": "0.4879615740447657655632579447811162162291298344804723283107670174370043",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017407,
+      "x_bits": 4604029899060858060,
+      "exponent": 0,
+      "reference": "0.4879615740447657570762026534208062932720208963718992070206950684692557",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017407,
+      "x_bits": 4604029899060858061,
+      "exponent": 0,
+      "reference": "0.4879615740447657485891473620604874130119463754772792933165106408454522",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017407,
+      "x_bits": 4608758678669597080,
+      "exponent": 0,
+      "reference": "0.3528535765744841329875891966983383869250609953090968771981211691395355",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017407,
+      "x_bits": 4608758678669597081,
+      "exponent": 0,
+      "reference": "0.3528535765744840824864898530578570647799724390818184042782002740642804",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017407,
+      "x_bits": 4608758678669597082,
+      "exponent": 0,
+      "reference": "0.3528535765744840319853905094173774883303006041784426108434626670502346",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 4611686018427387903,
+      "exponent": 0,
+      "reference": "0.2208254262118595440274865435482542628268778037376806254842704089540691",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 4611686018427387905,
+      "exponent": 0,
+      "reference": "0.2208254262118594295024867241173539951036233256342878578331493616440324",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 4604029899060858060,
+      "exponent": 0,
+      "reference": "0.4879615740447657277297182389265490960562985101375534768309985376375262",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 4604029899060858061,
+      "exponent": 0,
+      "reference": "0.4879615740447657192426629475662406624949469204416242037042650346943789",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 4604029899060858062,
+      "exponent": 0,
+      "reference": "0.4879615740447657107556076562059232716306297479619508524739469523672054",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 4608758678669597081,
+      "exponent": 0,
+      "reference": "0.3528535765744840921461842426674163095439502630442958069533886961608219",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 4608758678669597082,
+      "exponent": 0,
+      "reference": "0.3528535765744840416450848990269423265688274693370904848647448761122372",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 4608758678669597083,
+      "exponent": 0,
+      "reference": "0.3528535765744839911439855553864700892891213969539733657586189704465552",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017409,
+      "x_bits": 4611686018427387903,
+      "exponent": 0,
+      "reference": "0.2208254262118595770148465997436065822954827623268108700700181726340685",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017409,
+      "x_bits": 4611686018427387904,
+      "exponent": 0,
+      "reference": "0.2208254262118595388398466599333015603721938380640513052262027579063221",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017409,
+      "x_bits": 4611686018427387905,
+      "exponent": 0,
+      "reference": "0.2208254262118594624898467803127069373670134615712747486790906673884335",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017409,
+      "x_bits": 4604029899060858061,
+      "exponent": 0,
+      "reference": "0.4879615740447656605496941185777360548887093227184048094387239601508488",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017409,
+      "x_bits": 4604029899060858062,
+      "exponent": 0,
+      "reference": "0.4879615740447656520626388272174395574218380126295388499878061445890023",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017409,
+      "x_bits": 4604029899060858063,
+      "exponent": 0,
+      "reference": "0.4879615740447656435755835358571341026520011197577498300965659865122311",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017409,
+      "x_bits": 4608758678669597082,
+      "exponent": 0,
+      "reference": "0.3528535765744840609644736782460602123983013015511523468214482326284547",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017409,
+      "x_bits": 4608758678669597083,
+      "exponent": 0,
+      "reference": "0.3528535765744840104633743346055991620676933115568641724887093227494436",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017409,
+      "x_bits": 4608758678669597084,
+      "exponent": 0,
+      "reference": "0.3528535765744839599622749909651398574325020428837633560605858261736448",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387903,
+      "x_bits": 4613937818241073151,
+      "exponent": 0,
+      "reference": "0.1974254195792024966012326590085660809135047043654277126000098785654843",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387903,
+      "x_bits": 4613937818241073152,
+      "exponent": 0,
+      "reference": "0.1974254195792024517737675467098841111937103645576539264162653156724589",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387903,
+      "x_bits": 4613937818241073153,
+      "exponent": 0,
+      "reference": "0.1974254195792024069463024344112055943016683160108503364089381651745221",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387903,
+      "x_bits": 4608533498688228555,
+      "exponent": 0,
+      "reference": "0.3074277410614251768121811469849228432710165291242176482974524695925345",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387903,
+      "x_bits": 4608533498688228556,
+      "exponent": 0,
+      "reference": "0.3074277410614251894321840416911953998693023897736464508612896113562621",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387903,
+      "x_bits": 4608533498688228557,
+      "exponent": 0,
+      "reference": "0.3074277410614252020521869363974538729504193192148267276998225809310485",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387903,
+      "x_bits": 4613262278296967576,
+      "exponent": 0,
+      "reference": "0.2282400442312576137399389876550325454490831206482055842989251050083859",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387903,
+      "x_bits": 4613262278296967577,
+      "exponent": 0,
+      "reference": "0.2282400442312575677704427786126084184011491964678552164835969578091294",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387903,
+      "x_bits": 4613262278296967578,
+      "exponent": 0,
+      "reference": "0.2282400442312575218009465695701838910129308806683732881679733665888193",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387904,
+      "x_bits": 4613937818241073151,
+      "exponent": 0,
+      "reference": "0.197425419579202514211283031705908247300059937526217192029278305800648",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387904,
+      "x_bits": 4613937818241073153,
+      "exponent": 0,
+      "reference": "0.1974254195792024245563528071085533040890185514708876259508204506401287",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387904,
+      "x_bits": 4608533498688228556,
+      "exponent": 0,
+      "reference": "0.3074277410614251573604627880372062968380134101936880193296277329570806",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387904,
+      "x_bits": 4608533498688228557,
+      "exponent": 0,
+      "reference": "0.3074277410614251699804656827434755860404812614884741304838106878092637",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387904,
+      "x_bits": 4608533498688228558,
+      "exponent": 0,
+      "reference": "0.3074277410614251826004685774497307917257801815787518003794580762057042",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387904,
+      "x_bits": 4613262278296967577,
+      "exponent": 0,
+      "reference": "0.2282400442312575825586685398838484838246591295169215501626723737091719",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387904,
+      "x_bits": 4613262278296967578,
+      "exponent": 0,
+      "reference": "0.2282400442312575365891723308414296732139392801688781345593205470929242",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387904,
+      "x_bits": 4613262278296967579,
+      "exponent": 0,
+      "reference": "0.2282400442312574906196761217990104622629350392039884271718525912636102",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387905,
+      "x_bits": 4613937818241073152,
+      "exponent": 0,
+      "reference": "0.1974254195792025046039186648019087580375228262638354955456302438915183",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387905,
+      "x_bits": 4613937818241073153,
+      "exponent": 0,
+      "reference": "0.1974254195792024597764535525032385562466732811660879407604339085228322",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387905,
+      "x_bits": 4613937818241073154,
+      "exponent": 0,
+      "reference": "0.1974254195792024149489884402045718072835760273223286209418783711317472",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387905,
+      "x_bits": 4608533498688228557,
+      "exponent": 0,
+      "reference": "0.3074277410614251058370231754355067180305233981155378928447038029897073",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387905,
+      "x_bits": 4608533498688228558,
+      "exponent": 0,
+      "reference": "0.3074277410614251184570260701417835559585241619055674759801316737169352",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387905,
+      "x_bits": 4608533498688228559,
+      "exponent": 0,
+      "reference": "0.3074277410614251310770289648480463103693559944952317253590004515650427",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387905,
+      "x_bits": 4613262278296967578,
+      "exponent": 0,
+      "reference": "0.2282400442312575661656238533839069892422771470726676530668376719292281",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387905,
+      "x_bits": 4613262278296967579,
+      "exponent": 0,
+      "reference": "0.2282400442312575201961276443414992118462698390068686699224077842460278",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4611686018427387905,
+      "x_bits": 4613262278296967580,
+      "exponent": 0,
+      "reference": "0.2282400442312574742266314352990910341099781393215524506575539864155038",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128895,
+      "x_bits": 4621256167635550207,
+      "exponent": 0,
+      "reference": "0.1267657425356528110637589426312015502984019791587486505141494409808697",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128895,
+      "x_bits": 4621256167635550208,
+      "exponent": 0,
+      "reference": "0.1267657425356527732872057404166372109216372208798512997805985199250078",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128895,
+      "x_bits": 4621256167635550209,
+      "exponent": 0,
+      "reference": "0.1267657425356527355106525382020467222059271124549733013194743484529702",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128895,
+      "x_bits": 4617540697942969547,
+      "exponent": 0,
+      "reference": "0.09190544656449234835951946543007250900547699314137914465790250807000228",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128895,
+      "x_bits": 4617540697942969548,
+      "exponent": 0,
+      "reference": "0.09190544656449238503768040355527689910609905290934635708514293184290905",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128895,
+      "x_bits": 4617540697942969549,
+      "exponent": 0,
+      "reference": "0.09190544656449242171584134168047549478653849945938952746744739288105995",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128895,
+      "x_bits": 4622269477551708568,
+      "exponent": 0,
+      "reference": "0.0819862116527028123267826522641859969039912215276190982512950724174148",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128895,
+      "x_bits": 4622269477551708569,
+      "exponent": 0,
+      "reference": "0.08198621165270276748600122527734104534280655313316860733686695033899354",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128895,
+      "x_bits": 4622269477551708570,
+      "exponent": 0,
+      "reference": "0.08198621165270272264521979829050385279870143559809737300598142634071624",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128896,
+      "x_bits": 4621256167635550207,
+      "exponent": 0,
+      "reference": "0.1267657425356528243161397730622943521399100630495385159175618024468593",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128896,
+      "x_bits": 4621256167635550209,
+      "exponent": 0,
+      "reference": "0.1267657425356527487630333686331765402060009119778781915363874053891062",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128896,
+      "x_bits": 4617540697942969548,
+      "exponent": 0,
+      "reference": "0.09190544656449234939676376830229135197245131706017062570868680194462872",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128896,
+      "x_bits": 4617540697942969549,
+      "exponent": 0,
+      "reference": "0.09190544656449238607492470642748981100174921356474990346893211909591365",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128896,
+      "x_bits": 4617540697942969550,
+      "exponent": 0,
+      "reference": "0.09190544656449242275308564455268247561086449685088717141314912186673671",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128896,
+      "x_bits": 4622269477551708569,
+      "exponent": 0,
+      "reference": "0.08198621165270278947376159837847832488655422391544839079656391150393745",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128896,
+      "x_bits": 4622269477551708570,
+      "exponent": 0,
+      "reference": "0.08198621165270274463298017139164121009210127912916158925919837507521717",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128896,
+      "x_bits": 4622269477551708571,
+      "exponent": 0,
+      "reference": "0.0819862116527026997921987444048118543147278852087470103755611077463528",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128897,
+      "x_bits": 4621256167635550208,
+      "exponent": 0,
+      "reference": "0.1267657425356528130443482317099374528952648009276154177979139487272205",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128897,
+      "x_bits": 4621256167635550209,
+      "exponent": 0,
+      "reference": "0.1267657425356527752677950294954024884174032659441298356784351604471281",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128897,
+      "x_bits": 4621256167635550210,
+      "exponent": 0,
+      "reference": "0.1267657425356527374912418272808413746005963807979487246138814280316988",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128897,
+      "x_bits": 4617540697942969549,
+      "exponent": 0,
+      "reference": "0.09190544656449231479309143592153263415602817523013767540453795342213224",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128897,
+      "x_bits": 4617540697942969550,
+      "exponent": 0,
+      "reference": "0.09190544656449235147125237404672502546286035842035410837497603708951418",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128897,
+      "x_bits": 4617540697942969551,
+      "exponent": 0,
+      "reference": "0.09190544656449238814941331217191162234950992840269699979830670998590767",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128897,
+      "x_bits": 4622269477551708570,
+      "exponent": 0,
+      "reference": "0.08198621165270278860850091759390909224744560173953467934718498597109355",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128897,
+      "x_bits": 4622269477551708571,
+      "exponent": 0,
+      "reference": "0.08198621165270274376771949060707989196937655331356025642426055781675482",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4620693217682128897,
+      "x_bits": 4622269477551708572,
+      "exponent": 0,
+      "reference": "0.08198621165270269892693806362025845070838705574680126481880987941234414",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342015,
+      "x_bits": 4626604192193052670,
+      "exponent": 0,
+      "reference": "0.08532202183081488179949868121487766219309148861860869276428962707874581",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342015,
+      "x_bits": 4626604192193052671,
+      "exponent": 0,
+      "reference": "0.08532202183081486008895680018248650960981008330352077021801587493476549",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342015,
+      "x_bits": 4626604192193052672,
+      "exponent": 0,
+      "reference": "0.08532202183081483837841491915005306775930940932844756738734388936154901",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342015,
+      "x_bits": 4623507967449235454,
+      "exponent": 0,
+      "reference": "0.02191289712813019329701720711146779259712358148809432541868298583025567",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342015,
+      "x_bits": 4623507967449235455,
+      "exponent": 0,
+      "reference": "0.02191289712813021286751201015746141288887505292497831304802613167131396",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342015,
+      "x_bits": 4623507967449235456,
+      "exponent": 0,
+      "reference": "0.02191289712813023243800681320346448465944889992153208150697580854897762",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342015,
+      "x_bits": 4628293042053316606,
+      "exponent": 0,
+      "reference": "0.02831506784768623907283479908955789258430726027385573777734578750217385",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342015,
+      "x_bits": 4628293042053316607,
+      "exponent": 0,
+      "reference": "0.02831506784768621103610574092380218446300397278033035327921511096086444",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342015,
+      "x_bits": 4628293042053316608,
+      "exponent": 0,
+      "reference": "0.0283150678476861829993766827580646491224544753746072325885301037459384",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342016,
+      "x_bits": 4626604192193052671,
+      "exponent": 0,
+      "reference": "0.08532202183081487487684010741891564604066984580678379630648815426926073",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342016,
+      "x_bits": 4626604192193052673,
+      "exponent": 0,
+      "reference": "0.08532202183081483145575634535410194085531616921961691493973838293358228",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342016,
+      "x_bits": 4623507967449235455,
+      "exponent": 0,
+      "reference": "0.02191289712813017917465443885716489165535959607523300482914534445902048",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342016,
+      "x_bits": 4623507967449235456,
+      "exponent": 0,
+      "reference": "0.02191289712813019874514924190314855393115077323117572562513172499159173",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342016,
+      "x_bits": 4623507967449235457,
+      "exponent": 0,
+      "reference": "0.02191289712813021831564404494914166768576432594617768000806502489526624",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342016,
+      "x_bits": 4628293042053316607,
+      "exponent": 0,
+      "reference": "0.02831506784768624133061378931973131478566693287506563630302222999940064",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342016,
+      "x_bits": 4628293042053316608,
+      "exponent": 0,
+      "reference": "0.02831506784768621329388473115397707462122451081642891247059711726269196",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342016,
+      "x_bits": 4628293042053316609,
+      "exponent": 0,
+      "reference": "0.02831506784768618525715567298824100723753587884048894954868521192763813",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342017,
+      "x_bits": 4626604192193052672,
+      "exponent": 0,
+      "reference": "0.08532202183081486795418153362295531145667873980283656283211971321832964",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342017,
+      "x_bits": 4626604192193052673,
+      "exponent": 0,
+      "reference": "0.08532202183081484624363965259057504812182573717941005281498878841072414",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342017,
+      "x_bits": 4626604192193052674,
+      "exponent": 0,
+      "reference": "0.08532202183081482453309777155815249551975346591411334578999276190765847",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342017,
+      "x_bits": 4623507967449235457,
+      "exponent": 0,
+      "reference": "0.02191289712813018462278647364884427750861371883994740160352458350764039",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342017,
+      "x_bits": 4623507967449235458,
+      "exponent": 0,
+      "reference": "0.02191289712813020419328127669482743324726697727691213501681485226877209",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342017,
+      "x_bits": 4623507967449235459,
+      "exponent": 0,
+      "reference": "0.02191289712813022376377607974082004046474261126862691221663518501226729",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342017,
+      "x_bits": 4628293042053316609,
+      "exponent": 0,
+      "reference": "0.02831506784768621555166372138415118109604316363696822014057889570825497",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342017,
+      "x_bits": 4628293042053316610,
+      "exponent": 0,
+      "reference": "0.02831506784768618751493466321841658166921539709119890998240764490032043",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4626322717216342017,
+      "x_bits": 4628293042053316611,
+      "exponent": 0,
+      "reference": "0.02831506784768615947820560505270015502314142062654375835146145785650772",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636287,
+      "x_bits": 4636807660098813950,
+      "exponent": 0,
+      "reference": "0.03953233929273043087551488125410484826659367648923373411709403978505538",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636287,
+      "x_bits": 4636807660098813951,
+      "exponent": 0,
+      "reference": "0.03953233929273042252751013716568863312030195139346242454712801145874111",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636287,
+      "x_bits": 4636807660098813952,
+      "exponent": 0,
+      "reference": "0.03953233929273041417950539307719624560727187705709145654650886917040053",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636287,
+      "x_bits": 4634274385308418047,
+      "exponent": 0,
+      "reference": "0.00001524405273751207274320170583614918520051600634596994330453396688026384",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636287,
+      "x_bits": 4634274385308418048,
+      "exponent": 0,
+      "reference": "0.00001524405273751218784371510639268404538212069990854298370777420124897498",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636287,
+      "x_bits": 4634274385308418049,
+      "exponent": 0,
+      "reference": "0.00001524405273751230294422850695001538798672537748924666829540543238811987",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636287,
+      "x_bits": 4638953906796232703,
+      "exponent": 0,
+      "reference": "0.0002331012557993586961308222273257157548435143114132643844140183972944705",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636287,
+      "x_bits": 4638953906796232704,
+      "exponent": 0,
+      "reference": "0.0002331012557993569527383323822003962850005789175809990385772756743785659",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636287,
+      "x_bits": 4638953906796232705,
+      "exponent": 0,
+      "reference": "0.0002331012557993552093458425370870872409713698128535740415276903951559407",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636288,
+      "x_bits": 4636807660098813951,
+      "exponent": 0,
+      "reference": "0.03953233929273042811746511236120350406258292260683681172470214476059213",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636288,
+      "x_bits": 4636807660098813953,
+      "exponent": 0,
+      "reference": "0.03953233929273041142145562418429841669183085166264763186490965568707526",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636288,
+      "x_bits": 4634274385308418047,
+      "exponent": 0,
+      "reference": "0.00001524405273751197934284489673914749711454233050169155831620726307718775",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636288,
+      "x_bits": 4634274385308418048,
+      "exponent": 0,
+      "reference": "0.00001524405273751209444335829729502453695958797964779932206914062828949738",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636288,
+      "x_bits": 4634274385308418049,
+      "exponent": 0,
+      "reference": "0.00001524405273751220954387169785169805922763360863742685717621224904702451",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636288,
+      "x_bits": 4638953906796232703,
+      "exponent": 0,
+      "reference": "0.0002331012557993596910485050242805853850830382829258713182735374101482556",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636288,
+      "x_bits": 4638953906796232704,
+      "exponent": 0,
+      "reference": "0.0002331012557993579476560151791485227839479708811553522826239119586727732",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636288,
+      "x_bits": 4638953906796232705,
+      "exponent": 0,
+      "reference": "0.0002331012557993562042635253340284706086266298091648307701172450508708912",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636289,
+      "x_bits": 4636807660098813952,
+      "exponent": 0,
+      "reference": "0.03953233929273042535941534346830273707463635555176219601176168127795449",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636289,
+      "x_bits": 4636807660098813953,
+      "exponent": 0,
+      "reference": "0.03953233929273041701141059937989003721691435892769979699850891099786177",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636289,
+      "x_bits": 4636807660098813954,
+      "exponent": 0,
+      "reference": "0.03953233929273040866340585529140116499245401309429256924186331462972365",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636289,
+      "x_bits": 4634274385308418048,
+      "exponent": 0,
+      "reference": "0.00001524405273751200104300148819790649380191240601241930708391255038935316",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636289,
+      "x_bits": 4634274385308418049,
+      "exponent": 0,
+      "reference": "0.00001524405273751211614351488875392219573339898991845842915837291753277134",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636289,
+      "x_bits": 4634274385308418050,
+      "exponent": 0,
+      "reference": "0.00001524405273751223124402828931073438008788555444288648442953404220400197",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636289,
+      "x_bits": 4638953906796232704,
+      "exponent": 0,
+      "reference": "0.000233101255799358942573697976100424523327310607195065736499432871150812",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636289,
+      "x_bits": 4638953906796232705,
+      "exponent": 0,
+      "reference": "0.0002331012557993571991812081309736292167138375456640800831755622249829347",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4636737291354636289,
+      "x_bits": 4638953906796232706,
+      "exponent": 0,
+      "reference": "0.0002331012557993554557887182858588443359140907805804294355697227833162739",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189375,
+      "x_bits": 4652016104934211582,
+      "exponent": 0,
+      "reference": "0.01260411040886703813512462021452172682918231234018741832173776654138264",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189375,
+      "x_bits": 4652016104934211583,
+      "exponent": 0,
+      "reference": "0.012604110408867035987770437953330669736961311982843590165785301825382",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189375,
+      "x_bits": 4652016104934211584,
+      "exponent": 0,
+      "reference": "0.01260411040886703384041625569197746725274176565831504109108393957868128",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189375,
+      "x_bits": 4648928676283416575,
+      "exponent": 0,
+      "reference": "1.281036630298835736117012295494024771627506786111703414702883267393014e-37",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189375,
+      "x_bits": 4648928676283416576,
+      "exponent": 0,
+      "reference": "1.281036630298914052033129216026257913820248308274963813975489955145218e-37",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189375,
+      "x_bits": 4648928676283416577,
+      "exponent": 0,
+      "reference": "1.281036630298992367949246141307145563308236785146212449796979635871187e-37",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189375,
+      "x_bits": 4653652178236342271,
+      "exponent": 0,
+      "reference": "2.316596887994177308073835395952779846653299247562259066266323943447204e-24",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189375,
+      "x_bits": 4653652178236342272,
+      "exponent": 0,
+      "reference": "2.316596887994040542797068901638186649246920341285415354964590450039775e-24",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189375,
+      "x_bits": 4653652178236342273,
+      "exponent": 0,
+      "reference": "2.316596887993903777520302415332139770564285460539307735447571572185103e-24",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4652016104934211583,
+      "exponent": 0,
+      "reference": "0.01260411040886703741997584554938096982704540799844135194250968735072411",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4652016104934211585,
+      "exponent": 0,
+      "reference": "0.01260411040886703312526748102683744172062539444213248266074140821791856",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4648928676283416575,
+      "exponent": 0,
+      "reference": "1.281036630298772992959213535523819760094214700398963653899995334306448e-37",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4648928676283416576,
+      "exponent": 0,
+      "reference": "1.281036630298851308875330452245737027191499112029253135809087338553874e-37",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4648928676283416577,
+      "exponent": 0,
+      "reference": "1.281036630298929624791447373716308801583801007036530622928704180641913e-37",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4653652178236342271,
+      "exponent": 0,
+      "reference": "2.316596887994256352147978739295341036299470801296597201364208510883832e-24",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4653652178236342272,
+      "exponent": 0,
+      "reference": "2.316596887994119586871212240358572199273298880654620112410161057227867e-24",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189376,
+      "x_bits": 4653652178236342273,
+      "exponent": 0,
+      "reference": "2.316596887993982821594445749430349680971138997939141386859425068562292e-24",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189377,
+      "x_bits": 4652016104934211584,
+      "exponent": 0,
+      "reference": "0.01260411040886703670482707088424033455599848962730976899681675452336163",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189377,
+      "x_bits": 4652016104934211585,
+      "exponent": 0,
+      "reference": "0.01260411040886703455747288862305000893379802236787794269096823722082681",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189377,
+      "x_bits": 4652016104934211586,
+      "exponent": 0,
+      "reference": "0.01260411040886703241011870636169753791959900919635676905913477484142095",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189377,
+      "x_bits": 4648928676283416576,
+      "exponent": 0,
+      "reference": "1.281036630298788565717531691521719469637475201920866860653151890387881e-37",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189377,
+      "x_bits": 4648928676283416577,
+      "exponent": 0,
+      "reference": "1.281036630298866881633648609181975368934274878384037909600197124454924e-37",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189377,
+      "x_bits": 4648928676283416578,
+      "exponent": 0,
+      "reference": "1.281036630298945197549765531590885775526148098937032578453272612725961e-37",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189377,
+      "x_bits": 4653652178236342272,
+      "exponent": 0,
+      "reference": "2.316596887994198630945355581746058037838596694579908648428019943935732e-24",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189377,
+      "x_bits": 4653652178236342273,
+      "exponent": 0,
+      "reference": "2.316596887994061865668589086195659879916757379171733961874611215154072e-24",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4652007308841189377,
+      "x_bits": 4653652178236342274,
+      "exponent": 0,
+      "reference": "2.316596887993925100391822598653808040718733090268067243443447603174335e-24",
+      "category": "numerical",
+      "source": "fresh-adjacent-branch-boundary"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4152318856435597312,
+      "x_bits": 13127992913784995840,
+      "exponent": -974,
+      "expected_hex": "0x0.0p+0",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4602678819172646912,
+      "x_bits": 13578352876522045440,
+      "exponent": -1074,
+      "expected_hex": "0x0.0p+0",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5053038781909696512,
+      "x_bits": 14028712839259095040,
+      "exponent": -1174,
+      "expected_hex": "0x0.0p+0",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4152318856435597312,
+      "x_bits": 0,
+      "exponent": -974,
+      "expected_hex": "0x0.0p+0",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4602678819172646912,
+      "x_bits": 0,
+      "exponent": -1074,
+      "expected_hex": "0x0.0p+0",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5053038781909696512,
+      "x_bits": 0,
+      "exponent": -1174,
+      "expected_hex": "0x0.0p+0",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4152318856435597312,
+      "x_bits": 3904620876930220032,
+      "exponent": -974,
+      "expected_hex": "0x0.0000000000001p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4602678819172646912,
+      "x_bits": 4354980839667269632,
+      "exponent": -1074,
+      "expected_hex": "0x0.0000000000001p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5053038781909696512,
+      "x_bits": 4805340802404319232,
+      "exponent": -1174,
+      "expected_hex": "0x0.0000000000001p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4159074255876653056,
+      "x_bits": 13132496513412366336,
+      "exponent": -974,
+      "expected_hex": "0x0.0000000000001p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4609434218613702656,
+      "x_bits": 13582856476149415936,
+      "exponent": -1074,
+      "expected_hex": "0x0.0000000000001p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5059794181350752256,
+      "x_bits": 14033216438886465536,
+      "exponent": -1174,
+      "expected_hex": "0x0.0000000000001p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4159074255876653056,
+      "x_bits": 0,
+      "exponent": -974,
+      "expected_hex": "0x0.0000000000002p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4609434218613702656,
+      "x_bits": 0,
+      "exponent": -1074,
+      "expected_hex": "0x0.0000000000002p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5059794181350752256,
+      "x_bits": 0,
+      "exponent": -1174,
+      "expected_hex": "0x0.0000000000002p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4159074255876653056,
+      "x_bits": 3909124476557590528,
+      "exponent": -974,
+      "expected_hex": "0x0.0000000000002p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4609434218613702656,
+      "x_bits": 4359484439294640128,
+      "exponent": -1074,
+      "expected_hex": "0x0.0000000000002p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5059794181350752256,
+      "x_bits": 4809844402031689728,
+      "exponent": -1174,
+      "expected_hex": "0x0.0000000000002p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4162451955597180928,
+      "x_bits": 13137000113039736832,
+      "exponent": -974,
+      "expected_hex": "0x0.0000000000002p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4612811918334230528,
+      "x_bits": 13587360075776786432,
+      "exponent": -1074,
+      "expected_hex": "0x0.0000000000002p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5063171881071280128,
+      "x_bits": 14037720038513836032,
+      "exponent": -1174,
+      "expected_hex": "0x0.0000000000002p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4162451955597180928,
+      "x_bits": 0,
+      "exponent": -974,
+      "expected_hex": "0x0.0000000000002p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4612811918334230528,
+      "x_bits": 0,
+      "exponent": -1074,
+      "expected_hex": "0x0.0000000000002p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5063171881071280128,
+      "x_bits": 0,
+      "exponent": -1174,
+      "expected_hex": "0x0.0000000000002p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4162451955597180928,
+      "x_bits": 3913628076184961024,
+      "exponent": -974,
+      "expected_hex": "0x0.0000000000003p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4612811918334230528,
+      "x_bits": 4363988038922010624,
+      "exponent": -1074,
+      "expected_hex": "0x0.0000000000003p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5063171881071280128,
+      "x_bits": 4814348001659060224,
+      "exponent": -1174,
+      "expected_hex": "0x0.0000000000003p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4164703755410866176,
+      "x_bits": 13137000113039736832,
+      "exponent": -974,
+      "expected_hex": "0x0.0000000000003p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4615063718147915776,
+      "x_bits": 13587360075776786432,
+      "exponent": -1074,
+      "expected_hex": "0x0.0000000000003p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5065423680884965376,
+      "x_bits": 14037720038513836032,
+      "exponent": -1174,
+      "expected_hex": "0x0.0000000000003p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4164703755410866176,
+      "x_bits": 0,
+      "exponent": -974,
+      "expected_hex": "0x0.0000000000004p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4615063718147915776,
+      "x_bits": 0,
+      "exponent": -1074,
+      "expected_hex": "0x0.0000000000004p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5065423680884965376,
+      "x_bits": 0,
+      "exponent": -1174,
+      "expected_hex": "0x0.0000000000004p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4164703755410866176,
+      "x_bits": 3913628076184961024,
+      "exponent": -974,
+      "expected_hex": "0x0.0000000000004p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4615063718147915776,
+      "x_bits": 4363988038922010624,
+      "exponent": -1074,
+      "expected_hex": "0x0.0000000000004p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5065423680884965376,
+      "x_bits": 4814348001659060224,
+      "exponent": -1174,
+      "expected_hex": "0x0.0000000000004p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4192833660895887360,
+      "x_bits": 13164021710803959808,
+      "exponent": -974,
+      "expected_hex": "0x0.00000000000ffp-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4643193623632936960,
+      "x_bits": 13614381673541009408,
+      "exponent": -1074,
+      "expected_hex": "0x0.00000000000ffp-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5093553586369986560,
+      "x_bits": 14064741636278059008,
+      "exponent": -1174,
+      "expected_hex": "0x0.00000000000ffp-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4192833660895887360,
+      "x_bits": 0,
+      "exponent": -974,
+      "expected_hex": "0x0.0000000000100p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4643193623632936960,
+      "x_bits": 0,
+      "exponent": -1074,
+      "expected_hex": "0x0.0000000000100p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5093553586369986560,
+      "x_bits": 0,
+      "exponent": -1174,
+      "expected_hex": "0x0.0000000000100p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4192833660895887360,
+      "x_bits": 3940649673949184000,
+      "exponent": -974,
+      "expected_hex": "0x0.0000000000100p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4643193623632936960,
+      "x_bits": 4391009636686233600,
+      "exponent": -1074,
+      "expected_hex": "0x0.0000000000100p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5093553586369986560,
+      "x_bits": 4841369599423283200,
+      "exponent": -1174,
+      "expected_hex": "0x0.0000000000100p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4192860049174953984,
+      "x_bits": 13168525310431330304,
+      "exponent": -974,
+      "expected_hex": "0x0.0000000000100p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4643220011912003584,
+      "x_bits": 13618885273168379904,
+      "exponent": -1074,
+      "expected_hex": "0x0.0000000000100p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5093579974649053184,
+      "x_bits": 14069245235905429504,
+      "exponent": -1174,
+      "expected_hex": "0x0.0000000000100p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4192860049174953984,
+      "x_bits": 0,
+      "exponent": -974,
+      "expected_hex": "0x0.0000000000100p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4643220011912003584,
+      "x_bits": 0,
+      "exponent": -1074,
+      "expected_hex": "0x0.0000000000100p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5093579974649053184,
+      "x_bits": 0,
+      "exponent": -1174,
+      "expected_hex": "0x0.0000000000100p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4192860049174953984,
+      "x_bits": 3945153273576554496,
+      "exponent": -974,
+      "expected_hex": "0x0.0000000000101p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4643220011912003584,
+      "x_bits": 4395513236313604096,
+      "exponent": -1074,
+      "expected_hex": "0x0.0000000000101p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5093579974649053184,
+      "x_bits": 4845873199050653696,
+      "exponent": -1174,
+      "expected_hex": "0x0.0000000000101p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4291930444886179840,
+      "x_bits": 13267604502233481216,
+      "exponent": -974,
+      "expected_hex": "0x0.0000040000000p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4742290407623229440,
+      "x_bits": 13717964464970530816,
+      "exponent": -1074,
+      "expected_hex": "0x0.0000040000000p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5192650370360279040,
+      "x_bits": 14168324427707580416,
+      "exponent": -1174,
+      "expected_hex": "0x0.0000040000000p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4291930444886179840,
+      "x_bits": 0,
+      "exponent": -974,
+      "expected_hex": "0x0.0000040000000p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4742290407623229440,
+      "x_bits": 0,
+      "exponent": -1074,
+      "expected_hex": "0x0.0000040000000p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5192650370360279040,
+      "x_bits": 0,
+      "exponent": -1174,
+      "expected_hex": "0x0.0000040000000p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4291930444886179840,
+      "x_bits": 4044232465378705408,
+      "exponent": -974,
+      "expected_hex": "0x0.0000040000001p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4742290407623229440,
+      "x_bits": 4494592428115755008,
+      "exponent": -1074,
+      "expected_hex": "0x0.0000040000001p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5192650370360279040,
+      "x_bits": 4944952390852804608,
+      "exponent": -1174,
+      "expected_hex": "0x0.0000040000001p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4391009636686233597,
+      "x_bits": 13362180094408261632,
+      "exponent": -974,
+      "expected_hex": "0x0.ffffffffffffep-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4841369599423283197,
+      "x_bits": 13812540057145311232,
+      "exponent": -1074,
+      "expected_hex": "0x0.ffffffffffffep-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5291729562160332797,
+      "x_bits": 14262900019882360832,
+      "exponent": -1174,
+      "expected_hex": "0x0.ffffffffffffep-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4391009636686233597,
+      "x_bits": 0,
+      "exponent": -974,
+      "expected_hex": "0x0.ffffffffffffep-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4841369599423283197,
+      "x_bits": 0,
+      "exponent": -1074,
+      "expected_hex": "0x0.ffffffffffffep-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5291729562160332797,
+      "x_bits": 0,
+      "exponent": -1174,
+      "expected_hex": "0x0.ffffffffffffep-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4391009636686233597,
+      "x_bits": 4138808057553485824,
+      "exponent": -974,
+      "expected_hex": "0x0.fffffffffffffp-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4841369599423283197,
+      "x_bits": 4589168020290535424,
+      "exponent": -1074,
+      "expected_hex": "0x0.fffffffffffffp-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5291729562160332797,
+      "x_bits": 5039527983027585024,
+      "exponent": -1174,
+      "expected_hex": "0x0.fffffffffffffp-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4391009636686233599,
+      "x_bits": 13362180094408261632,
+      "exponent": -974,
+      "expected_hex": "0x0.fffffffffffffp-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4841369599423283199,
+      "x_bits": 13812540057145311232,
+      "exponent": -1074,
+      "expected_hex": "0x0.fffffffffffffp-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5291729562160332799,
+      "x_bits": 14262900019882360832,
+      "exponent": -1174,
+      "expected_hex": "0x0.fffffffffffffp-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4391009636686233599,
+      "x_bits": 0,
+      "exponent": -974,
+      "expected_hex": "0x1.0000000000000p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4841369599423283199,
+      "x_bits": 0,
+      "exponent": -1074,
+      "expected_hex": "0x1.0000000000000p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5291729562160332799,
+      "x_bits": 0,
+      "exponent": -1174,
+      "expected_hex": "0x1.0000000000000p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4391009636686233599,
+      "x_bits": 4138808057553485824,
+      "exponent": -974,
+      "expected_hex": "0x1.0000000000000p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4841369599423283199,
+      "x_bits": 4589168020290535424,
+      "exponent": -1074,
+      "expected_hex": "0x1.0000000000000p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 1,
+      "a_bits": 5291729562160332799,
+      "x_bits": 5039527983027585024,
+      "exponent": -1174,
+      "expected_hex": "0x1.0000000000000p-1022",
+      "category": "rounding",
+      "source": "previous-exact-rational-midpoints"
+    },
+    {
+      "kind": 0,
+      "a_bits": 18442240474082181120,
+      "x_bits": 18442240474082181120,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 18442240474082181120,
+      "x_bits": 13830554455654793216,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 18442240474082181120,
+      "x_bits": 9223372036854775808,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 18442240474082181120,
+      "x_bits": 0,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 18442240474082181120,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 18442240474082181120,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 18442240474082181120,
+      "x_bits": 9218868437227405312,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 18442240474082181120,
+      "x_bits": 9221120237041090560,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 13830554455654793216,
+      "x_bits": 18442240474082181120,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 13830554455654793216,
+      "x_bits": 13830554455654793216,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 13830554455654793216,
+      "x_bits": 9223372036854775808,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 13830554455654793216,
+      "x_bits": 0,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 13830554455654793216,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 13830554455654793216,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 13830554455654793216,
+      "x_bits": 9218868437227405312,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 13830554455654793216,
+      "x_bits": 9221120237041090560,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9223372036854775808,
+      "x_bits": 18442240474082181120,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9223372036854775808,
+      "x_bits": 13830554455654793216,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9223372036854775808,
+      "x_bits": 9223372036854775808,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9223372036854775808,
+      "x_bits": 0,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9223372036854775808,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9223372036854775808,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9223372036854775808,
+      "x_bits": 9218868437227405312,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9223372036854775808,
+      "x_bits": 9221120237041090560,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 0,
+      "x_bits": 18442240474082181120,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 0,
+      "x_bits": 13830554455654793216,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 0,
+      "x_bits": 9223372036854775808,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 0,
+      "x_bits": 0,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 0,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 0,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 0,
+      "x_bits": 9218868437227405312,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 0,
+      "x_bits": 9221120237041090560,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4602678819172646912,
+      "x_bits": 18442240474082181120,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4602678819172646912,
+      "x_bits": 13830554455654793216,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4602678819172646912,
+      "x_bits": 9223372036854775808,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4602678819172646912,
+      "x_bits": 0,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4602678819172646912,
+      "x_bits": 9218868437227405312,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4602678819172646912,
+      "x_bits": 9221120237041090560,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 18442240474082181120,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 13830554455654793216,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 9223372036854775808,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 0,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 9218868437227405312,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4607182418800017408,
+      "x_bits": 9221120237041090560,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9218868437227405312,
+      "x_bits": 18442240474082181120,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9218868437227405312,
+      "x_bits": 13830554455654793216,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9218868437227405312,
+      "x_bits": 9223372036854775808,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9218868437227405312,
+      "x_bits": 0,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9218868437227405312,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9218868437227405312,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9218868437227405312,
+      "x_bits": 9218868437227405312,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9218868437227405312,
+      "x_bits": 9221120237041090560,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9221120237041090560,
+      "x_bits": 18442240474082181120,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9221120237041090560,
+      "x_bits": 13830554455654793216,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9221120237041090560,
+      "x_bits": 9223372036854775808,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9221120237041090560,
+      "x_bits": 0,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9221120237041090560,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9221120237041090560,
+      "x_bits": 4607182418800017408,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9221120237041090560,
+      "x_bits": 9218868437227405312,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9221120237041090560,
+      "x_bits": 9221120237041090560,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "domain",
+      "source": "explicit-endpoint-contract"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4906019910204099648,
+      "x_bits": 4906019910204099648,
+      "exponent": 0,
+      "reference": "0.000000000039894228040143267794027851183471639570747550222047189345174608794327685414970803",
+      "category": "numerical",
+      "source": "independent-diagonal-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 6103021453049119613,
+      "x_bits": 6103021453049119613,
+      "exponent": 0,
+      "reference": "3.9894228040143267476777823778273584461272949826597915759031538855737482991688059e-51",
+      "category": "numerical",
+      "source": "independent-diagonal-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 7598952565167317594,
+      "x_bits": 7598952565167317594,
+      "exponent": 0,
+      "reference": "3.9894228040143268397731468252067480505392893109184222575883786757074484682983733e-101",
+      "category": "numerical",
+      "source": "independent-diagonal-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9214871658872686752,
+      "x_bits": 9214871658872686752,
+      "exponent": 0,
+      "reference": "3.9894228040143267574993971943367922526041418508099047451372174168282992086531262e-155",
+      "category": "numerical",
+      "source": "independent-diagonal-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 6103021453049119613,
+      "x_bits": 6103021453049119612,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "bounded-zero",
+      "source": "independent-score-Chernoff-bound"
+    },
+    {
+      "kind": 0,
+      "a_bits": 6103021453049119613,
+      "x_bits": 6103021453049119614,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "bounded-zero",
+      "source": "independent-score-Chernoff-bound"
+    },
+    {
+      "kind": 0,
+      "a_bits": 6103021453049119613,
+      "x_bits": 6100062120698589526,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "bounded-zero",
+      "source": "independent-score-Chernoff-bound"
+    },
+    {
+      "kind": 0,
+      "a_bits": 6103021453049119613,
+      "x_bits": 6104823098205433424,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "bounded-zero",
+      "source": "independent-score-Chernoff-bound"
+    },
+    {
+      "kind": 0,
+      "a_bits": 7598952565167317594,
+      "x_bits": 7598952565167317593,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "bounded-zero",
+      "source": "independent-score-Chernoff-bound"
+    },
+    {
+      "kind": 0,
+      "a_bits": 7598952565167317594,
+      "x_bits": 7598952565167317595,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "bounded-zero",
+      "source": "independent-score-Chernoff-bound"
+    },
+    {
+      "kind": 0,
+      "a_bits": 7598952565167317594,
+      "x_bits": 7596214043566145500,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "bounded-zero",
+      "source": "independent-score-Chernoff-bound"
+    },
+    {
+      "kind": 0,
+      "a_bits": 7598952565167317594,
+      "x_bits": 7601011822864549063,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "bounded-zero",
+      "source": "independent-score-Chernoff-bound"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9214871658872686752,
+      "x_bits": 9214871658872686751,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "bounded-zero",
+      "source": "independent-score-Chernoff-bound"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9214871658872686752,
+      "x_bits": 9214871658872686753,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "bounded-zero",
+      "source": "independent-score-Chernoff-bound"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9214871658872686752,
+      "x_bits": 9211871185515322986,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "bounded-zero",
+      "source": "independent-score-Chernoff-bound"
+    },
+    {
+      "kind": 0,
+      "a_bits": 9214871658872686752,
+      "x_bits": 9216625306187694604,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "bounded-zero",
+      "source": "independent-score-Chernoff-bound"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4680830561966529583,
+      "exponent": 0,
+      "reference": "9.8596765437623720913552992225970191340508804061045309148641501046631147595104119e-305",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature",
+      "sources": [
+        "independent-switch-underflow-quadrature",
+        "newton-refined-selector-neighbors"
+      ]
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4680830561966529584,
+      "exponent": 0,
+      "reference": "9.8596765437806833545797901184350294347465895969259744034550225727864722013808287e-305",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature",
+      "sources": [
+        "independent-switch-underflow-quadrature",
+        "newton-refined-selector-neighbors"
+      ]
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4680830561966529585,
+      "exponent": 0,
+      "reference": "9.859676543798994617804314995165099860820035988975512723539295558013039998367922e-305",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4680826055653567015,
+      "exponent": 0,
+      "reference": "2.2250738585002499753924197976718646698101991916178096413027398455374893228149122e-308",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4680826055653567016,
+      "exponent": 0,
+      "reference": "2.2250738585044093720358888054471201311174623686898629260267393400792440538943103e-308",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4680826055653567017,
+      "exponent": 0,
+      "reference": "2.2250738585085687686793655825059379666666144132723836573341138762361781638774532e-308",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4680806674760732121,
+      "exponent": 0,
+      "reference": "2.4703282292027440112655210052865104209980853454677069532724524614057533727062748e-324",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4680806674760732122,
+      "exponent": 0,
+      "reference": "2.4703282292074913863970237732209507616300416177637298890032705162267882553155783e-324",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4680806674760732123,
+      "exponent": 0,
+      "reference": "2.4703282292122387615285356577614909904503352037737382019842191429671520264776306e-324",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4682449607808742249,
+      "exponent": 0,
+      "reference": "9.8596765437838561744184598814434646048008764668049875205025226802735699865536608e-305",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4682449607808742250,
+      "exponent": 0,
+      "reference": "9.8596765437682070478120596841130313253060283814470534997092316623829268373673823e-305",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature",
+      "sources": [
+        "independent-switch-underflow-quadrature",
+        "newton-refined-selector-neighbors"
+      ]
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4682449607808742251,
+      "exponent": 0,
+      "reference": "9.8596765437525579212056843082624287745562140050537216257219092413982580885684641e-305",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature",
+      "sources": [
+        "independent-switch-underflow-quadrature",
+        "newton-refined-selector-neighbors"
+      ]
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4682454883212946407,
+      "exponent": 0,
+      "reference": "2.2250738585120818662985631577411651196659501147799641862744390808820759507694815e-308",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4682454883212946408,
+      "exponent": 0,
+      "reference": "2.2250738585085305467379960924215375662630347037330283668859192963467272355937194e-308",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4682454883212946409,
+      "exponent": 0,
+      "reference": "2.2250738585049792271774346914353084298121106044767719113811288783853248686050573e-308",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4682477629072425223,
+      "exponent": 0,
+      "reference": "2.4703282292118857956202971029929196673683665427453686453177634888454933332840084e-324",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4682477629072425224,
+      "exponent": 0,
+      "reference": "2.4703282292078489984125889890704389681669535015404630108759071778290869270669931e-324",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4682477629072425225,
+      "exponent": 0,
+      "reference": "2.4703282292038122012048874676113362463157231822680995884539466381090140142570878e-324",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4696521489894186465,
+      "exponent": 0,
+      "reference": "9.8596765437048803028433977606186330716333082721631571185546199953902131721731696e-305",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4696521489894186466,
+      "exponent": 0,
+      "reference": "9.8596765437486679870188340845952792855859822736150584223834207998009972431890678e-305",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4696521489894186467,
+      "exponent": 0,
+      "reference": "9.8596765437924556711944647294863501992079868830810027826521816082598377734278945e-305",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4696519605114533849,
+      "exponent": 0,
+      "reference": "2.2250738585028813295543523015044359093312062198873229179092003902283962015752254e-308",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4696519605114533850,
+      "exponent": 0,
+      "reference": "2.2250738585128243461784094879072268758058005841165523296098583224517684750557035e-308",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4696519605114533851,
+      "exponent": 0,
+      "reference": "2.2250738585227673628025110733897321582173306001745985080336911511938523384215458e-308",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4696511491759494375,
+      "exponent": 0,
+      "reference": "2.4703282291889912248933315333702214387679108117749625479973674517081355910379078e-324",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4696511491759494376,
+      "exponent": 0,
+      "reference": "2.470328229200323360391172608219147625129594303454822366346954671687812433468299e-324",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4696511491759494377,
+      "exponent": 0,
+      "reference": "2.4703282292116554958890656307981300293651798425601748553415061318370252165961183e-324",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4697160722394222447,
+      "exponent": 0,
+      "reference": "9.859676543781534062498211336636461084376211724422775249697543844764340591086384e-305",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4697160722394222448,
+      "exponent": 0,
+      "reference": "9.8596765437398657653754844073991667114410042014981348510480703729031502250663815e-305",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4697160722394222449,
+      "exponent": 0,
+      "reference": "9.8596765436981974682529334497985491128197215097178381567054286911827549681563632e-305",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4697162703337142823,
+      "exponent": 0,
+      "reference": "2.2250738585092635222090080525480686735691248298323602138511111857978501057574819e-308",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4697162703337142824,
+      "exponent": 0,
+      "reference": "2.2250738584998046003912415367519573878109826238731448293607334934460421162583835e-308",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4697162703337142825,
+      "exponent": 0,
+      "reference": "2.225073858490345678573515203403952595804035758310233729241122441232798392989589e-308",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4697171237434339579,
+      "exponent": 0,
+      "reference": "2.4703282292199560891197702456255054232449740269606051902339133091941472977130265e-324",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4697171237434339580,
+      "exponent": 0,
+      "reference": "2.4703282292091896006643602954339606772520679087128118322910820135656872301399423e-324",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4696837146684686336,
+      "x_bits": 4697171237434339581,
+      "exponent": 0,
+      "reference": "2.4703282291984231122089972380578239099858830061916980714376652765130668988956937e-324",
+      "category": "numerical",
+      "source": "independent-switch-underflow-quadrature"
+    },
+    {
+      "kind": 1,
+      "a_bits": 103582791429521408,
+      "x_bits": 9223372036854775809,
+      "exponent": -75,
+      "expected_hex": "0x0.0p+0",
+      "category": "rounding",
+      "source": "pro-prescaling-low-word-midpoint"
+    },
+    {
+      "kind": 1,
+      "a_bits": 103582791429521408,
+      "x_bits": 0,
+      "exponent": -75,
+      "expected_hex": "0x0.0p+0",
+      "category": "rounding",
+      "source": "pro-prescaling-low-word-midpoint"
+    },
+    {
+      "kind": 1,
+      "a_bits": 103582791429521408,
+      "x_bits": 1,
+      "exponent": -75,
+      "expected_hex": "0x0.0000000000001p-1022",
+      "category": "rounding",
+      "source": "pro-prescaling-low-word-midpoint"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4607182418800017408,
+      "x_bits": 9223372036854775809,
+      "exponent": -1075,
+      "expected_hex": "0x0.0p+0",
+      "category": "rounding",
+      "source": "pro-prescaling-low-word-midpoint"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4607182418800017408,
+      "x_bits": 0,
+      "exponent": -1075,
+      "expected_hex": "0x0.0p+0",
+      "category": "rounding",
+      "source": "pro-prescaling-low-word-midpoint"
+    },
+    {
+      "kind": 1,
+      "a_bits": 4607182418800017408,
+      "x_bits": 1,
+      "exponent": -1075,
+      "expected_hex": "0x0.0000000000001p-1022",
+      "category": "rounding",
+      "source": "pro-prescaling-low-word-midpoint"
+    },
+    {
+      "kind": 1,
+      "a_bits": 9110782046170513408,
+      "x_bits": 9223372036854775809,
+      "exponent": -2075,
+      "expected_hex": "0x0.0p+0",
+      "category": "rounding",
+      "source": "pro-prescaling-low-word-midpoint"
+    },
+    {
+      "kind": 1,
+      "a_bits": 9110782046170513408,
+      "x_bits": 0,
+      "exponent": -2075,
+      "expected_hex": "0x0.0p+0",
+      "category": "rounding",
+      "source": "pro-prescaling-low-word-midpoint"
+    },
+    {
+      "kind": 1,
+      "a_bits": 9110782046170513408,
+      "x_bits": 1,
+      "exponent": -2075,
+      "expected_hex": "0x0.0000000000001p-1022",
+      "category": "rounding",
+      "source": "pro-prescaling-low-word-midpoint"
+    },
+    {
+      "kind": 2,
+      "a_bits": 4607182418833571840,
+      "x_bits": 4607182418732908544,
+      "exponent": 0,
+      "expected_hex": "-0x1.0000000000000p-54",
+      "category": "primitive",
+      "source": "pro-fused-operation-discriminator"
+    },
+    {
+      "kind": 3,
+      "a_bits": 2188749418902061056,
+      "x_bits": 2188749418902061056,
+      "exponent": 0,
+      "expected_hex": "0x0.0000000000001p-1022",
+      "category": "primitive",
+      "source": "pro-fma-subnormal-preservation"
+    },
+    {
+      "kind": 4,
+      "a_bits": 4607182418800017408,
+      "x_bits": 1,
+      "exponent": 0,
+      "expected_hex": "0x1.0000000000000p+0",
+      "category": "primitive",
+      "source": "exact-rational-two-sum-high"
+    },
+    {
+      "kind": 5,
+      "a_bits": 4607182418800017408,
+      "x_bits": 1,
+      "exponent": 0,
+      "expected_hex": "0x0.0000000000001p-1022",
+      "category": "primitive",
+      "source": "exact-rational-two-sum-low"
+    },
+    {
+      "kind": 4,
+      "a_bits": 4607182418800017408,
+      "x_bits": 9223372036854775809,
+      "exponent": 0,
+      "expected_hex": "0x1.0000000000000p+0",
+      "category": "primitive",
+      "source": "exact-rational-two-sum-high"
+    },
+    {
+      "kind": 5,
+      "a_bits": 4607182418800017408,
+      "x_bits": 9223372036854775809,
+      "exponent": 0,
+      "expected_hex": "-0x0.0000000000001p-1022",
+      "category": "primitive",
+      "source": "exact-rational-two-sum-low"
+    },
+    {
+      "kind": 4,
+      "a_bits": 4607182418800017408,
+      "x_bits": 4363988038922010624,
+      "exponent": 0,
+      "expected_hex": "0x1.0000000000000p+0",
+      "category": "primitive",
+      "source": "exact-rational-two-sum-high"
+    },
+    {
+      "kind": 5,
+      "a_bits": 4607182418800017408,
+      "x_bits": 4363988038922010624,
+      "exponent": 0,
+      "expected_hex": "0x1.0000000000000p-54",
+      "category": "primitive",
+      "source": "exact-rational-two-sum-low"
+    },
+    {
+      "kind": 4,
+      "a_bits": 4607182418800017408,
+      "x_bits": 13587360075776786432,
+      "exponent": 0,
+      "expected_hex": "0x1.0000000000000p+0",
+      "category": "primitive",
+      "source": "exact-rational-two-sum-high"
+    },
+    {
+      "kind": 5,
+      "a_bits": 4607182418800017408,
+      "x_bits": 13587360075776786432,
+      "exponent": 0,
+      "expected_hex": "-0x1.0000000000000p-54",
+      "category": "primitive",
+      "source": "exact-rational-two-sum-low"
+    },
+    {
+      "kind": 4,
+      "a_bits": 4607182418800017408,
+      "x_bits": 13830554455654793216,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "primitive",
+      "source": "exact-rational-two-sum-high"
+    },
+    {
+      "kind": 5,
+      "a_bits": 4607182418800017408,
+      "x_bits": 13830554455654793216,
+      "exponent": 0,
+      "expected_hex": "0x0.0p+0",
+      "category": "primitive",
+      "source": "exact-rational-two-sum-low"
+    },
+    {
+      "kind": 4,
+      "a_bits": 6103021453049119613,
+      "x_bits": 3110860544497550640,
+      "exponent": 0,
+      "expected_hex": "0x1.249ad2594c37dp+332",
+      "category": "primitive",
+      "source": "exact-rational-two-sum-high"
+    },
+    {
+      "kind": 5,
+      "a_bits": 6103021453049119613,
+      "x_bits": 3110860544497550640,
+      "exponent": 0,
+      "expected_hex": "0x1.bff2ee48e0530p-333",
+      "category": "primitive",
+      "source": "exact-rational-two-sum-low"
+    },
+    {
+      "kind": 6,
+      "a_bits": 4611686018427387904,
+      "x_bits": 4602678819172646912,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "expected-nonconvergence",
+      "source": "test-only-one-iteration-lower-cap"
+    },
+    {
+      "kind": 7,
+      "a_bits": 4607182418800017408,
+      "x_bits": 4611686018427387904,
+      "exponent": 0,
+      "expected_hex": "nan",
+      "category": "expected-nonconvergence",
+      "source": "test-only-one-iteration-upper-cap"
+    },
+    {
+      "kind": 0,
+      "a_bits": 103582791429521408,
+      "x_bits": 1,
+      "exponent": 0,
+      "reference": "743.86285625647972945350078635599923168204498496697421932680456296101988226867446",
+      "category": "numerical",
+      "source": "pro-tiny-shape-trap-450-digit-reference"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4680831100625589915,
+      "exponent": 0,
+      "reference": "2.6801379583342372060046706950502403637301215264625193373263120948100643948013107e-304",
+      "category": "numerical",
+      "source": "newton-refined-selector-neighbors"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4680831100625589916,
+      "exponent": 0,
+      "reference": "2.6801379583392108364991848086967656539320547895581703021750980820882872623463899e-304",
+      "category": "numerical",
+      "source": "newton-refined-selector-neighbors"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4680831100625589917,
+      "exponent": 0,
+      "reference": "2.6801379583441844669937081448768935569715665401016041597113497281621040657974311e-304",
+      "category": "numerical",
+      "source": "newton-refined-selector-neighbors"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4680830561966529582,
+      "exponent": 0,
+      "reference": "9.8596765437440608281308423076510688957226381774486860686075044882580055655485348e-305",
+      "category": "numerical",
+      "source": "newton-refined-selector-neighbors"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4682448977551955575,
+      "exponent": 0,
+      "reference": "2.680137958344180850187875866041244402345088305564703110178822456170892565418517e-304",
+      "category": "numerical",
+      "source": "newton-refined-selector-neighbors"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4682448977551955576,
+      "exponent": 0,
+      "reference": "2.680137958339929816025390762378271850783981224824399493328667175746927130081936e-304",
+      "category": "numerical",
+      "source": "newton-refined-selector-neighbors"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4682448977551955577,
+      "exponent": 0,
+      "reference": "2.680137958335678781862912396881752253699424802306935350486832117152072869917051e-304",
+      "category": "numerical",
+      "source": "newton-refined-selector-neighbors"
+    },
+    {
+      "kind": 0,
+      "a_bits": 4681608360884174848,
+      "x_bits": 4682449607808742252,
+      "exponent": 0,
+      "reference": "9.8596765437369087945993337538916569132077752565508668355914749846927176260104524e-305",
+      "category": "numerical",
+      "source": "newton-refined-selector-neighbors"
+    }
+  ],
+  "deduplication": {
+    "previous_row_count": 693,
+    "duplicates_removed": 6,
+    "unique_operations": 687
+  }
+}

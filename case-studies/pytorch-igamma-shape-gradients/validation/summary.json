@@ -1,0 +1,29 @@
+{
+  "reported_on": "2026-09-08",
+  "corpus_sha256": "55ebfb7054f1258fccd1899fbd17be89f54f79c65a3b079a2ffbfc1444146774",
+  "inputs_per_run": 581,
+  "operators_per_input": 2,
+  "outputs_per_run": 1162,
+  "runs": [
+    {
+      "run": "macos-cpu.json",
+      "outputs": 1162,
+      "failures": 0,
+      "sha256": "b8e46d7062a07f42e0acb944015ca68a5fed5982ee1c9d71e09088a16bb01bd6"
+    },
+    {
+      "run": "linux-cpu.json",
+      "outputs": 1162,
+      "failures": 0,
+      "sha256": "681fc8ed2db240254789c40e939cb7a0a99dff378f7b7612ae66e5dc6741cc79"
+    },
+    {
+      "run": "rtx-a4000-cuda.json",
+      "outputs": 1162,
+      "failures": 0,
+      "sha256": "dab53105c97e3ac380292fd4a8ce3c3e8a2784e8e5859dd32c07584842620908"
+    }
+  ],
+  "total_output_comparisons": 3486,
+  "scope": "Local source-build validation; sampled numerical evidence, not upstream CI or acceptance."
+}
