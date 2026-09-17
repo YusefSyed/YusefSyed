@@ -2,7 +2,7 @@
 
 **First-year University of Toronto student, intending Mathematics and Computer Science, focused on AI-safety evaluation and reliable research software.**
 
-I build Python evaluation tools and software products with AI-assisted implementation. My interests are evaluation validity, oversight of tool-using agents, and reproducible experiments with explicit limits.
+I build Python evaluation systems and software products, with a focus on evaluation validity, oversight of tool-using agents, and reproducible experiments with explicit limits. My interests are evaluation validity, oversight of tool-using agents, and reproducible experiments with explicit limits.
 
 [Research evidence](RESEARCH_EVIDENCE.md) · [Product portfolio](https://yusef-product-demos.yoosefseed.chatgpt.site) · [Résumé (PDF)](resume/Yusef_Syed_Resume.pdf) · [Email](mailto:yusefmsyed@gmail.com)
 
