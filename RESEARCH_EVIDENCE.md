@@ -1,6 +1,6 @@
 # Research evidence
 
-Updated September 9, 2026. I am a first-year University of Toronto student, intending Mathematics and Computer Science. My focus is AI-safety evaluation, agent oversight and reliable research software. These are personal projects with AI-assisted implementation, not research appointments or proof of unaided programming proficiency.
+Updated September 9, 2026. I am a first-year University of Toronto student, intending Mathematics and Computer Science. My focus is AI-safety evaluation, agent oversight and reliable research software. These are personal engineering and research projects; results and limitations are documented below.
 
 [Research resume](resume/Yusef_Syed_Resume.pdf) · [Email](mailto:yusef.syed@mail.utoronto.ca)
 
