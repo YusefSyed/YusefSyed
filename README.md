@@ -41,7 +41,7 @@ Local scheduling prototype with independent constraint checks and coordinator-on
 
 ### Developer tools and open source
 
-**9 external upstream PRs verified merged on September 8, 2026.** [Evidence](RESEARCH_EVIDENCE.md#external-open-source). The [open PyTorch CPU/CUDA contribution](https://github.com/pytorch/pytorch/pull/196390) is separate; its [3,486-output local validation supplement](case-studies/pytorch-igamma-shape-gradients/README.md) is publicly inspectable.
+**10 external upstream PRs verified merged on September 23, 2026.** [Evidence](RESEARCH_EVIDENCE.md#external-open-source). The [open PyTorch CPU/CUDA contribution](https://github.com/pytorch/pytorch/pull/196390) is separate; its [3,486-output local validation supplement](case-studies/pytorch-igamma-shape-gradients/README.md) is publicly inspectable.
 
 - **[Agent Proof](https://github.com/YusefSyed/agent-proof):** TypeScript CLI that runs reviewer-selected checks without shell interpolation and writes redacted JSON/Markdown verification reports.
 - **Microsoft Agent Lightning:** merged fixes for [shutdown rollout races](https://github.com/microsoft/agent-lightning/pull/580) and [local-worker agent URL handling](https://github.com/microsoft/agent-lightning/pull/582).
