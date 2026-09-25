@@ -2,7 +2,7 @@
 
 **First-year University of Toronto student, intending Mathematics and Computer Science, focused on AI-safety evaluation and reliable research software.**
 
-I build Python evaluation systems and software products, with a focus on evaluation validity, oversight of tool-using agents, and reproducible experiments with explicit limits. My interests are evaluation validity, oversight of tool-using agents, and reproducible experiments with explicit limits.
+I build evaluation systems, mobile apps, and reliable backend services. My work spans Python experiment infrastructure, Swift watchOS interfaces, and TypeScript products, with reproducible tests and inspectable results.
 
 [Research evidence](RESEARCH_EVIDENCE.md) · [Product portfolio](https://yusef-product-demos.yoosefseed.chatgpt.site) · [Résumé (PDF)](resume/Yusef_Syed_Resume.pdf) · [Email](mailto:yusefmsyed@gmail.com)
 
@@ -19,9 +19,13 @@ Expected graduation: **May 2030**.
 
 ## Selected work
 
+### [Providence](https://devpost.com/software/providence-tn6m4h) · Swift, SwiftUI, watchOS
+
+Built the native Apple Watch client for a team voice-controlled computer assistant at Hack the North 2026. My work covers hold-to-talk capture, routing requests to the selected Mac and chat, spoken-result playback, and request IDs that prevent stale approvals or results from crossing requests.
+
 ### [Agent Eval Mutation Lab](https://github.com/YusefSyed/agent-eval-mutation-lab) · Python, Inspect, Docker, SQLite
 
-A typed, deterministic engine for testing execution-semantic robustness in tool-agent scorers. It runs 104 canonical tasks with resumable SQLite state, content-addressed evidence, explicit unknown/abstain handling, and clean-checkout artifact reproduction. Its public reports retain failed model-study gates and unfavorable outcomes instead of promoting unsupported conclusions.
+A typed, deterministic engine for testing execution-semantic robustness in tool-agent scorers. It runs 104 canonical tasks with resumable SQLite state, content-addressed evidence, explicit unknown/abstain handling, and clean-checkout artifact reproduction. The repository includes controlled Docker fault tests, a 624-trial local-model study, and exact missing-output sensitivity analysis.
 
 ### [Tiraz garment-completion experiment](https://github.com/YusefSyed/tiraz-garment-completion)
 
@@ -36,12 +40,12 @@ Local scheduling prototype with independent constraint checks and coordinator-on
 | Project | What I built | Evidence |
 | --- | --- | --- |
 | **Aesthetics AI** | Released iOS fitness product using React Native, Expo, Supabase/Postgres, structured model outputs, and RevenueCat. Documented reliability work covers persist-before-sync workout completion, atomic writes, restart recovery, and account isolation. | [App Store](https://apps.apple.com/us/app/aesthetics-ai-physique-coach/id6773502055) · [Case study](case-studies/AESTHETICS_AI.md) |
-| **Tiraz** | Released privacy-first iOS wardrobe app plus a public PyTorch garment-completion study. Three seeded models reached 58.5–59.0% held-out top-1 accuracy versus a 52.7% co-occurrence baseline; the missing-context coverage failure remains visible. | [App Store](https://apps.apple.com/us/app/tiraz/id6789730283) · [ML study](https://github.com/YusefSyed/tiraz-garment-completion) · [Case study](case-studies/TIRAZ.md) |
-| **CallReclaim** | Private missed-call recovery MVP with consent-aware SMS, validated AI lead extraction, signed provider webhooks, owner-scoped data, and PostgreSQL reconciliation for uncertain send outcomes. No production traffic or revenue is claimed. | [Sample-data demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#callreclaim) · [Case study](case-studies/CALLRECLAIM.md) |
+| **Tiraz** | Released privacy-first iOS wardrobe app plus a public PyTorch garment-completion study. Three seeded models reached 58.5–59.0% held-out top-1 accuracy versus a 52.7% co-occurrence baseline; the companion study measures how missing context affects prediction-set coverage. | [App Store](https://apps.apple.com/us/app/tiraz/id6789730283) · [ML study](https://github.com/YusefSyed/tiraz-garment-completion) · [Case study](case-studies/TIRAZ.md) |
+| **CallReclaim** | Private missed-call recovery MVP with consent-aware SMS, validated AI lead extraction, signed provider webhooks, owner-scoped data, and PostgreSQL reconciliation for uncertain send outcomes. Local transaction and process-failure experiments are documented in the case study. | [Sample-data demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#callreclaim) · [Case study](case-studies/CALLRECLAIM.md) |
 
 ### Developer tools and open source
 
-**10 external upstream PRs verified merged on September 23, 2026.** [Evidence](RESEARCH_EVIDENCE.md#external-open-source). The [open PyTorch CPU/CUDA contribution](https://github.com/pytorch/pytorch/pull/196390) is separate; its [3,486-output local validation supplement](case-studies/pytorch-igamma-shape-gradients/README.md) is publicly inspectable.
+**10 external upstream PRs verified merged on September 24, 2026.** [Evidence](RESEARCH_EVIDENCE.md#external-open-source). The [open PyTorch CPU/CUDA contribution](https://github.com/pytorch/pytorch/pull/196390) is separate; its [3,486-output local validation supplement](case-studies/pytorch-igamma-shape-gradients/README.md) is publicly inspectable.
 
 - **[Agent Proof](https://github.com/YusefSyed/agent-proof):** TypeScript CLI that runs reviewer-selected checks without shell interpolation and writes redacted JSON/Markdown verification reports.
 - **Microsoft Agent Lightning:** merged fixes for [shutdown rollout races](https://github.com/microsoft/agent-lightning/pull/580) and [local-worker agent URL handling](https://github.com/microsoft/agent-lightning/pull/582).
@@ -49,9 +53,9 @@ Local scheduling prototype with independent constraint checks and coordinator-on
 
 ## Technical toolkit
 
-- **Languages:** Python, TypeScript, JavaScript, SQL
+- **Languages:** Python, TypeScript, JavaScript, SQL, Swift
 - **AI and evaluation:** PyTorch, NumPy, Inspect, structured LLM APIs, deterministic evaluation pipelines
-- **Web and mobile:** React, React Native, Expo, Next.js, Node.js
+- **Web and mobile:** React, React Native, Expo, Next.js, Node.js, SwiftUI, watchOS
 - **Data and reliability:** PostgreSQL, Supabase, SQLite, Docker, pytest, mypy, GitHub Actions
 - **Product integrations:** Twilio Voice/SMS, RevenueCat, Vercel
 
@@ -59,6 +63,6 @@ Local scheduling prototype with independent constraint checks and coordinator-on
 
 - Turn ambiguous product requirements into tested systems with explicit failure behavior.
 - Treat dependencies, logs, provider callbacks, and external inputs as untrusted evidence.
-- Separate local or synthetic verification from production, user, revenue, and impact claims.
+- Document reproducible checks, deployment status, and measured outcomes.
 
 If you are considering supervised Fall/Winter research or a Summer 2027 research/AI/software role, [email me](mailto:yusefmsyed@gmail.com).

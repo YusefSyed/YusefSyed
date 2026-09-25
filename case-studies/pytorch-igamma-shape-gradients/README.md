@@ -1,6 +1,6 @@
 # PyTorch incomplete-gamma shape gradients: validation supplement
 
-This is an unofficial, AI-assisted contribution and author-run validation record for [PyTorch PR 196390](https://github.com/pytorch/pytorch/pull/196390). The PR was open and unmerged when checked September 8, 2026. These results are not upstream CI, maintainer acceptance, an all-domain numerical proof, or a performance benchmark.
+This supplement documents the contribution and local validation for [PyTorch PR 196390](https://github.com/pytorch/pytorch/pull/196390). The PR was open and unmerged when checked September 24, 2026. These results are not upstream CI, maintainer acceptance, an all-domain numerical proof, or a performance benchmark.
 
 ## What was checked
 
