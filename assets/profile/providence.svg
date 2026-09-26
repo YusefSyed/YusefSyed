@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="336" viewBox="0 0 720 336" role="img" aria-labelledby="title">
+<title id="title">Providence — Your wrist. Your voice. Your Mac. — MY WATCH CLIENT / SWIFTUI</title>
+<rect x="1" y="1" width="718" height="318" rx="24" fill="#ff795e" stroke="#211d2a" stroke-opacity=".12" stroke-width="2"/>
+<text x="32" y="42" fill="#211d2a" font-family="'Courier New', monospace" font-size="17" font-weight="700" letter-spacing="2">02 / HACK THE NORTH</text>
+<path d="M658 39h27v27m-28 1 27-27" fill="none" stroke="#211d2a" stroke-width="3"/>
+<text x="32" y="108" fill="#211d2a" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" letter-spacing="-1.6">Providence</text>
+<text x="32" y="221" fill="#211d2a" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" >Your wrist. Your voice. Your Mac.</text>
+<path d="M32 252h656" stroke="#211d2a" stroke-opacity=".20"/>
+<text x="32" y="287" fill="#3c2831" font-family="'Courier New', monospace" font-size="19" font-weight="700" >MY WATCH CLIENT / SWIFTUI</text>
+<g fill="none" stroke="#211d2a" stroke-width="3"><path d="M617 75v17m36-17v17m-36 66v17m36-17v17"/><rect x="601" y="92" width="67" height="66" rx="19"/><path d="M613 125h8l6-15 10 29 8-18 7 4h5" stroke-linejoin="round"/></g>
+</svg>

@@ -1,68 +1,87 @@
-# Yusef Syed
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/profile/header-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/profile/header-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile/header-light.svg">
+  <img src="assets/profile/header-light.svg" alt="Yusef Syed — building useful things, testing the edges. AI evaluation, apps, and developer tools." width="100%">
+</picture>
 
-**First-year University of Toronto student, intending Mathematics and Computer Science, focused on AI-safety evaluation and reliable research software.**
+<p align="center">
+  <a href="https://yusef-product-demos.yoosefseed.chatgpt.site"><b>Explore the portfolio ↗</b></a>
+  &nbsp; / &nbsp;
+  <a href="RESEARCH_EVIDENCE.md">Research &amp; evidence</a>
+  &nbsp; / &nbsp;
+  <a href="resume/Yusef_Syed_Resume.pdf">Résumé</a>
+  &nbsp; / &nbsp;
+  <a href="mailto:yusefmsyed@gmail.com">Say hello</a>
+</p>
 
-I build evaluation systems, mobile apps, and reliable backend services. My work spans Python experiment infrastructure, Swift watchOS interfaces, and TypeScript products, with reproducible tests and inspectable results.
+I'm **Yusef**, a first-year student at the **University of Toronto**, intending Mathematics + Computer Science. I build apps, experiment with AI evaluation, and work on the failure cases that make software interesting.
 
-[Research evidence](RESEARCH_EVIDENCE.md) · [Product portfolio](https://yusef-product-demos.yoosefseed.chatgpt.site) · [Résumé (PDF)](resume/Yusef_Syed_Resume.pdf) · [Email](mailto:yusefmsyed@gmail.com)
+Recently: an Apple Watch voice interface at **Hack the North**, experiments on what tool-using agents actually do, and fixes in open-source AI tooling.
 
-## Research and internship availability
+## A few things I've built
 
-| Term | Availability |
-| --- | --- |
-| **Summer 2027** | Available full-time from May through August for software engineering, AI product, evaluation/reliability, backend/platform, or mobile roles |
-| **Fall / Winter** | Seeking supervised research or selective AI/software work compatible with University of Toronto coursework |
-| **Location** | Canada or the United States; open to relocation and remote work |
-| **Work authorization** | U.S.–Canadian dual citizen; no sponsorship required in either country |
+<p align="center">
+  <a href="https://github.com/YusefSyed/agent-eval-mutation-lab"><img src="assets/profile/eval-lab.svg" width="365" alt="Agent Eval Mutation Lab — deterministic tests for agent actions and outcomes. Python, Inspect, SQLite. Explore the repository."></a>
+  <a href="https://devpost.com/software/providence-tn6m4h"><img src="assets/profile/providence.svg" width="365" alt="Providence — my native Apple Watch client for a team voice-controlled Mac assistant. SwiftUI, watchOS. See the Hack the North project."></a>
+</p>
+<p align="center">
+  <a href="https://github.com/YusefSyed/tiraz-garment-completion"><img src="assets/profile/tiraz.svg" width="365" alt="Tiraz garment completion — an annotation-only experiment in prediction and uncertainty. PyTorch, calibration. Explore the study."></a>
+  <a href="https://github.com/YusefSyed/agent-proof"><img src="assets/profile/agent-proof.svg" width="365" alt="Agent Proof — a CLI that runs reviewer-selected checks and records redacted evidence. TypeScript, Node.js. Explore the repository."></a>
+</p>
 
-Expected graduation: **May 2030**.
+<details>
+<summary><b>Inside the projects — implementation, results, and limits</b></summary>
 
-## Selected work
+- **[Agent Eval Mutation Lab](https://github.com/YusefSyed/agent-eval-mutation-lab):** a deterministic Python engine that separates proposed actions, executed effects, and unknown outcomes. Includes resumable SQLite runs, Docker fault tests, and a frozen 624-trial local-model study. Unequal invalid-output rates meant withholding improvement claims; the reports retain the descriptive results and missing-output analysis.
+- **[Providence](https://devpost.com/software/providence-tn6m4h):** a team project at Hack the North 2026. I built the native Apple Watch client: hold-to-talk capture, routing to a selected Mac and chat, spoken-result playback, and request IDs to keep approvals and results attached to the right request.
+- **[Tiraz garment completion](https://github.com/YusefSyed/tiraz-garment-completion):** three seeded annotation-only models achieved 58.5–59.0% top-1 versus a 52.7% baseline on 962 held-out groups. Removing context exposed a large drop in prediction-set coverage. [Methods and limits](RESEARCH_EVIDENCE.md#tiraz-garment-completion).
+- **[Agent Proof](https://github.com/YusefSyed/agent-proof):** a TypeScript CLI that runs selected commands without shell interpolation and produces redacted JSON/Markdown reports. It runs from source; it is not a sandbox or a published npm package.
 
-### [Providence](https://devpost.com/software/providence-tn6m4h) · Swift, SwiftUI, watchOS
+</details>
 
-Built the native Apple Watch client for a team voice-controlled computer assistant at Hack the North 2026. My work covers hold-to-talk capture, routing requests to the selected Mac and chat, spoken-result playback, and request IDs that prevent stale approvals or results from crossing requests.
+## From experiments to products
 
-### [Agent Eval Mutation Lab](https://github.com/YusefSyed/agent-eval-mutation-lab) · Python, Inspect, Docker, SQLite
+| Project | What it explores | Take a look |
+| :--- | :--- | :--- |
+| **Aesthetics AI** · released iOS app | Workout planning and tracking, with recovery and data consistency built into the workflow. | [App Store](https://apps.apple.com/us/app/aesthetics-ai-physique-coach/id6773502055) · [Engineering](case-studies/AESTHETICS_AI.md) |
+| **Tiraz** · released iOS app | A privacy-first digital wardrobe, alongside a separate public garment-completion experiment. | [App Store](https://apps.apple.com/us/app/tiraz/id6789730283) · [Engineering](case-studies/TIRAZ.md) |
+| **CallReclaim** · private MVP | Missed-call recovery, consent-aware follow-up, and reconciliation when a send outcome is uncertain. | [Sample-data demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#callreclaim) · [Engineering](case-studies/CALLRECLAIM.md) |
 
-A typed, deterministic engine for testing execution-semantic robustness in tool-agent scorers. It runs 104 canonical tasks with resumable SQLite state, content-addressed evidence, explicit unknown/abstain handling, and clean-checkout artifact reproduction. The repository includes controlled Docker fault tests, a 624-trial local-model study, and exact missing-output sensitivity analysis.
+**More to explore:** [ShiftProof](https://github.com/YusefSyed/shiftproof), a local scheduling prototype with independent constraint checks · [CallReclaim Agent Desk](https://github.com/YusefSyed/callreclaim-webmcp), a WebMCP demo where an agent prepares and the owner decides. Both use synthetic data; the Agent Desk has no messaging backend.
 
-### [Tiraz garment-completion experiment](https://github.com/YusefSyed/tiraz-garment-completion)
+## Small fixes, real upstream impact
 
-Three seeded annotation-only models achieved 58.5-59.0% top-1 against a 52.7% baseline on 962 held-out groups; a context-removal audit exposed coverage degradation. [Methods and limits](RESEARCH_EVIDENCE.md).
+Selected **merged** contributions:
 
-### [ShiftProof](https://github.com/YusefSyed/shiftproof)
+- **[Microsoft Agent Lightning](https://github.com/microsoft/agent-lightning/pull/580)** — prevent new rollouts from starting during shutdown.
+- **[Inspect Scout](https://github.com/meridianlabs-ai/inspect_scout/pull/586)** — correct per-item model-usage accounting for custom loaders.
+- **[Kornia](https://github.com/kornia/kornia/pull/4185)** — handle empty accelerator tensors in color transforms.
 
-Local scheduling prototype with independent constraint checks and coordinator-only apply, approve and export actions. Validation uses synthetic data.
+[Full contribution record →](RESEARCH_EVIDENCE.md#external-open-source) · [Open PyTorch CPU/CUDA contribution](https://github.com/pytorch/pytorch/pull/196390) · [Local validation supplement](case-studies/pytorch-igamma-shape-gradients/README.md)
 
-### Product engineering
+<details>
+<summary><b>Tools I reach for</b></summary>
 
-| Project | What I built | Evidence |
-| --- | --- | --- |
-| **Aesthetics AI** | Released iOS fitness product using React Native, Expo, Supabase/Postgres, structured model outputs, and RevenueCat. Documented reliability work covers persist-before-sync workout completion, atomic writes, restart recovery, and account isolation. | [App Store](https://apps.apple.com/us/app/aesthetics-ai-physique-coach/id6773502055) · [Case study](case-studies/AESTHETICS_AI.md) |
-| **Tiraz** | Released privacy-first iOS wardrobe app plus a public PyTorch garment-completion study. Three seeded models reached 58.5–59.0% held-out top-1 accuracy versus a 52.7% co-occurrence baseline; the companion study measures how missing context affects prediction-set coverage. | [App Store](https://apps.apple.com/us/app/tiraz/id6789730283) · [ML study](https://github.com/YusefSyed/tiraz-garment-completion) · [Case study](case-studies/TIRAZ.md) |
-| **CallReclaim** | Private missed-call recovery MVP with consent-aware SMS, validated AI lead extraction, signed provider webhooks, owner-scoped data, and PostgreSQL reconciliation for uncertain send outcomes. Local transaction and process-failure experiments are documented in the case study. | [Sample-data demo](https://yusef-product-demos.yoosefseed.chatgpt.site/#callreclaim) · [Case study](case-studies/CALLRECLAIM.md) |
+| Area | Toolkit |
+| :--- | :--- |
+| Evaluation & experiments | Python · PyTorch · NumPy · Inspect · pytest |
+| Interfaces & apps | TypeScript · React · React Native · Expo · Next.js · SwiftUI · watchOS |
+| Data & reliability | SQL · PostgreSQL · SQLite · Supabase · Docker · GitHub Actions |
 
-### Developer tools and open source
+</details>
 
-**10 external upstream PRs verified merged on September 24, 2026.** [Evidence](RESEARCH_EVIDENCE.md#external-open-source). The [open PyTorch CPU/CUDA contribution](https://github.com/pytorch/pytorch/pull/196390) is separate; its [3,486-output local validation supplement](case-studies/pytorch-igamma-shape-gradients/README.md) is publicly inspectable.
+---
 
-- **[Agent Proof](https://github.com/YusefSyed/agent-proof):** TypeScript CLI that runs reviewer-selected checks without shell interpolation and writes redacted JSON/Markdown verification reports.
-- **Microsoft Agent Lightning:** merged fixes for [shutdown rollout races](https://github.com/microsoft/agent-lightning/pull/580) and [local-worker agent URL handling](https://github.com/microsoft/agent-lightning/pull/582).
-- **Meridian Labs Inspect Scout:** merged [per-item model-usage accounting fix](https://github.com/meridianlabs-ai/inspect_scout/pull/586) with regression coverage.
+**Let's build something useful.** I'm looking for supervised research during the school year and **Summer 2027 internships** in software, AI evaluation, or research engineering. [Get in touch →](mailto:yusefmsyed@gmail.com)
 
-## Technical toolkit
+<details>
+<summary>Availability &amp; work authorization</summary>
 
-- **Languages:** Python, TypeScript, JavaScript, SQL, Swift
-- **AI and evaluation:** PyTorch, NumPy, Inspect, structured LLM APIs, deterministic evaluation pipelines
-- **Web and mobile:** React, React Native, Expo, Next.js, Node.js, SwiftUI, watchOS
-- **Data and reliability:** PostgreSQL, Supabase, SQLite, Docker, pytest, mypy, GitHub Actions
-- **Product integrations:** Twilio Voice/SMS, RevenueCat, Vercel
+- **Summer 2027:** full-time, May–August; Canada or the United States, open to relocation and remote work.
+- **Fall / Winter:** supervised research or selective software work compatible with my University of Toronto coursework.
+- **Work authorization:** U.S.–Canadian dual citizen; no sponsorship required in either country.
+- **Expected graduation:** May 2030.
 
-## How I build
-
-- Turn ambiguous product requirements into tested systems with explicit failure behavior.
-- Treat dependencies, logs, provider callbacks, and external inputs as untrusted evidence.
-- Document reproducible checks, deployment status, and measured outcomes.
-
-If you are considering supervised Fall/Winter research or a Summer 2027 research/AI/software role, [email me](mailto:yusefmsyed@gmail.com).
+</details>

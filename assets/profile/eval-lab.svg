@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="336" viewBox="0 0 720 336" role="img" aria-labelledby="title">
+<title id="title">Agent Eval Mutation Lab — What did the agent actually do? — PYTHON / INSPECT / SQLITE</title>
+<rect x="1" y="1" width="718" height="318" rx="24" fill="#4255ff" stroke="#fffaf0" stroke-opacity=".12" stroke-width="2"/>
+<text x="32" y="42" fill="#fffaf0" font-family="'Courier New', monospace" font-size="17" font-weight="700" letter-spacing="2">01 / EVALUATION</text>
+<path d="M658 39h27v27m-28 1 27-27" fill="none" stroke="#fffaf0" stroke-width="3"/>
+<text x="32" y="108" fill="#fffaf0" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" letter-spacing="-1.6">Agent Eval</text>
+<text x="32" y="157" fill="#fffaf0" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" letter-spacing="-1.6">Mutation Lab</text>
+<text x="32" y="221" fill="#fffaf0" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" >What did the agent actually do?</text>
+<path d="M32 252h656" stroke="#fffaf0" stroke-opacity=".20"/>
+<text x="32" y="287" fill="#e0e4ff" font-family="'Courier New', monospace" font-size="19" font-weight="700" >PYTHON / INSPECT / SQLITE</text>
+<g fill="none" stroke="#fffaf0" stroke-width="3"><rect x="590" y="84" width="35" height="35" rx="6"/><rect x="640" y="134" width="35" height="35" rx="6"/><path d="M608 119v34h32M625 102h32v32"/></g>
+</svg>
