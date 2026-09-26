@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="116" viewBox="0 0 600 116" role="img" aria-labelledby="title"><title id="title">Yusef Syed — University of Toronto student, apps, developer tools, and AI evaluation</title>
+<style>.still{display:none}@keyframes type0{0%{width:0}16%,26%{width:521.4px}33.32%,100%{width:0}}#reveal0{width:0;animation:type0 18s steps(36,end) 0s infinite both}@keyframes type1{0%{width:0}16%,26%{width:478.2px}33.32%,100%{width:0}}#reveal1{width:0;animation:type1 18s steps(33,end) 6s infinite both}@keyframes type2{0%{width:0}16%,26%{width:391.8px}33.32%,100%{width:0}}#reveal2{width:0;animation:type2 18s steps(27,end) 12s infinite both}@media(prefers-reduced-motion:reduce){.moving{display:none}.still{display:block}}</style>
+<text x="300" y="34" fill="#5cdeff" font-size="29" font-family="Menlo, Consolas, monospace" font-weight="400" text-anchor="middle">Yusef Syed</text>
+<clipPath id="clip0"><rect id="reveal0" x="39.30000000000001" y="65" width="0" height="34"/></clipPath>
+<g class="moving" clip-path="url(#clip0)"><text x="39.30000000000001" y="91" fill="#5cdeff" font-size="24" font-family="Menlo, Consolas, monospace" font-weight="400" >Student at the University of Toronto</text></g>
+<clipPath id="clip1"><rect id="reveal1" x="60.900000000000006" y="65" width="0" height="34"/></clipPath>
+<g class="moving" clip-path="url(#clip1)"><text x="60.900000000000006" y="91" fill="#5cdeff" font-size="24" font-family="Menlo, Consolas, monospace" font-weight="400" >Building apps and developer tools</text></g>
+<clipPath id="clip2"><rect id="reveal2" x="104.1" y="65" width="0" height="34"/></clipPath>
+<g class="moving" clip-path="url(#clip2)"><text x="104.1" y="91" fill="#5cdeff" font-size="24" font-family="Menlo, Consolas, monospace" font-weight="400" >Interested in AI evaluation</text></g>
+<g class="still"><text x="300" y="91" fill="#5cdeff" font-size="24" font-family="Menlo, Consolas, monospace" font-weight="400" text-anchor="middle">Student at the University of Toronto</text></g>
+</svg>
