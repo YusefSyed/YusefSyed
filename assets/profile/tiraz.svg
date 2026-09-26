@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="336" viewBox="0 0 720 336" role="img" aria-labelledby="title">
+<title id="title">Tiraz Garment Completion — Prediction meets uncertainty. — PYTORCH / ANNOTATION-ONLY STUDY</title>
+<rect x="1" y="1" width="718" height="318" rx="24" fill="#d8f46a" stroke="#202a27" stroke-opacity=".12" stroke-width="2"/>
+<text x="32" y="42" fill="#202a27" font-family="'Courier New', monospace" font-size="17" font-weight="700" letter-spacing="2">03 / MACHINE LEARNING</text>
+<path d="M658 39h27v27m-28 1 27-27" fill="none" stroke="#202a27" stroke-width="3"/>
+<text x="32" y="108" fill="#202a27" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" letter-spacing="-1.6">Tiraz</text>
+<text x="32" y="157" fill="#202a27" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" letter-spacing="-1.6">Garment Completion</text>
+<text x="32" y="221" fill="#202a27" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" >Prediction meets uncertainty.</text>
+<path d="M32 252h656" stroke="#202a27" stroke-opacity=".20"/>
+<text x="32" y="287" fill="#344134" font-family="'Courier New', monospace" font-size="19" font-weight="700" >PYTORCH / ANNOTATION-ONLY STUDY</text>
+<path d="M612 94l-24 21 17 18 12-10v47h44v-47l12 10 17-18-25-21-13 8h-27z" fill="none" stroke="#202a27" stroke-width="3" stroke-linejoin="round"/>
+</svg>
