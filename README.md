@@ -10,7 +10,7 @@
 <p align="center">
   <a href="https://yusef-product-demos.yoosefseed.chatgpt.site" title="Portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/link-portfolio-dark.svg"><img src="assets/profile/link-portfolio-light.svg" width="64" alt="Portfolio"></picture></a>
   <a href="https://www.linkedin.com/in/yusef-syed-4b811a289/" title="LinkedIn"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/link-linkedin-dark.svg"><img src="assets/profile/link-linkedin-light.svg" width="64" alt="LinkedIn"></picture></a>
-  <a href="mailto:yusefmsyed@gmail.com" title="Email me"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/link-email-dark.svg"><img src="assets/profile/link-email-light.svg" width="64" alt="Email me"></picture></a>
+  <a href="mailto:yusef.syed@mail.utoronto.ca" title="Email me"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/link-email-dark.svg"><img src="assets/profile/link-email-light.svg" width="64" alt="Email me"></picture></a>
   <a href="resume/Yusef_Syed_Resume.pdf" title="Resume PDF"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/link-resume-dark.svg"><img src="assets/profile/link-resume-light.svg" width="64" alt="Resume PDF"></picture></a>
 </p>
 
@@ -18,7 +18,7 @@ Hey, I'm Yusef. I'm in my first year at the **University of Toronto**, intending
 
 - ⌚ I built the Apple Watch client for **[Providence](https://devpost.com/software/providence-tn6m4h)** with my team at Hack the North.
 - 🧪 My **[eval lab](https://github.com/YusefSyed/agent-eval-mutation-lab)** looks at what agents actually did when tool calls fail or evidence is incomplete.
-- 🌱 I'm looking for **supervised research** and **Summer 2027 internships**. [Email me](mailto:yusefmsyed@gmail.com).
+- 🌱 I'm looking for **supervised research** and **Summer 2027 internships**. [Email me](mailto:yusef.syed@mail.utoronto.ca).
 
 <details open>
 <summary><h2>💻 Projects &amp; experiments</h2></summary>
@@ -94,7 +94,7 @@ The Tiraz study uses garment annotations, not images. Its three seeded models ac
 
 I'm available full-time **May–August 2027**, and open to supervised research during the school year that fits my coursework. I'm a U.S.–Canadian dual citizen, open to Canada, the U.S., relocation, and remote work. Expected graduation: May 2030.
 
-[Résumé](resume/Yusef_Syed_Resume.pdf) · [Email](mailto:yusefmsyed@gmail.com) · [LinkedIn](https://www.linkedin.com/in/yusef-syed-4b811a289/)
+[Résumé](resume/Yusef_Syed_Resume.pdf) · [Email](mailto:yusef.syed@mail.utoronto.ca) · [LinkedIn](https://www.linkedin.com/in/yusef-syed-4b811a289/)
 
 </details>
 
