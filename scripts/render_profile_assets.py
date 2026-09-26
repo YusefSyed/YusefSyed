@@ -73,7 +73,7 @@ def button(name, label, color=CYAN):
 if __name__ == '__main__':
     for theme in ['dark', 'light']:
         intro(theme)
-        for name, label in [('portfolio','PORTFOLIO'),('linkedin','LINKEDIN'),('email','EMAIL'),('resume','RESUME'),('github','GITHUB')]:
+        for name, label in [('portfolio','PORTFOLIO'),('linkedin','LINKEDIN'),('email','EMAIL'),('resume','RESUME')]:
             icon(name,label,theme)
     card('eval-lab', 'agent-eval-mutation-lab', 'Tests what agents actually do when tools fail or results are missing.', 'Python', 'PROJECT')
     card('tiraz', 'tiraz-garment-completion', 'A garment-completion experiment with calibration and missing-context tests.', 'Python', 'ML STUDY')

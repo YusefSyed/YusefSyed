@@ -12,7 +12,6 @@
   <a href="https://www.linkedin.com/in/yusef-syed-4b811a289/" title="LinkedIn"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/link-linkedin-dark.svg"><img src="assets/profile/link-linkedin-light.svg" width="64" alt="LinkedIn"></picture></a>
   <a href="mailto:yusefmsyed@gmail.com" title="Email me"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/link-email-dark.svg"><img src="assets/profile/link-email-light.svg" width="64" alt="Email me"></picture></a>
   <a href="resume/Yusef_Syed_Resume.pdf" title="Resume PDF"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/link-resume-dark.svg"><img src="assets/profile/link-resume-light.svg" width="64" alt="Resume PDF"></picture></a>
-  <a href="https://github.com/YusefSyed?tab=repositories" title="My repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/link-github-dark.svg"><img src="assets/profile/link-github-light.svg" width="64" alt="My repositories"></picture></a>
 </p>
 
 Hey, I'm Yusef. I'm in my first year at the **University of Toronto**, intending Math + CS. I spend a lot of my time building apps and working on AI evaluation.
