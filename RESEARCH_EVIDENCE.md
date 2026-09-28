@@ -1,6 +1,6 @@
 # Research evidence
 
-Updated September 24, 2026. I am a first-year University of Toronto student, intending Mathematics and Computer Science. My focus is AI-safety evaluation, agent oversight and reliable research software. These are personal engineering and research projects; results and limitations are documented below.
+Updated September 28, 2026. I am a first-year University of Toronto student, intending Mathematics and Computer Science. My focus is AI-safety evaluation, agent oversight and reliable research software. These are personal engineering and research projects; results and limitations are documented below.
 
 [Resume (PDF)](resume/Yusef_Syed_Resume.pdf) · [Email](mailto:yusef.syed@mail.utoronto.ca)
 
@@ -28,13 +28,14 @@ A local scheduling prototype separates model suggestions from an independent con
 
 ## External open source
 
-Ten PRs were verified merged in external upstream repositories on September 24, 2026:
+Twelve PRs were verified merged across six external upstream repositories on September 28, 2026:
 
 - W&B RAI Toolkit: [30](https://github.com/wandb/rai-toolkit/pull/30), [31](https://github.com/wandb/rai-toolkit/pull/31), [51](https://github.com/wandb/rai-toolkit/pull/51), [52](https://github.com/wandb/rai-toolkit/pull/52).
-- Microsoft Agent Lightning: [580](https://github.com/microsoft/agent-lightning/pull/580), [582](https://github.com/microsoft/agent-lightning/pull/582), [584](https://github.com/microsoft/agent-lightning/pull/584).
+- Microsoft Agent Lightning: [580](https://github.com/microsoft/agent-lightning/pull/580), [582](https://github.com/microsoft/agent-lightning/pull/582), [584](https://github.com/microsoft/agent-lightning/pull/584), [585](https://github.com/microsoft/agent-lightning/pull/585).
 - Microsoft PyRIT: [2537](https://github.com/microsoft/PyRIT/pull/2537).
 - Meridian Labs Inspect Scout: [586](https://github.com/meridianlabs-ai/inspect_scout/pull/586).
 - Kornia: [4185](https://github.com/kornia/kornia/pull/4185).
+- Apache Arrow: [51160](https://github.com/apache/arrow/pull/51160).
 
 Each link above leads to the merged upstream change and its review history.
 
@@ -42,4 +43,4 @@ Each link above leads to the merged upstream change and its review history.
 
 [PR 196390](https://github.com/pytorch/pytorch/pull/196390) · [Validation supplement](case-studies/pytorch-igamma-shape-gradients/README.md)
 
-The CPU/CUDA incomplete-gamma shape-gradient PR is open, separate from the ten merges. Local source-build validation compared 1,162 derivative outputs each on macOS CPU, Linux CPU and RTX A4000 CUDA: 3,486 comparisons, with no recorded corpus failures. The supplement contains the runner, numeric input/reference corpus, sanitized outputs and source-hash mapping. This is author-run sampled evidence, not upstream CI or an all-domain correctness theorem.
+The CPU/CUDA incomplete-gamma shape-gradient PR is open, separate from the twelve merges. Local source-build validation compared 1,162 derivative outputs each on macOS CPU, Linux CPU and RTX A4000 CUDA: 3,486 comparisons, with no recorded corpus failures. The supplement contains the runner, numeric input/reference corpus, sanitized outputs and source-hash mapping. This is author-run sampled evidence, not upstream CI or an all-domain correctness theorem.
