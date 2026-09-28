@@ -50,6 +50,8 @@ Hey, I'm Yusef. I'm in my first year at the **University of Toronto**, intending
 
 Each card links to my contribution. Green labels indicate merged PRs; the PyTorch PR is still open.
 
+As of September 28, 2026, I have **12 merged upstream PRs across six projects**, including [Apache Arrow slicing](https://github.com/apache/arrow/pull/51160) and [Agent Lightning timeout-report retries](https://github.com/microsoft/agent-lightning/pull/585).
+
 <a href="RESEARCH_EVIDENCE.md#external-open-source"><img src="assets/profile/contributions.svg" height="29" alt="Contribution details and evidence"></a>
 
 </details>
