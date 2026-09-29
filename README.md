@@ -1,9 +1,9 @@
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/profile/intro-static-dark.svg?v=uoft-crest-1">
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/intro-static-light.svg?v=uoft-crest-1">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/intro-dark.svg?v=uoft-crest-1">
-    <img src="assets/profile/intro-light.svg?v=uoft-crest-1" width="560" alt="Yusef Syed with an animated oak-and-book student crest. Student at the University of Toronto. Building apps and developer tools. Interested in AI evaluation.">
+    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YusefSyed/YusefSyed/8c94195/assets/profile/intro-static-dark.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/YusefSyed/YusefSyed/8c94195/assets/profile/intro-static-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YusefSyed/YusefSyed/8c94195/assets/profile/intro-dark.svg">
+    <img src="https://raw.githubusercontent.com/YusefSyed/YusefSyed/8c94195/assets/profile/intro-light.svg" width="560" alt="Yusef Syed with an animated oak-and-book student crest. Student at the University of Toronto. Building apps and developer tools. Interested in AI evaluation.">
   </picture>
 </p>
 
