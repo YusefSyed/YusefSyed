@@ -17,25 +17,62 @@ def write(name, width, height, title, body):
     (OUT / (name + '.svg')).write_text(f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title"><title id="title">{escape(title)}</title>\n{body}\n</svg>\n')
 
 
+def university_emblem(color, animated):
+    """Original oak-and-book student crest, drawn as small monospaced strokes."""
+    # Keep paths grouped by drawing phase: silhouette, oak, then book and initials.
+    paths = [
+        ('outline', 'M10 31H74V56C74 76 60 89 42 99C24 89 10 76 10 56Z'),
+        ('detail', 'M15 36H69V56C69 72 58 83 42 93C26 83 15 72 15 56Z'),
+        ('oak', 'M42 28V9M42 21L32 13M42 17L52 9M42 26L54 19M42 27L28 20'),
+        ('oak', 'M42 10C33 7 36 1 42 0C48 1 51 7 42 10Z'),
+        ('oak', 'M32 14C24 16 20 10 23 6C29 4 35 7 32 14Z'),
+        ('oak', 'M51 11C49 3 55 0 60 3C62 9 57 14 51 11Z'),
+        ('oak', 'M29 21C20 25 15 21 16 16C21 12 28 14 29 21Z'),
+        ('oak', 'M54 20C55 12 62 11 66 15C66 21 60 25 54 20Z'),
+        ('detail', 'M34 28H50M21 43H63'),
+        ('book', 'M42 55C35 50 28 50 22 52V70C29 68 36 69 42 73C48 69 55 68 62 70V52C56 50 49 50 42 55ZM42 55V73'),
+        ('book', 'M27 57C31 56 35 57 38 59M27 62C31 61 35 62 38 64M46 59C49 57 53 56 57 57M46 64C49 62 53 61 57 62'),
+        ('initials', 'M32 79V83C32 88 39 88 39 83V79M46 79H55M50.5 79V87'),
+    ]
+    body = []
+    for phase, path in paths:
+        cls = f' class="ink {phase}" pathLength="1"' if animated else ''
+        opacity = ' opacity="0.45"' if phase == 'detail' else ''
+        body.append(f'<path{cls}{opacity} d="{path}"/>')
+    return (f'<g transform="translate(164 12) scale(.82)" fill="none" '
+            f'stroke="{color}" stroke-width="1.6" stroke-linecap="round" '
+            f'stroke-linejoin="round">' + ''.join(body) + '</g>')
+
+
 def intro(theme):
     color = CYAN if theme == 'dark' else '#006c87'
     lines = ['Student at the University of Toronto', 'Building apps and developer tools', 'Interested in AI evaluation']
-    body = [text(300, 34, 'Yusef Syed', 29, color, family=MONO, extra='text-anchor="middle"')]
-    css = ['.still{display:none}']
+    name = text(258, 63, 'Yusef Syed', 29, color, family=MONO)
+    css = ['.still{display:none}',
+           '.ink{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 18s steps(24,end) infinite both}',
+           '.oak{animation-name:grow}.book{animation-name:book}.initials{animation-name:initials}',
+           '.detail{animation-name:detail}',
+           '@keyframes draw{0%{stroke-dashoffset:1}12%,94%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}',
+           '@keyframes detail{0%,3%{stroke-dashoffset:1}15%,94%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}',
+           '@keyframes grow{0%,4%{stroke-dashoffset:1}16%,94%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}',
+           '@keyframes book{0%,7%{stroke-dashoffset:1}18%,94%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}',
+           '@keyframes initials{0%,12%{stroke-dashoffset:1}19%,94%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}']
+    body = [name, '<g class="moving">' + university_emblem(color, True) + '</g>']
     for i, line in enumerate(lines):
         width = len(line) * 14.4 + 3
-        start = (600 - width) / 2
+        start = round((600 - width) / 2, 1)
         css.append(f'@keyframes type{i}{{0%{{width:0}}16%,26%{{width:{width}px}}33.32%,100%{{width:0}}}}')
         css.append(f'#reveal{i}{{width:0;animation:type{i} 18s steps({len(line)},end) {i*6}s infinite both}}')
-        body.append(f'<clipPath id="clip{i}"><rect id="reveal{i}" x="{start}" y="65" width="0" height="34"/></clipPath>')
-        body.append(f'<g class="moving" clip-path="url(#clip{i})">{text(start, 91, line, 24, color, family=MONO)}</g>')
+        body.append(f'<clipPath id="clip{i}"><rect id="reveal{i}" x="{start}" y="119" width="0" height="34"/></clipPath>')
+        body.append(f'<g class="moving" clip-path="url(#clip{i})">{text(start, 145, line, 24, color, family=MONO)}</g>')
     css.append('@media(prefers-reduced-motion:reduce){.moving{display:none}.still{display:block}}')
-    body.append(f'<g class="still">{text(300, 91, lines[0], 24, color, family=MONO, extra="text-anchor=\"middle\"")}</g>')
+    still = university_emblem(color, False) + text(300, 145, lines[0], 24, color, family=MONO, extra='text-anchor="middle"')
+    body.append(f'<g class="still">{still}</g>')
     body.insert(0, '<style>' + ''.join(css) + '</style>')
-    write('intro-' + theme, 600, 116, 'Yusef Syed — University of Toronto student, apps, developer tools, and AI evaluation', '\n'.join(body))
-    write('intro-static-' + theme, 600, 116, 'Yusef Syed — Student at the University of Toronto',
-          text(300, 34, 'Yusef Syed', 29, color, family=MONO, extra='text-anchor="middle"') +
-          text(300, 91, lines[0], 24, color, family=MONO, extra='text-anchor="middle"'))
+    write('intro-' + theme, 600, 172,
+          'Yusef Syed — University of Toronto student, with an animated oak-and-book student crest', '\n'.join(body))
+    write('intro-static-' + theme, 600, 172,
+          'Yusef Syed — Student at the University of Toronto, with an oak-and-book student crest', name + still)
 
 
 def card(name, title, description, language, status, dot='#3572a5'):
