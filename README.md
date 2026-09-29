@@ -3,7 +3,7 @@
     <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/profile/intro-static-dark.svg">
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/intro-static-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="assets/profile/intro-dark.svg">
-    <img src="assets/profile/intro-light.svg" width="560" alt="Yusef Syed. Student at the University of Toronto. Building apps and developer tools. Interested in AI evaluation.">
+    <img src="assets/profile/intro-light.svg" width="560" alt="Yusef Syed with an animated oak-and-book student crest. Student at the University of Toronto. Building apps and developer tools. Interested in AI evaluation.">
   </picture>
 </p>
 
