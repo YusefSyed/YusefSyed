@@ -19,11 +19,11 @@ def write(name, width, height, title, body):
 
 def intro(theme):
     color = CYAN if theme == 'dark' else '#006c87'
-    lines = ['Student at the University of Toronto', 'Building apps and developer tools', 'Interested in AI evaluation']
+    lines = ['Founder of Scopehaven', 'Testing what AI agents can access and do', 'Student at the University of Toronto']
     body = [text(300, 34, 'Yusef Syed', 29, color, family=MONO, extra='text-anchor="middle"')]
     css = ['.still{display:none}']
     for i, line in enumerate(lines):
-        width = len(line) * 14.4 + 3
+        width = round(len(line) * 14.4 + 3, 1)
         start = (600 - width) / 2
         css.append(f'@keyframes type{i}{{0%{{width:0}}16%,26%{{width:{width}px}}33.32%,100%{{width:0}}}}')
         css.append(f'#reveal{i}{{width:0;animation:type{i} 18s steps({len(line)},end) {i*6}s infinite both}}')
@@ -32,8 +32,8 @@ def intro(theme):
     css.append('@media(prefers-reduced-motion:reduce){.moving{display:none}.still{display:block}}')
     body.append(f'<g class="still">{text(300, 91, lines[0], 24, color, family=MONO, extra="text-anchor=\"middle\"")}</g>')
     body.insert(0, '<style>' + ''.join(css) + '</style>')
-    write('intro-' + theme, 600, 116, 'Yusef Syed — University of Toronto student, apps, developer tools, and AI evaluation', '\n'.join(body))
-    write('intro-static-' + theme, 600, 116, 'Yusef Syed — Student at the University of Toronto',
+    write('intro-' + theme, 600, 116, 'Yusef Syed. Founder of Scopehaven, testing what AI agents can access and do. Student at the University of Toronto', '\n'.join(body))
+    write('intro-static-' + theme, 600, 116, 'Yusef Syed. Founder of Scopehaven',
           text(300, 34, 'Yusef Syed', 29, color, family=MONO, extra='text-anchor="middle"') +
           text(300, 91, lines[0], 24, color, family=MONO, extra='text-anchor="middle"'))
 
@@ -46,11 +46,12 @@ def card(name, title, description, language, status, dot='#3572a5'):
         body.append(text(30, 94 + 31*i, line, 24))
     status_color = '#f4d76d' if status == 'OPEN PR' else '#a9d6b1' if status == 'MERGED PR' else MUTED
     body += [f'<circle cx="37" cy="221" r="9" fill="{dot}"/>', text(57, 228, language, 22), text(520, 228, status, 19, status_color, 700, extra='text-anchor="end"')]
-    write(name, 552, 270, f'{title} — {description} {language}. {status}.', '\n'.join(body))
+    write(name, 552, 270, f'{title}: {description} {language}. {status}.', '\n'.join(body))
 
 
 ICONS = {
     'portfolio': '<circle cx="24" cy="22" r="14"/><ellipse cx="24" cy="22" rx="6" ry="14"/><path d="M10 22h28M13 15h22M13 29h22"/>',
+    'scopehaven': '<circle cx="21" cy="20" r="11"/><path d="m29 28 9 9"/>',
     'email': '<rect x="8" y="11" width="32" height="23" rx="3"/><path d="m9 13 15 12 15-12"/>',
     'resume': '<path d="M14 7h15l8 8v23H14zM29 7v9h8M20 23h11M20 29h11"/>',
     'github': '<path d="m17 13-9 9 9 9m14-18 9 9-9 9M27 8l-6 28"/>',
@@ -73,8 +74,9 @@ def button(name, label, color=CYAN):
 if __name__ == '__main__':
     for theme in ['dark', 'light']:
         intro(theme)
-        for name, label in [('portfolio','PORTFOLIO'),('linkedin','LINKEDIN'),('email','EMAIL'),('resume','RESUME')]:
+        for name, label in [('scopehaven','SCOPEHAVEN'),('portfolio','PORTFOLIO'),('linkedin','LINKEDIN'),('email','EMAIL'),('resume','RESUME')]:
             icon(name,label,theme)
+    card('scopehaven', 'Scopehaven', 'Tests whether your AI app or agent stays inside its permissions.', 'scopehaven.dev', 'EARLY ACCESS', CYAN)
     card('eval-lab', 'agent-eval-mutation-lab', 'Tests what agents actually do when tools fail or results are missing.', 'Python', 'PROJECT')
     card('tiraz', 'tiraz-garment-completion', 'A garment-completion experiment with calibration and missing-context tests.', 'Python', 'ML STUDY')
     card('agent-proof', 'agent-proof', 'Runs reviewer-selected checks and saves redacted verification reports.', 'TypeScript', 'CLI', '#3178c6')

@@ -1,27 +1,32 @@
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/profile/intro-static-dark.svg">
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/intro-static-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/intro-dark.svg">
-    <img src="assets/profile/intro-light.svg" width="560" alt="Yusef Syed. Student at the University of Toronto. Building apps and developer tools. Interested in AI evaluation.">
+    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/profile/intro-static-dark.svg?v=scopehaven-1">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/intro-static-light.svg?v=scopehaven-1">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/intro-dark.svg?v=scopehaven-1">
+    <img src="assets/profile/intro-light.svg?v=scopehaven-1" width="560" alt="Yusef Syed. Founder of Scopehaven. Testing what AI agents can access and do. Student at the University of Toronto.">
   </picture>
 </p>
 
 <p align="center">
+  <a href="https://scopehaven.dev" title="Scopehaven"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/link-scopehaven-dark.svg"><img src="assets/profile/link-scopehaven-light.svg" width="64" alt="Scopehaven"></picture></a>
   <a href="https://yusef-product-demos.yoosefseed.chatgpt.site" title="Portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/link-portfolio-dark.svg"><img src="assets/profile/link-portfolio-light.svg" width="64" alt="Portfolio"></picture></a>
   <a href="https://www.linkedin.com/in/yusef-syed-4b811a289/" title="LinkedIn"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/link-linkedin-dark.svg"><img src="assets/profile/link-linkedin-light.svg" width="64" alt="LinkedIn"></picture></a>
   <a href="mailto:yusef.syed@mail.utoronto.ca" title="Email me"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/link-email-dark.svg"><img src="assets/profile/link-email-light.svg" width="64" alt="Email me"></picture></a>
   <a href="resume/Yusef_Syed_Resume.pdf" title="Resume PDF"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/link-resume-dark.svg"><img src="assets/profile/link-resume-light.svg" width="64" alt="Resume PDF"></picture></a>
 </p>
 
-Hey, I'm Yusef. I'm in my first year at the **University of Toronto**, intending Math + CS. I spend a lot of my time building apps and working on AI evaluation.
+Hey, I'm Yusef. I'm building **[Scopehaven](https://scopehaven.dev)**, which tests whether your AI app or agent stays inside its permissions. I'm also in my first year at the **University of Toronto**, intending Math + CS.
 
+- 🔍 **[Scopehaven](https://scopehaven.dev):** see what your agent did, not what it said. It checks what each test user can actually reach and, where it can see your backend, what was recorded, then reruns the same checks on your fix. Scopehaven is opening early access to a small number of teams building AI apps and agents. The product code is private; scopehaven.dev has the details.
 - ⌚ I built the Apple Watch client for **[Providence](https://devpost.com/software/providence-tn6m4h)** with my team at Hack the North.
 - 🧪 My **[eval lab](https://github.com/YusefSyed/agent-eval-mutation-lab)** looks at what agents actually did when tool calls fail or evidence is incomplete.
-- 🌱 I'm looking for **supervised research** and **Summer 2027 internships**. [Email me](mailto:yusef.syed@mail.utoronto.ca).
 
 <details open>
 <summary><h2>💻 Projects &amp; experiments</h2></summary>
+
+<p align="center">
+  <a href="https://scopehaven.dev"><img src="assets/profile/scopehaven.svg" width="270" alt="Scopehaven: tests whether your AI app or agent stays inside its permissions. Early access at scopehaven.dev."></a>
+</p>
 
 <p align="center">
   <a href="https://github.com/YusefSyed/agent-eval-mutation-lab"><img src="assets/profile/eval-lab.svg" width="270" alt="agent-eval-mutation-lab: tests agent actions, partial failures, and missing results. Python."></a>
@@ -94,7 +99,7 @@ The Tiraz study uses garment annotations, not images. Its three seeded models ac
 <details>
 <summary><h2>📬 Availability</h2></summary>
 
-I'm available full-time **May–August 2027**, and open to supervised research during the school year that fits my coursework. I'm a U.S.–Canadian dual citizen, open to Canada, the U.S., relocation, and remote work. Expected graduation: May 2030.
+I'm open to Summer 2027 internships (full-time **May to August 2027**) and to supervised research during the school year that fits my coursework. I'm a U.S.–Canadian dual citizen, open to Canada, the U.S., relocation, and remote work. Expected graduation: May 2030.
 
 [Résumé](resume/Yusef_Syed_Resume.pdf) · [Email](mailto:yusef.syed@mail.utoronto.ca) · [LinkedIn](https://www.linkedin.com/in/yusef-syed-4b811a289/)
 
