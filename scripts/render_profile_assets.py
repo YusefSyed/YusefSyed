@@ -76,7 +76,7 @@ if __name__ == '__main__':
         intro(theme)
         for name, label in [('scopehaven','SCOPEHAVEN'),('portfolio','PORTFOLIO'),('linkedin','LINKEDIN'),('email','EMAIL'),('resume','RESUME')]:
             icon(name,label,theme)
-    card('scopehaven', 'Scopehaven', 'Tests whether your AI app or agent stays inside its permissions.', 'scopehaven.dev', 'EARLY ACCESS', CYAN)
+    card('scopehaven', 'Scopehaven', 'Tests agent permissions and outcomes, then reruns checks after a fix.', 'scopehaven.dev', 'EARLY STAGE', CYAN)
     card('eval-lab', 'agent-eval-mutation-lab', 'Tests what agents actually do when tools fail or results are missing.', 'Python', 'PROJECT')
     card('tiraz', 'tiraz-garment-completion', 'A garment-completion experiment with calibration and missing-context tests.', 'Python', 'ML STUDY')
     card('agent-proof', 'agent-proof', 'Runs reviewer-selected checks and saves redacted verification reports.', 'TypeScript', 'CLI', '#3178c6')
