@@ -15,17 +15,25 @@
   <a href="resume/Yusef_Syed_Resume.pdf" title="Resume PDF"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/link-resume-dark.svg"><img src="assets/profile/link-resume-light.svg" width="64" alt="Resume PDF"></picture></a>
 </p>
 
-Hey, I'm Yusef. I'm building **[Scopehaven](https://scopehaven.dev)**, which tests whether your AI app or agent stays inside its permissions. I'm also in my first year at the **University of Toronto**, intending Math + CS.
+Hey, I'm Yusef. My main focus is building **[Scopehaven](https://scopehaven.dev)**: permission and outcome testing for AI apps and agents. I'm also a first-year student at the **University of Toronto**, intending Math + CS.
 
-- 🔍 **[Scopehaven](https://scopehaven.dev):** see what your agent did, not what it said. It checks what each test user can actually reach and, where it can see your backend, what was recorded, then reruns the same checks on your fix. Scopehaven is opening early access to a small number of teams building AI apps and agents. The product code is private; scopehaven.dev has the details.
-- ⌚ I built the Apple Watch client for **[Providence](https://devpost.com/software/providence-tn6m4h)** with my team at Hack the North.
-- 🧪 My **[eval lab](https://github.com/YusefSyed/agent-eval-mutation-lab)** looks at what agents actually did when tool calls fail or evidence is incomplete.
+### What I'm working on
+
+- 🔍 **Scopehaven:** checking who can access data or use a tool, comparing the agent's reply with observable outcomes, and rerunning checks after a repair. Current evidence comes from local tests and internal pilots with synthetic data. The product is early stage, and the code is private. [See the approach and request a first test](https://scopehaven.dev).
+- 🧪 **Agent evaluation:** my **[eval lab](https://github.com/YusefSyed/agent-eval-mutation-lab)** studies tool failures, partial execution, and missing evidence. I'm interested in evaluations that distinguish an intended action from a verified result.
+- 🧩 **Open source:** contributing focused fixes to evaluation and research tools, with regression tests and links to the upstream review.
+
+### What I'm working toward
+
+- Make Scopehaven useful to external teams: reproduce a concrete permission failure, verify a repair, and preserve the check for future releases.
+- Build evaluations that catch forbidden actions while checking that legitimate use still works, and report uncertainty when the evidence is incomplete.
+- Strengthen my independent Python, algorithms, debugging, and mathematical foundations alongside my coursework.
 
 <details open>
-<summary><h2>💻 Projects &amp; experiments</h2></summary>
+<summary><h2>💻 Selected projects &amp; experiments</h2></summary>
 
 <p align="center">
-  <a href="https://scopehaven.dev"><img src="assets/profile/scopehaven.svg" width="270" alt="Scopehaven: tests whether your AI app or agent stays inside its permissions. Early access at scopehaven.dev."></a>
+  <a href="https://scopehaven.dev"><img src="assets/profile/scopehaven.svg?v=focus-20261008" width="270" alt="Scopehaven: tests agent permissions and outcomes, then reruns checks after a fix. Early-stage product with local and synthetic pilot evidence."></a>
 </p>
 
 <p align="center">
@@ -53,9 +61,9 @@ Hey, I'm Yusef. I'm building **[Scopehaven](https://scopehaven.dev)**, which tes
   <a href="https://github.com/pytorch/pytorch/pull/196390"><img src="assets/profile/oss-pytorch.svg" width="270" alt="PyTorch: open CPU/CUDA incomplete-gamma shape-gradient PR, not yet merged."></a>
 </p>
 
-Each card links to my contribution. Green labels indicate merged PRs; the PyTorch PR is still open.
+Each card links to my contribution. Green labels indicate merged PRs; the PyTorch PR is still open as of October 8, 2026.
 
-As of September 28, 2026, I have **12 merged upstream PRs across six projects**, including [Apache Arrow slicing](https://github.com/apache/arrow/pull/51160) and [Agent Lightning timeout-report retries](https://github.com/microsoft/agent-lightning/pull/585).
+My merged work includes [Apache Arrow slicing](https://github.com/apache/arrow/pull/51160), [Agent Lightning timeout-report retries](https://github.com/microsoft/agent-lightning/pull/585), [Inspect Scout postponed-annotation support](https://github.com/meridianlabs-ai/inspect_scout/pull/617), and [W&B RAI Toolkit prediction-error accounting](https://github.com/wandb/rai-toolkit/pull/106). The [evidence page](RESEARCH_EVIDENCE.md#external-open-source) lists the verified contributions and the date checked.
 
 <a href="RESEARCH_EVIDENCE.md#external-open-source"><img src="assets/profile/contributions.svg" height="29" alt="Contribution details and evidence"></a>
 
@@ -97,9 +105,9 @@ The Tiraz study uses garment annotations, not images. Its three seeded models ac
 </details>
 
 <details>
-<summary><h2>📬 Availability</h2></summary>
+<summary><h2>📬 Get in touch</h2></summary>
 
-I'm open to Summer 2027 internships (full-time **May to August 2027**) and to supervised research during the school year that fits my coursework. I'm a U.S.–Canadian dual citizen, open to Canada, the U.S., relocation, and remote work. Expected graduation: May 2030.
+If you're building an AI app or agent and want to discuss permission testing, evaluation failures, or a focused open-source contribution, you can reach me below.
 
 [Résumé](resume/Yusef_Syed_Resume.pdf) · [Email](mailto:yusef.syed@mail.utoronto.ca) · [LinkedIn](https://www.linkedin.com/in/yusef-syed-4b811a289/)
 
