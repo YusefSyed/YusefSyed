@@ -4,9 +4,7 @@ First-year Math + CS at U of T, building [Scopehaven](https://scopehaven.dev). L
 
 **[Resume (PDF)](resume/Yusef_Syed_Resume.pdf)** · [Email](mailto:yusef.syed@mail.utoronto.ca) · [LinkedIn](https://www.linkedin.com/in/yusef-syed-4b811a289/)
 
-<a href="resume/Yusef_Syed_Resume.pdf"><img src="resume/Yusef_Syed_Resume.png" width="760" alt="Yusef Syed's resume. Open the PDF for the full text and links."></a>
-
-<details>
+<details open>
 <summary><strong>Projects</strong></summary>
 
 <p align="center">
