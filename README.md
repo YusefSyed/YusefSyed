@@ -16,6 +16,8 @@ First-year Math + CS at U of T, building [Scopehaven](https://scopehaven.dev). L
   <a href="https://github.com/YusefSyed/tiraz-garment-completion"><img src="assets/profile/tiraz.svg" width="270" alt="tiraz-garment-completion: annotation-only PyTorch experiment with calibration and missing-context tests."></a>
 </p>
 
+**[effect-tracer](https://github.com/YusefSyed/effect-tracer)** (Rust, Linux): records what an agent's process tree actually did (files written, network connections, DNS lookups, programs started) into a hash-chained, signed log with a standalone verifier; ptrace and eBPF backends that cross-check each other.
+
 </details>
 
 <details>
@@ -27,7 +29,6 @@ First-year Math + CS at U of T, building [Scopehaven](https://scopehaven.dev). L
   <a href="https://github.com/kornia/kornia/pull/4185"><img src="assets/profile/oss-kornia.svg" width="270" alt="Kornia: merged empty accelerator tensor fix."></a>
   <a href="https://github.com/microsoft/PyRIT/pull/2537"><img src="assets/profile/oss-pyrit.svg" width="270" alt="Microsoft PyRIT: merged package-hallucination techniques."></a>
   <a href="https://github.com/wandb/rai-toolkit/pull/30"><img src="assets/profile/oss-wandb.svg" width="270" alt="WandB RAI Toolkit: merged default scorer category fix."></a>
-  <a href="https://github.com/pytorch/pytorch/pull/196390"><img src="assets/profile/oss-pytorch.svg" width="270" alt="PyTorch: open CPU/CUDA incomplete-gamma shape-gradient PR, not yet merged."></a>
 </p>
 
 [Full list and evidence](RESEARCH_EVIDENCE.md#external-open-source)
