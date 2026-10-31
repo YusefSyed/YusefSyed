@@ -9,12 +9,11 @@ First-year Math + CS at U of T, building [Scopehaven](https://scopehaven.dev). L
 
 <p align="center">
   <a href="https://scopehaven.dev"><img src="assets/profile/scopehaven.svg?v=focus-20261008" width="270" alt="Scopehaven: tests agent permissions and outcomes, then reruns checks after a fix. Early-stage product with local and synthetic pilot evidence."></a>
+  <a href="https://github.com/YusefSyed/effect-tracer"><img src="assets/profile/effect-tracer.svg" width="270" alt="effect-tracer: signs what a process tree actually did: file writes, connects, DNS, execs. Rust, Linux. ptrace backend released; eBPF backend on a branch."></a>
   <a href="https://github.com/YusefSyed/agent-eval-mutation-lab"><img src="assets/profile/eval-lab.svg" width="270" alt="agent-eval-mutation-lab: tests agent actions, partial failures, and missing results. Python."></a>
   <a href="https://devpost.com/software/providence-tn6m4h"><img src="assets/profile/providence.svg" width="270" alt="Providence: my native Apple Watch client for our Hack the North team project. Swift."></a>
   <a href="https://github.com/YusefSyed/tiraz-garment-completion"><img src="assets/profile/tiraz.svg" width="270" alt="tiraz-garment-completion: annotation-only PyTorch experiment with calibration and missing-context tests."></a>
 </p>
-
-**[effect-tracer](https://github.com/YusefSyed/effect-tracer)** (Rust, Linux): records what an agent's process tree actually did (files written, network connections, DNS lookups, programs started) into a hash-chained, signed log with a standalone verifier; ptrace and eBPF backends that cross-check each other.
 
 </details>
 
