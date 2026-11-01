@@ -1,6 +1,6 @@
 # Yusef Syed
 
-First-year Math + CS at U of T, building [Scopehaven](https://scopehaven.dev). Looking for startup roles in SF: Summer 2027, also open to Jan–Apr 2027.
+First-year Math + CS at U of T. Built [Scopehaven](https://scopehaven.dev) (solo project: security testing for AI agents), [effect-tracer](https://github.com/YusefSyed/effect-tracer) and [ToolEffectBench](https://github.com/YusefSyed/tool-effect-bench). Looking to join a startup team full-time from January 2027, in San Francisco or New York.
 
 **[Resume (PDF)](resume/Yusef_Syed_Resume.pdf)** · [Email](mailto:yusef.syed@mail.utoronto.ca) · [LinkedIn](https://www.linkedin.com/in/yusef-syed-4b811a289/)
 
