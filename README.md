@@ -1,6 +1,6 @@
 # Yusef Syed
 
-First-year Math + CS at U of T. Built [Scopehaven](https://scopehaven.dev) (solo project: security testing for AI agents), [effect-tracer](https://github.com/YusefSyed/effect-tracer) and [ToolEffectBench](https://github.com/YusefSyed/tool-effect-bench). Looking to join a startup team full-time from January 2027, in San Francisco or New York.
+First-year Math + CS at U of T. Built [Scopehaven](https://github.com/YusefSyed/scopehaven-oss) (solo project: security testing for AI agents; [site](https://scopehaven.dev)), [effect-tracer](https://github.com/YusefSyed/effect-tracer) and [ToolEffectBench](https://github.com/YusefSyed/tool-effect-bench). Looking to join a startup team full-time from January 2027, in San Francisco or New York.
 
 **[Resume (PDF)](resume/Yusef_Syed_Resume.pdf)** · [Email](mailto:yusef.syed@mail.utoronto.ca) · [LinkedIn](https://www.linkedin.com/in/yusef-syed-4b811a289/)
 
@@ -8,7 +8,7 @@ First-year Math + CS at U of T. Built [Scopehaven](https://scopehaven.dev) (solo
 <summary><strong>Projects</strong></summary>
 
 <p align="center">
-  <a href="https://scopehaven.dev"><img src="assets/profile/scopehaven.svg?v=focus-20261008" width="270" alt="Scopehaven: tests agent permissions and outcomes, then reruns checks after a fix. Early-stage product with local and synthetic pilot evidence."></a>
+  <a href="https://github.com/YusefSyed/scopehaven-oss"><img src="assets/profile/scopehaven.svg?v=open-20261101" width="270" alt="Scopehaven: tests agent permissions and outcomes, then reruns checks after a fix. Apache-2.0 open edition on GitHub; the site is scopehaven.dev."></a>
   <a href="https://github.com/YusefSyed/effect-tracer"><img src="assets/profile/effect-tracer.svg" width="270" alt="effect-tracer: signs what a process tree actually did: file writes, connects, DNS, execs. Rust, Linux. ptrace backend released; eBPF backend on a branch."></a>
   <a href="https://github.com/YusefSyed/agent-eval-mutation-lab"><img src="assets/profile/eval-lab.svg" width="270" alt="agent-eval-mutation-lab: tests agent actions, partial failures, and missing results. Python."></a>
   <a href="https://devpost.com/software/providence-tn6m4h"><img src="assets/profile/providence.svg" width="270" alt="Providence: my native Apple Watch client for our Hack the North team project. Swift."></a>
