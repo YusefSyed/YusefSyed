@@ -1,6 +1,6 @@
 # Research evidence
 
-Current focus and upstream PR status checked October 8, 2026. The pinned experiment results below retain their original scope and dates. I am a first-year University of Toronto student, intending Mathematics and Computer Science. My current focus is building Scopehaven and studying how to evaluate agent permissions, observable effects, and incomplete evidence.
+Current focus and upstream PR status checked November 1, 2026. The pinned experiment results below retain their original scope and dates. I am a first-year University of Toronto student, intending Mathematics and Computer Science. My current focus is building Scopehaven and studying how to evaluate agent permissions, observable effects, and incomplete evidence.
 
 [Resume (PDF)](resume/Yusef_Syed_Resume.pdf) · [Email](mailto:yusef.syed@mail.utoronto.ca)
 
@@ -8,7 +8,7 @@ Current focus and upstream PR status checked October 8, 2026. The pinned experim
 
 **[Scopehaven](https://scopehaven.dev)** is an early-stage workbench for permission and outcome testing in AI apps and agents. It compares a declared access rule with the available evidence, reruns checks after a repair, and includes allowed-use controls to catch over-blocking. Backend effects are verified only where they can be observed.
 
-The product code is private. Current evidence comes from local tests and internal pilots using synthetic data; it does not establish production readiness or customer validation. My goal is to make these assessments useful to external teams and turn reproduced failures into repeatable regression checks. The public site describes the current approach and its limitations.
+The [open edition](https://github.com/YusefSyed/scopehaven-oss) is public under Apache-2.0; the rest of the product stays private. Current evidence comes from local tests and internal pilots using synthetic data; it does not establish production readiness or customer validation. My goal is to make these assessments useful to external teams and turn reproduced failures into repeatable regression checks. The public site describes the current approach and its limitations.
 
 ## Agent Eval Mutation Lab
 
@@ -34,7 +34,7 @@ A local scheduling prototype separates model suggestions from an independent con
 
 ## External open source
 
-Fourteen PRs were verified merged across six external upstream repositories on October 8, 2026. Personal repositories and hackathon team work are excluded:
+Fourteen PRs were verified merged across six external upstream repositories, last checked November 1, 2026. Personal repositories and hackathon team work are excluded:
 
 - W&B RAI Toolkit: [30](https://github.com/wandb/rai-toolkit/pull/30), [31](https://github.com/wandb/rai-toolkit/pull/31), [51](https://github.com/wandb/rai-toolkit/pull/51), [52](https://github.com/wandb/rai-toolkit/pull/52), [106](https://github.com/wandb/rai-toolkit/pull/106).
 - Microsoft Agent Lightning: [580](https://github.com/microsoft/agent-lightning/pull/580), [582](https://github.com/microsoft/agent-lightning/pull/582), [584](https://github.com/microsoft/agent-lightning/pull/584), [585](https://github.com/microsoft/agent-lightning/pull/585).
@@ -45,8 +45,3 @@ Fourteen PRs were verified merged across six external upstream repositories on O
 
 Each link above leads to the merged upstream change and its review history.
 
-## Open PyTorch contribution
-
-[PR 196390](https://github.com/pytorch/pytorch/pull/196390) · [Validation supplement](case-studies/pytorch-igamma-shape-gradients/README.md)
-
-As of October 8, 2026, the CPU/CUDA incomplete-gamma shape-gradient PR is open, separate from the merged contributions. Local source-build validation compared 1,162 derivative outputs each on macOS CPU, Linux CPU and RTX A4000 CUDA: 3,486 comparisons, with no recorded corpus failures. The supplement contains the runner, numeric input/reference corpus, sanitized outputs and source-hash mapping. This is author-run sampled evidence, not upstream CI or an all-domain correctness theorem.
