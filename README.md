@@ -23,7 +23,7 @@ Software engineer working on AI agent security and evals. Looking to join a star
 
 ## Security research
 
-Filed 15 private security advisories and 2 HackerOne reports (authorization, credential and data-exposure flaws) with 10 open-source projects, each reproduced 3 of 3 with controls first by an automated harness; the 15 advisories were all awaiting maintainer triage as of November 4, 2026.
+Filed 15 private security advisories and 2 HackerOne reports (authorization, credential and data-exposure flaws) with 10 open-source projects, each reproduced 3 of 3 with controls first by an automated harness; all awaiting maintainer triage as of November 4, 2026.
 
 ## Also
 
