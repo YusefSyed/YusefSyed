@@ -1,14 +1,14 @@
 # Research evidence
 
-Current focus and upstream PR status checked November 1, 2026. The pinned experiment results below retain their original scope and dates. I am a first-year University of Toronto student, intending Mathematics and Computer Science. My current focus is building Scopehaven and studying how to evaluate agent permissions, observable effects, and incomplete evidence.
+Upstream PR status checked November 1, 2026. The pinned experiment results below retain their original scope and dates. I am a first-year University of Toronto student, intending Mathematics and Computer Science, and looking to join a startup team full-time from January 2027 in San Francisco or New York.
 
-[Resume (PDF)](resume/Yusef_Syed_Resume.pdf) · [Email](mailto:yusef.syed@mail.utoronto.ca)
+[Resume (PDF)](resume/Yusef_Syed_Resume.pdf) · [Email](mailto:yusefmsyed@gmail.com)
 
 ## Current work: Scopehaven
 
-**[Scopehaven](https://scopehaven.dev)** is an early-stage workbench for permission and outcome testing in AI apps and agents. It compares a declared access rule with the available evidence, reruns checks after a repair, and includes allowed-use controls to catch over-blocking. Backend effects are verified only where they can be observed.
+**[Scopehaven](https://github.com/YusefSyed/scopehaven-oss)** is a workbench for permission and outcome testing in AI apps and agents. It compares a declared access rule with the available evidence, reruns checks after a repair, and includes allowed-use controls to catch over-blocking. Backend effects are verified only where they can be observed.
 
-The [open edition](https://github.com/YusefSyed/scopehaven-oss) is public under Apache-2.0; the rest of the product stays private. Current evidence comes from local tests and internal pilots using synthetic data; it does not establish production readiness or customer validation. My goal is to make these assessments useful to external teams and turn reproduced failures into repeatable regression checks. The public site describes the current approach and its limitations.
+The [open edition](https://github.com/YusefSyed/scopehaven-oss) is public under Apache-2.0; the rest of the product stays private. Current evidence comes from local tests and internal pilots using synthetic data; it does not establish production readiness or customer validation.
 
 ## Agent Eval Mutation Lab
 
