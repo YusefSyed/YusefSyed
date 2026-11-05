@@ -14,12 +14,19 @@ Software engineer working on AI agent security and evals. Looking to join a star
 - **[Apache Arrow](https://github.com/apache/arrow/pull/51160)**: extended four PyArrow slice APIs to accept Arrow integer scalars, with regression tests.
 - **[Inspect Scout](https://github.com/meridianlabs-ai/inspect_scout/pull/586)** and **[Kornia](https://github.com/kornia/kornia/pull/4185)**: three more fixes.
 
+## Papers
+
+- **[ToolEffectBench: Scoring Prompt Injection on Tool-Using Agents from Persisted State](https://doi.org/10.5281/zenodo.23966727)**. Sole author, Zenodo, 2026. doi:10.5281/zenodo.23966727. Code, logs and paper: [tool-effect-bench](https://github.com/YusefSyed/tool-effect-bench).
+- **[Checks for Checkers: Sealed Paired Comparisons of AI Agent Verification Tools](https://doi.org/10.5281/zenodo.23966747)**. Sole author, Zenodo, 2026. doi:10.5281/zenodo.23966747. A sealed, blind comparison of my startup's tool and an open-source framework: no lead (83 vs 88 of 96, p = 0.30).
+
 ## Projects
 
-- **[ToolEffectBench](https://github.com/YusefSyed/tool-effect-bench)** (Python, Inspect, Docker): an Inspect benchmark, built with AI coding agents, scoring prompt injection from a sandbox's database state, not transcripts (188 samples, 17 models, 5,628 scored runs). On one synthetic task, agents' final reports denied 13 of 232 recorded forbidden publications. [Paper v0.7 (41 pp)](https://github.com/YusefSyed/tool-effect-bench/blob/v0.7/paper/ToolEffectBench-v0.7.pdf).
-- **[effect-tracer](https://github.com/YusefSyed/effect-tracer)** (Rust, Linux ptrace/seccomp, Ed25519): built with AI coding agents, a tracer that signs a process tree's file writes, connects, DNS and execs into a hash chain. 19 of 20 seeded bypasses caught at 1.1-1.9x overhead in seccomp mode (20 of 20 at 5-298x in full mode).
-- **[Scopehaven open edition](https://github.com/YusefSyed/scopehaven-oss)** (Node.js, Apache-2.0; solo project, built with AI coding agents): a CLI and GitHub Action that tests whether an AI agent touched the wrong account, tenant or refund, decided from the app's own records rather than the agent's report.
-- **[Agent Eval Mutation Lab](https://github.com/YusefSyed/agent-eval-mutation-lab)** (Python, AI-assisted): a 624-trial study across two local models on a version-controlled protocol. Five of six validity gates failed, so I withheld improvement claims.
+I build with AI coding agents that I direct and review.
+
+- **[ToolEffectBench](https://github.com/YusefSyed/tool-effect-bench)** (Python, Inspect, Docker): an Inspect benchmark scoring prompt injection from a sandbox's database state, not transcripts (188 samples, 17 models, 5,628 scored runs). On one synthetic task, agents' final reports denied at least 13 of 232 recorded forbidden publications.
+- **[effect-tracer](https://github.com/YusefSyed/effect-tracer)** (Rust, Linux ptrace/seccomp, Ed25519): a tracer that signs a process tree's file writes, connects, DNS and execs into a hash chain. 19 of 20 seeded bypasses caught at 1.1-1.9x overhead in seccomp mode (20 of 20 at 5-298x in full mode).
+- **[Scopehaven open edition](https://github.com/YusefSyed/scopehaven-oss)** (Node.js, Apache-2.0; solo project): a CLI and GitHub Action that tests whether an AI agent touched the wrong account, tenant or refund, decided from the app's own records rather than the agent's report.
+- **[Agent Eval Mutation Lab](https://github.com/YusefSyed/agent-eval-mutation-lab)** (Python): a 624-trial study across two local models on a version-controlled protocol. Five of six validity gates failed, so I withheld improvement claims.
 
 ## Security research
 
