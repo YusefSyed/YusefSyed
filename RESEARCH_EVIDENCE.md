@@ -4,6 +4,11 @@ Upstream PR status checked November 1, 2026. The pinned experiment results below
 
 [Resume (PDF)](resume/Yusef_Syed_Resume.pdf) · [Email](mailto:yusefmsyed@gmail.com)
 
+## Papers
+
+- [ToolEffectBench: Scoring Prompt Injection on Tool-Using Agents from Persisted State](https://doi.org/10.5281/zenodo.23966727). Sole author, Zenodo, 2026. doi:10.5281/zenodo.23966727.
+- [Checks for Checkers: Sealed Paired Comparisons of AI Agent Verification Tools](https://doi.org/10.5281/zenodo.23966747). Sole author, Zenodo, 2026. doi:10.5281/zenodo.23966747.
+
 ## Current work: Scopehaven
 
 **[Scopehaven](https://github.com/YusefSyed/scopehaven-oss)** is a workbench for permission and outcome testing in AI apps and agents. It compares a declared access rule with the available evidence, reruns checks after a repair, and includes allowed-use controls to catch over-blocking. Backend effects are verified only where they can be observed.
