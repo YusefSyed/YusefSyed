@@ -6,7 +6,7 @@ Software engineer working on AI agent security and evals. Looking to join a star
 
 ## Merged upstream
 
-[14 merged PRs](https://github.com/search?q=author%3AYusefSyed+is%3Apr+is%3Amerged+-user%3AYusefSyed+-repo%3Ahni-z%2FProvidence&type=pullrequests). AI-assisted under my direction; each was merged by that project's maintainers.
+[15 merged PRs](https://github.com/search?q=author%3AYusefSyed+is%3Apr+is%3Amerged+-user%3AYusefSyed+-repo%3Ahni-z%2FProvidence&type=pullrequests). AI-assisted under my direction; each was merged by that project's maintainers.
 
 - **[Microsoft PyRIT](https://github.com/microsoft/PyRIT/pull/2537)** (AI red teaming): extended the package-hallucination scenario to Dart, Perl and Raku, with tests.
 - **[Microsoft Agent Lightning](https://github.com/microsoft/agent-lightning/pull/584)** (agent training, reinforcement learning): landed four reliability fixes, e.g. case-insensitive auth-header replacement.
