@@ -6,13 +6,13 @@ Software engineer working on AI agent security and evals. Looking to join a star
 
 ## Merged upstream
 
-[15 merged PRs](https://github.com/search?q=author%3AYusefSyed+is%3Apr+is%3Amerged+-user%3AYusefSyed+-repo%3Ahni-z%2FProvidence&type=pullrequests). AI-assisted under my direction; each was merged by that project's maintainers.
+[16 merged PRs](https://github.com/search?q=author%3AYusefSyed+is%3Apr+is%3Amerged+-user%3AYusefSyed+-repo%3Ahni-z%2FProvidence&type=pullrequests). AI-assisted under my direction; each was merged by that project's maintainers.
 
 - **[Microsoft PyRIT](https://github.com/microsoft/PyRIT/pull/2537)** (AI red teaming): extended the package-hallucination scenario to Dart, Perl and Raku, with tests.
 - **[Microsoft Agent Lightning](https://github.com/microsoft/agent-lightning/pull/584)** (agent training, reinforcement learning): landed four reliability fixes, e.g. case-insensitive auth-header replacement.
 - **[W&B RAI Toolkit](https://github.com/wandb/rai-toolkit/pull/106)**: landed five evaluation fixes, including keeping a failed prediction's error text from scoring as a pass.
 - **[Apache Arrow](https://github.com/apache/arrow/pull/51160)**: extended four PyArrow slice APIs to accept Arrow integer scalars, with regression tests.
-- **[Inspect Scout](https://github.com/meridianlabs-ai/inspect_scout/pull/586)** and **[Kornia](https://github.com/kornia/kornia/pull/4185)**: three more fixes.
+- **[Inspect Scout](https://github.com/meridianlabs-ai/inspect_scout/pull/586)**, **[Kornia](https://github.com/kornia/kornia/pull/4185)** and **[Sentience Governor](https://github.com/crescerelabs/sentience-governor/pull/25)**: five more fixes.
 
 ## Papers
 
