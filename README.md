@@ -6,7 +6,7 @@ Software engineer working on AI agent security and evals. Looking to join a star
 
 ## Merged upstream
 
-17 merged PRs: [16 in this search](https://github.com/search?q=author%3AYusefSyed+is%3Apr+is%3Amerged+-user%3AYusefSyed+-repo%3Ahni-z%2FProvidence&type=pullrequests), plus Google ADK, which Google merged through its internal import (so GitHub lists that PR as closed). AI-assisted under my direction; each was merged by that project's maintainers.
+17 merged PRs: [16 in this search](https://github.com/search?q=author%3AYusefSyed+is%3Apr+is%3Amerged+-user%3AYusefSyed+-repo%3Ahni-z%2FProvidence+NOT+ScopeHaven+in%3Atitle&type=pullrequests), plus Google ADK, which Google merged through its internal import (so GitHub lists that PR as closed). AI-assisted under my direction; each was merged by that project's maintainers.
 
 - **[Google ADK](https://github.com/google/adk-python/pull/8074)** (Agent Development Kit): fixed an eval that scored a matching no-argument tool call as a miss.
 - **[Microsoft PyRIT](https://github.com/microsoft/PyRIT/pull/2537)** (AI red teaming): extended the package-hallucination scenario to Dart, Perl and Raku, with tests.
