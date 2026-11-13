@@ -6,7 +6,7 @@ Software engineer working on AI agent security and evals. Looking to join a star
 
 ## Merged upstream
 
-20 merged PRs: [19 in this search](https://github.com/search?q=author%3AYusefSyed+is%3Apr+is%3Amerged+-user%3AYusefSyed+-repo%3Ahni-z%2FProvidence+NOT+ScopeHaven+in%3Atitle&type=pullrequests), plus Google ADK, which Google merged through its internal import (so GitHub lists that PR as closed). AI-assisted under my direction; each was merged by that project's maintainers.
+21 merged PRs: [20 in this search](https://github.com/search?q=author%3AYusefSyed+is%3Apr+is%3Amerged+-user%3AYusefSyed+-repo%3Ahni-z%2FProvidence+NOT+ScopeHaven+in%3Atitle&type=pullrequests), plus Google ADK, which Google merged through its internal import (so GitHub lists that PR as closed). AI-assisted under my direction; each was merged by that project's maintainers.
 
 - **[Google ADK](https://github.com/google/adk-python/pull/8074)** (Agent Development Kit): fixed an eval that scored a matching no-argument tool call as a miss.
 - **[Hugging Face transformers](https://github.com/huggingface/transformers/pull/50606)**: fixed tool-schema generation (`get_json_schema`) cutting multi-line argument descriptions short, with tests.
@@ -15,7 +15,7 @@ Software engineer working on AI agent security and evals. Looking to join a star
 - **[Microsoft Agent Lightning](https://github.com/microsoft/agent-lightning/pull/584)** (agent training, reinforcement learning): landed four reliability fixes, e.g. case-insensitive auth-header replacement.
 - **[W&B RAI Toolkit](https://github.com/wandb/rai-toolkit/pull/106)**: landed five evaluation fixes, including keeping a failed prediction's error text from scoring as a pass.
 - **[Apache Arrow](https://github.com/apache/arrow/pull/51160)**: extended four PyArrow slice APIs to accept Arrow integer scalars, with regression tests.
-- **[Inspect Scout](https://github.com/meridianlabs-ai/inspect_scout/pull/586)**, **[Kornia](https://github.com/kornia/kornia/pull/4185)** and **[Sentience Governor](https://github.com/crescerelabs/sentience-governor/pull/28)**: six more fixes.
+- **[Inspect Scout](https://github.com/meridianlabs-ai/inspect_scout/pull/586)**, **[Kornia](https://github.com/kornia/kornia/pull/4185)** and **[Sentience Governor](https://github.com/crescerelabs/sentience-governor/pull/28)**: seven more fixes.
 
 ## Papers
 
@@ -33,7 +33,7 @@ I build with AI coding agents that I direct and review.
 
 ## Security research
 
-Filed 22 private security advisories and 2 HackerOne reports (authorization, code-execution, credential and data-exposure flaws) with 15 open-source projects, each reproduced 3 of 3 by an automated harness; two triaged, others awaiting triage, as of November 13, 2026.
+Filed 22 private security advisories and 2 HackerOne reports (authorization, code-execution, credential and data-exposure flaws) with 15 open-source projects, each reproduced 3 of 3 by an automated harness; three triaged, others awaiting triage, as of November 13, 2026.
 
 ## Also
 
