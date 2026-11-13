@@ -1,15 +1,16 @@
 # Yusef Syed
 
-Software engineer working on AI agent security and evals. Looking to join a startup team full-time from January 2027 anywhere in the U.S. (happy to relocate, or remote), as a security engineer, evals engineer, AI red team engineer or AI safety research engineer. Also interested in RL environment and agent infrastructure roles. U.S. and Canadian citizen, no sponsorship needed.
+Software engineer working on AI agent security and evals. Looking to join a startup team from January 2027, as a paid intern or full-time, anywhere in the U.S. (happy to relocate, or remote), as a security engineer, evals engineer, AI red team engineer or AI safety research engineer. Also interested in RL environment and agent infrastructure roles. U.S. and Canadian citizen, no sponsorship needed.
 
 **[Résumé (PDF)](resume/Yusef_Syed_Resume.pdf)** · [Email](mailto:yusefmsyed@gmail.com) · [LinkedIn](https://www.linkedin.com/in/yusef-syed-4b811a289/)
 
 ## Merged upstream
 
-19 merged PRs: [18 in this search](https://github.com/search?q=author%3AYusefSyed+is%3Apr+is%3Amerged+-user%3AYusefSyed+-repo%3Ahni-z%2FProvidence+NOT+ScopeHaven+in%3Atitle&type=pullrequests), plus Google ADK, which Google merged through its internal import (so GitHub lists that PR as closed). AI-assisted under my direction; each was merged by that project's maintainers.
+20 merged PRs: [19 in this search](https://github.com/search?q=author%3AYusefSyed+is%3Apr+is%3Amerged+-user%3AYusefSyed+-repo%3Ahni-z%2FProvidence+NOT+ScopeHaven+in%3Atitle&type=pullrequests), plus Google ADK, which Google merged through its internal import (so GitHub lists that PR as closed). AI-assisted under my direction; each was merged by that project's maintainers.
 
 - **[Google ADK](https://github.com/google/adk-python/pull/8074)** (Agent Development Kit): fixed an eval that scored a matching no-argument tool call as a miss.
 - **[Hugging Face transformers](https://github.com/huggingface/transformers/pull/50606)**: fixed tool-schema generation (`get_json_schema`) cutting multi-line argument descriptions short, with tests.
+- **[A2A Python SDK](https://github.com/a2aproject/a2a-python/pull/1442)** (Agent2Agent protocol): made the v0.3 REST compatibility layer serve DELETE for push-notification configs.
 - **[Microsoft PyRIT](https://github.com/microsoft/PyRIT/pull/2537)** (AI red teaming): extended the package-hallucination scenario to Dart, Perl and Raku, with tests.
 - **[Microsoft Agent Lightning](https://github.com/microsoft/agent-lightning/pull/584)** (agent training, reinforcement learning): landed four reliability fixes, e.g. case-insensitive auth-header replacement.
 - **[W&B RAI Toolkit](https://github.com/wandb/rai-toolkit/pull/106)**: landed five evaluation fixes, including keeping a failed prediction's error text from scoring as a pass.
@@ -32,7 +33,7 @@ I build with AI coding agents that I direct and review.
 
 ## Security research
 
-Filed 15 private security advisories and 2 HackerOne reports (authorization, credential and data-exposure flaws) with 10 open-source projects, each reproduced 3 of 3 with controls first by an automated harness; two triaged, others awaiting triage, as of November 7, 2026.
+Filed 22 private security advisories and 2 HackerOne reports (authorization, code-execution, credential and data-exposure flaws) with 15 open-source projects, each reproduced 3 of 3 by an automated harness; two triaged, others awaiting triage, as of November 13, 2026.
 
 ## Also
 
