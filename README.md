@@ -1,6 +1,6 @@
 # Yusef Syed
 
-Software engineer working on AI agent security and evals. Looking to join a startup team full-time from January 2027 in San Francisco or New York, as a security engineer, evals engineer, AI red team engineer or AI safety research engineer. Also interested in RL environment and agent infrastructure roles. U.S. and Canadian citizen, no sponsorship needed.
+Software engineer working on AI agent security and evals. Looking to join a startup team full-time from January 2027 anywhere in the U.S. (happy to relocate, or remote), as a security engineer, evals engineer, AI red team engineer or AI safety research engineer. Also interested in RL environment and agent infrastructure roles. U.S. and Canadian citizen, no sponsorship needed.
 
 **[Résumé (PDF)](resume/Yusef_Syed_Resume.pdf)** · [Email](mailto:yusefmsyed@gmail.com) · [LinkedIn](https://www.linkedin.com/in/yusef-syed-4b811a289/)
 
