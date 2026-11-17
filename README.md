@@ -8,16 +8,16 @@ Software engineer working on AI agent security and evals. Looking to join a star
 
 | If you need | Evidence |
 |---|---|
-| Python in other people's codebases | [21 merged PRs in 10 repos](https://github.com/search?q=author%3AYusefSyed+is%3Apr+is%3Amerged+-user%3AYusefSyed+-repo%3Ahni-z%2FProvidence+NOT+ScopeHaven+in%3Atitle&type=pullrequests), including [Google ADK](https://github.com/google/adk-python/pull/8074), [Hugging Face transformers](https://github.com/huggingface/transformers/pull/50606), [Microsoft PyRIT](https://github.com/microsoft/PyRIT/pull/2537) and [Apache Arrow](https://github.com/apache/arrow/pull/51160) |
-| LLM evals | [ToolEffectBench](https://github.com/YusefSyed/tool-effect-bench): an Inspect benchmark, 188 samples, 17 models, 5,628 scored runs; eval fixes merged in [Google ADK](https://github.com/google/adk-python/pull/8074), [W&B RAI Toolkit](https://github.com/wandb/rai-toolkit/pulls?q=is%3Apr+author%3AYusefSyed+is%3Amerged) (5) and [Inspect Scout](https://github.com/meridianlabs-ai/inspect_scout/pulls?q=is%3Apr+author%3AYusefSyed+is%3Amerged) (3) |
-| AI security and red teaming | 25 private security advisories and 3 HackerOne reports filed with 19 open-source projects (three triaged); a merged scenario in [Microsoft PyRIT](https://github.com/microsoft/PyRIT/pull/2537) |
+| Python in other people's codebases | [22 merged PRs in 10 repos](https://github.com/search?q=author%3AYusefSyed+is%3Apr+is%3Amerged+-user%3AYusefSyed+-repo%3Ahni-z%2FProvidence+NOT+ScopeHaven+in%3Atitle&type=pullrequests), including [Google ADK](https://github.com/google/adk-python/pull/8074), [Hugging Face transformers](https://github.com/huggingface/transformers/pull/50606), [Microsoft PyRIT](https://github.com/microsoft/PyRIT/pull/2537) and [Apache Arrow](https://github.com/apache/arrow/pull/51160) |
+| LLM evals | [ToolEffectBench](https://github.com/YusefSyed/tool-effect-bench): an Inspect benchmark, 188 samples, 17 models, 5,628 scored runs; eval fixes merged in [Google ADK](https://github.com/google/adk-python/pull/8074), [W&B RAI Toolkit](https://github.com/wandb/rai-toolkit/pulls?q=is%3Apr+author%3AYusefSyed+is%3Amerged) (5) and [Inspect Scout](https://github.com/meridianlabs-ai/inspect_scout/pulls?q=is%3Apr+author%3AYusefSyed+is%3Amerged) (4) |
+| AI security and red teaming | 24 private security advisories and 3 HackerOne reports filed with 18 open-source projects (four triaged); a merged scenario in [Microsoft PyRIT](https://github.com/microsoft/PyRIT/pull/2537) |
 | Prompt injection and agent safety | [ToolEffectBench paper](https://doi.org/10.5281/zenodo.23966727): scores injection by what the agent changed in a network-less sandbox, not by its transcript |
 | Systems work | [effect-tracer](https://github.com/YusefSyed/effect-tracer) (Rust, Linux ptrace/seccomp, Ed25519): 19 of 20 seeded bypasses caught at 1.1-1.9x overhead |
 | Shipping a product | [Scopehaven open edition](https://github.com/YusefSyed/scopehaven-oss) v0.7.0 (Node.js CLI and GitHub Action, Apache-2.0, zero dependencies) |
 
 ## Merged upstream
 
-21 merged PRs: [20 in this search](https://github.com/search?q=author%3AYusefSyed+is%3Apr+is%3Amerged+-user%3AYusefSyed+-repo%3Ahni-z%2FProvidence+NOT+ScopeHaven+in%3Atitle&type=pullrequests), plus Google ADK, which Google merged through its internal import (so GitHub lists that PR as closed). AI-assisted under my direction; each was merged by that project's maintainers.
+22 merged PRs: [21 in this search](https://github.com/search?q=author%3AYusefSyed+is%3Apr+is%3Amerged+-user%3AYusefSyed+-repo%3Ahni-z%2FProvidence+NOT+ScopeHaven+in%3Atitle&type=pullrequests), plus Google ADK, which Google merged through its internal import (so GitHub lists that PR as closed). AI-assisted under my direction; each was merged by that project's maintainers.
 
 - **[Google ADK](https://github.com/google/adk-python/pull/8074)** (Agent Development Kit): fixed an eval that scored a matching no-argument tool call as a miss.
 - **[Hugging Face transformers](https://github.com/huggingface/transformers/pull/50606)**: fixed tool-schema generation (`get_json_schema`) cutting multi-line argument descriptions short, with tests.
@@ -26,7 +26,7 @@ Software engineer working on AI agent security and evals. Looking to join a star
 - **[Microsoft Agent Lightning](https://github.com/microsoft/agent-lightning/pull/584)** (agent training, reinforcement learning): landed four reliability fixes, e.g. case-insensitive auth-header replacement.
 - **[W&B RAI Toolkit](https://github.com/wandb/rai-toolkit/pull/106)**: landed five evaluation fixes, including keeping a failed prediction's error text from scoring as a pass.
 - **[Apache Arrow](https://github.com/apache/arrow/pull/51160)**: extended four PyArrow slice APIs to accept Arrow integer scalars, with regression tests.
-- **[Inspect Scout](https://github.com/meridianlabs-ai/inspect_scout/pull/586)**, **[Kornia](https://github.com/kornia/kornia/pull/4185)** and **[Sentience Governor](https://github.com/crescerelabs/sentience-governor/pull/28)**: seven more fixes.
+- **[Inspect Scout](https://github.com/meridianlabs-ai/inspect_scout/pull/586)**, **[Kornia](https://github.com/kornia/kornia/pull/4185)** and **[Sentience Governor](https://github.com/crescerelabs/sentience-governor/pull/28)**: eight more fixes.
 
 ## Papers
 
@@ -44,7 +44,7 @@ I build with AI coding agents that I direct and review.
 
 ## Security research
 
-Filed 25 private security advisories and 3 HackerOne reports (authorization, code-execution, credential and data-exposure flaws) with 19 open-source projects, each reproduced 3 of 3 by an automated harness; three triaged, others awaiting triage, as of November 14, 2026.
+Filed 24 private security advisories and 3 HackerOne reports (authorization, code-execution, credential and data-exposure flaws) with 18 open-source projects, each reproduced 3 of 3 by an automated harness; four triaged so far, as of November 17, 2026.
 
 ## Also
 
