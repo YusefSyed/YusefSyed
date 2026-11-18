@@ -10,7 +10,7 @@ Software engineer working on AI agent security and evals. Looking to join a star
 |---|---|
 | Python in other people's codebases | [22 merged PRs in 10 repos](https://github.com/search?q=author%3AYusefSyed+is%3Apr+is%3Amerged+-user%3AYusefSyed+-repo%3Ahni-z%2FProvidence+NOT+ScopeHaven+in%3Atitle&type=pullrequests), including [Google ADK](https://github.com/google/adk-python/pull/8074), [Hugging Face transformers](https://github.com/huggingface/transformers/pull/50606), [Microsoft PyRIT](https://github.com/microsoft/PyRIT/pull/2537) and [Apache Arrow](https://github.com/apache/arrow/pull/51160) |
 | LLM evals | [ToolEffectBench](https://github.com/YusefSyed/tool-effect-bench): an Inspect benchmark, 188 samples, 17 models, 5,628 scored runs; eval fixes merged in [Google ADK](https://github.com/google/adk-python/pull/8074), [W&B RAI Toolkit](https://github.com/wandb/rai-toolkit/pulls?q=is%3Apr+author%3AYusefSyed+is%3Amerged) (5) and [Inspect Scout](https://github.com/meridianlabs-ai/inspect_scout/pulls?q=is%3Apr+author%3AYusefSyed+is%3Amerged) (4) |
-| AI security and red teaming | 24 private security advisories and 3 HackerOne reports filed with 18 open-source projects (four triaged); a merged scenario in [Microsoft PyRIT](https://github.com/microsoft/PyRIT/pull/2537) |
+| AI security and red teaming | 23 private security advisories and 3 HackerOne reports filed with 18 open-source projects (five triaged, one [published](https://github.com/modelcontextprotocol/servers/security/advisories/GHSA-8wv7-r664-7594) at high severity); a merged scenario in [Microsoft PyRIT](https://github.com/microsoft/PyRIT/pull/2537) |
 | Prompt injection and agent safety | [ToolEffectBench paper](https://doi.org/10.5281/zenodo.23966727): scores injection by what the agent changed in a network-less sandbox, not by its transcript |
 | Systems work | [effect-tracer](https://github.com/YusefSyed/effect-tracer) (Rust, Linux ptrace/seccomp, Ed25519): 19 of 20 seeded bypasses caught at 1.1-1.9x overhead |
 | Shipping a product | [Scopehaven open edition](https://github.com/YusefSyed/scopehaven-oss) v0.7.0 (Node.js CLI and GitHub Action, Apache-2.0, zero dependencies) |
@@ -44,7 +44,9 @@ I build with AI coding agents that I direct and review.
 
 ## Security research
 
-Filed 24 private security advisories and 3 HackerOne reports (authorization, code-execution, credential and data-exposure flaws) with 18 open-source projects, each reproduced 3 of 3 by an automated harness; four triaged so far, as of November 17, 2026.
+Filed 23 private security advisories and 3 HackerOne reports (authorization, code-execution, credential and data-exposure flaws) with 18 open-source projects, each reproduced 3 of 3 by an automated harness; five triaged so far, as of November 18, 2026.
+
+Published: [GHSA-8wv7-r664-7594](https://github.com/modelcontextprotocol/servers/security/advisories/GHSA-8wv7-r664-7594) (high, CVSS 7.8) in the official MCP git server, where a repository's submodule configuration could run programs during `git_diff`, `git_checkout` and `git_add`. Fixed in `mcp-server-git` 2026.11.18.
 
 ## Also
 
